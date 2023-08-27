@@ -14,8 +14,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-Our research aims to develop <span class="font-weight-bold">Machine Learning Algorithms</span> that **Make Sense** in constrained and large-scale settings with applications in <strong>Advertising</strong>, <strong>Healthcare</strong>, <strong>Sustainability</strong> (Climate, Computing, Agricultural), <strong>Social Goods</strong>...
-
+Our research aims to develop <span class="font-weight-bold">Machine Learning Algorithms</span> that **Make Sense** in constrained and large-scale settings with applications in <strong>Advertising</strong>, <strong>Healthcare</strong>, <strong>Sustainability</strong> (Climate, Computing, Agricultural), <strong>Social Goods</strong>...\\
 [[more about our research](research)]
 
 <!-- Here at **MAIL**, We develop computational frameworks that enable existing complex/deep models to be more suitable for practical uses. We focus on improving the following aspects of existing models: (i) training/inference, (ii) realistic assumptions, (iii) algorithmic robustness, and (iv) efficiency in constrained settings. Most of our ML/AI solutions center around large-scale approaches that have low computational complexity and require less human effort. 

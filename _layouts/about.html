@@ -35,13 +35,16 @@ layout: default
       <h3 class="team-name">{{ site.full_name }}</h3>                    
       <p class="team-title">{{ site.jobtitle }}</p>              
       <p class="team-title">{{ site.department }}</p>
-      [<a href="team">more about me</a>]
+      
+      [<a href="team">more about me and our group</a>]
     </div>
     <hr />
     <div class="clearfix">
       {{ content }}
     </div>   
     
+    <hr />
+
     <div class="container pr-1 pl-0">
       <div class="row justify-content-start">
         <div class="col-12 col-md-5 col-lg-5 order-1 order-md-1" align="left">
@@ -74,12 +77,14 @@ layout: default
         </div>      -->
       </div> 
     </div>
-        
+    
+    <hr />
+
     {% if page.news %}
       {% include news.html %}
     {% endif %}
 
-    
+    <hr />
 
     {% if page.selected_papers %}
       {% include selected_papers.html %}
