@@ -2,9 +2,11 @@
 title: "Quang H Nguyen"
 date: 2022-11-01T10:47:58+10:00
 image: "assets/img/team/quang-h-nguyen-1-circ.png"
-jobtitle: "Research Assistant"
-linkedinurl: "https://www.linkedin.com/doankhoadang"
-url: "https://www.linkedin.com/doankhoadang"
+jobtitle: "RA"
+collaboration: student
+linkedinurl: "https://www.linkedin.com/"
+url: "https://www.khoadoan.me/team"
+areas: Robust ML
 promoted: true
 faculty: false
 research_assistant: true

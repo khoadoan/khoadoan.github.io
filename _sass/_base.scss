@@ -570,13 +570,13 @@ $steel: #5c5a5a;
       flex-wrap: wrap;
       flex-direction: row;
       .team-image {
-        height: 60px;
-        width: 60px;
+        height: 90px;
+        width: 90px;
         margin-right: 10px;
         border-radius: 50%;
         overflow: hidden;
         img {
-          width: 60px;
+          width: 90px;
         }
       }
       .team-title {
@@ -586,7 +586,7 @@ $steel: #5c5a5a;
         flex: 1;
         h2 {
           margin: 0;
-          font-size: 20px;
+          font-size: 16px;
           font-weight: normal;          
         }
         p {
@@ -595,6 +595,14 @@ $steel: #5c5a5a;
           margin: 0;
           font-size: 12px;
           font-weight: 500;
+        }
+        .team-description {
+          font-size: 14px;
+        }
+        .team-areas {
+          font-size: 14px;
+          font-weight: normal;
+          text-transform: none;
         }
       }
       .team-content {
@@ -607,15 +615,17 @@ $steel: #5c5a5a;
       background-color: $white-offset;
       padding: 30px;
       border-radius: 3px;
+      
       .team-image {
-        height: 90px;
-        width: 90px;
+        height: 120px;
+        width: 120px;
         margin-right: 20px;
         border-radius: 50%;
         overflow: hidden;
+        
         img {
-          width: 90px;
-        }
+          width: 120px;          
+        }        
       }
       
       .team-meta {
@@ -643,6 +653,37 @@ $steel: #5c5a5a;
       }
     }
   // }
+
+  .team-external {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .team-title {
+      font-weight: strong;
+    }
+    .team-meta {
+      flex: 1;
+      .team-name {
+        margin: 0;
+        font-size: 16px;
+        font-weight: normal;          
+      }
+      .team-title {
+        color: $black;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .team-place {
+        font-size: 16px;
+      }
+    }
+    .team-content {
+      margin-top: 20px;
+      flex: 1 0 100%;
+    }
+  }
   
   .team-meta-standalone {
     flex: 1;

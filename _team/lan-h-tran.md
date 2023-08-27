@@ -2,8 +2,11 @@
 title: "Lan H Tran"
 date: 2023-05-01T10:47:58+10:00
 image: "assets/img/team/gal-1-circ.png"
-jobtitle: "UROP Research Assistant"
-linkedinurl: "https://www.linkedin.com/doankhoadang"
+jobtitle: "UROP RA"
+collaboration: student
+linkedinurl: "https://www.linkedin.com/"
+url: "https://www.khoadoan.me/team"
+areas: Generative AI
 promoted: true
 faculty: false
 research_assistant: false

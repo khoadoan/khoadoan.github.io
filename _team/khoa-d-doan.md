@@ -3,7 +3,9 @@ title: "Khoa D Doan"
 date: 2022-09-05T10:47:58+10:00
 image: "assets/img/team/khoa-d-doan-2-circ.png"
 jobtitle: "Assistant Professor"
+collaboration: self
 linkedinurl: "https://www.linkedin.com/doankhoadang"
+url: "https://www.khoadoan.me/"
 promoted: true
 faculty: true
 research_assistant: false

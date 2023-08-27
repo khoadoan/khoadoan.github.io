@@ -23,7 +23,7 @@ bodyClass: "page-teams"
         <h2 style='font-family: "Playfair Display",serif;'> Faculty </h2>
     </div>
     <div class="row pt-1 pb-1">
-        {% assign teams = site.team | where: "faculty", true | sort: "date" %}        
+        {% assign teams = site.team | where: "collaboration", "self" | sort: "date" %}        
         {% for team in teams %}        
         <div class="col-12 col-md-11 mb-11">
             <div class="team team-summary-large">
@@ -34,7 +34,7 @@ bodyClass: "page-teams"
                 {% endif %}
                 <div class="team-meta">
                     <!-- <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2> -->
-                    <h2 class="team-name">{{ team.title }} [<a href="{{ team.cv }}">CV</a> {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+                    <h2 class="team-name"><a href="{{ url }}">{{ team.title }}</a> [<a href="{{ team.cv }}">CV</a> {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
                         {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
                         {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
                         {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
@@ -60,21 +60,61 @@ bodyClass: "page-teams"
         <h2 style='font-family: "Playfair Display",serif;'> Students and Research Assistants </h2>
     </div>
     <div class="row pt-1 pb-1">
-        {% assign teams = site.team | where: "faculty", false | sort: "weight" %}        
+        {% assign teams = site.team | where: "collaboration", "student" | sort: "weight" %}        
         {% for team in teams %}        
         <div class="col-12 col-md-4 mb-3">
             <div class="team team-summary">
                 {% if team.image %}
                 <div class="team-image">
-                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">
-                    {{relative_url}}
                     <!-- <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                      -->
-                     <h2 class="team-name">{{ team.title }}</h2>
+                    <h2 class="team-name"><a href="{{ url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
+                    <p class="team-areas">{{ team.areas | ""}}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="container pt-3 pb-2">
+    <div class="pl-0 col-12 col-md-12 col-lg-12 order-2 order-md-1">
+        <h2 style='font-family: "Playfair Display",serif;'> On-going VinUni Collaborators (sorted alphabetically)</h2>
+    </div>
+    <div class="row pt-1 pb-1">
+        {% assign teams = site.team | where: "collaboration", "VinUni Researcher" | sort: "weight" %}        
+        {% for team in teams %}        
+        <div class="col-12 col-md-12 mb-12">
+            <div class="team team-external">
+                <div class="team-meta">
+                    <span class="team-name"><a href="{{ team.siteurl }}">{{ team.title }}</a></span> -- 
+                    <span class="team-title">{{ team.jobtitle }}</span>,
+                    <span class="team-place">{{ team.jobplace }}</span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="container pt-3 pb-2">
+    <div class="pl-0 col-12 col-md-12 col-lg-12 order-2 order-md-1">
+        <h2 style='font-family: "Playfair Display",serif;'> On-going External Collaborators (sorted alphabetically)</h2> 
+    </div>
+    <div class="row pt-1 pb-1">
+        {% assign teams = site.team | where: "collaboration", "External Researcher" | sort: "title" %}        
+        {% for team in teams %}        
+        <div class="col-12 col-md-12 mb-12">
+            <div class="team team-external">
+                <div class="team-meta">
+                    <span class="team-name"><a href="{{ team.siteurl }}">{{ team.title }}</a></span> -- 
+                    <span class="team-title">{{ team.jobtitle }}</span>,
+                    <span class="team-place">{{ team.jobplace }}</span>
                 </div>
             </div>
         </div>
