@@ -35,8 +35,12 @@ layout: default
       <h3 class="team-name">{{ site.full_name }}</h3>                    
       <p class="team-title">{{ site.jobtitle }}</p>              
       <p class="team-title">{{ site.department }}</p>
-      
-      [<a href="team">more about me and our group</a>]
+      [<a href="team">more about me and our group</a> | <a href="#open-office-hour-calendar">open office hour</a> 
+      <i class="fa fa-calendar" aria-hidden="true"></i>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check-fill" viewBox="0 0 20 20">
+        <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+      </svg> -->
+      ]
     </div>
     <hr />
     <div class="clearfix">
@@ -56,7 +60,11 @@ layout: default
           <li><strong>Intersted in Ph.D. position?</strong> Please <a href="https://vinuni.edu.vn/phd/">apply</a> through the CS department and include my name as a potential advisor in your application.</li>
           <li><strong>Interested in ML research with me (Research Assistant/Intern)?</strong> Please fill in the form <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7O3-3HmcNlZMQM5OnBZP0jygQMIXVM0ooGQulo6KSCN2dpg/viewform">here</a> (with your CV, transcript, level of commitment, and description of what types of projects you want to work on)</li>          
           <li><strong>Other collaboration?</strong> Please reach out via <a href="mailto:{{site.email}}">email</a>.</li>                    
+          </ul>                  
         </div>  
+        
+
+        
 
         <!-- <div class="annoucement col-12 col-md-6 col-lg-6 order-1 order-md-1">
           <strong>Prospective Ph.D. students:</strong>
@@ -76,8 +84,30 @@ layout: default
           </ul>
         </div>      -->
       </div> 
+        
     </div>
+
+    <!-- <hr /> -->
     
+    <!-- <div class="container pr-1 pl-0">
+
+      <div class="row justify-content-start">
+        <p>
+          <strong><a href="#open-office-hour-calendar">Open Office Hour</a></strong>- I will ocassionally be holding group open office hours for *anyone*. 
+          Feel free to  <a href="#open-office-hour-calendar">sign up</a> to connect, chat, or ask any questions. 
+        </p>
+
+        <p>When I was a student, I had many questions that I had no ideas how to get help. 
+        As a Vietnamese who went abroad for higher education, 
+        and has worked in the industry and academia, and in applied projects as well as research projects, 
+        I hope that, via this modest effort, I can share some experience with you, as well as addressing some questions you may have.
+        This effort is inspired by <a href="https://mlcollective.org/services/#mloh">ML Collective</a>.
+      </p>
+        
+      </div>
+          
+    </div> -->
+
     <hr />
 
     {% if page.news %}
@@ -89,6 +119,27 @@ layout: default
     {% if page.selected_papers %}
       {% include selected_papers.html %}
     {% endif %}
+
+    <hr />
+
+    <div class="news">
+      <h2>Open Office Hour</h2>
+    <p>
+      I will ocassionally be holding group open office hours for *anyone*. 
+      Feel free to  <a href="#open-office-hour-calendar">sign up</a> to connect, chat, or ask any questions. 
+    </p>
+
+    <p>When I was a student, I had many questions that I had no ideas how to get help. 
+    As a Vietnamese who went to the US for higher education, 
+    and has worked in the industry and academia, and in applied projects as well as research projects, 
+    I hope that, via this modest effort, I can share some experience with you, as well as addressing some questions you may have. 
+    <strong>I encourage to converse in English.</strong>
+    <!-- Calendly inline widget begin -->
+    <div id="open-office-hour-calendar" class="calendly-inline-widget" data-url="https://calendly.com/khoa-vinuni/mail-open-office-hour" style="min-width:320px;height:950px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!-- Calendly inline widget end -->
+    </div>
+    <p>This effort is inspired by <a href="https://mlcollective.org/services/#mloh">ML Collective</a></p>
 
     {% if page.social %}
     <div class="social">
