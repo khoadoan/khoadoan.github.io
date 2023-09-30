@@ -1,7 +1,7 @@
 ---
 title: "Nghia D Nguyen"
 date: 2023-05-01T10:47:58+10:00
-image: "assets/img/team/guy-1-circ.png"
+image: "assets/img/team/nghia-d-nguyen-circ.png"
 jobtitle: "UROP RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
