@@ -1,7 +1,7 @@
 ---
 title: "Tuan M Nguyen"
 date: 2022-11-01T10:47:58+10:00
-image: "assets/img/team/tuan-m-nguyen-circ-1.jpg"
+image: "assets/img/team/tuan-m-nguyen-circ-2.jpg"
 jobtitle: "Ph.D. Student"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
