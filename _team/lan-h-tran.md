@@ -1,7 +1,7 @@
 ---
 title: "Lan H Tran"
 date: 2023-05-01T10:47:58+10:00
-image: "assets/img/team/lan-h-tran-circ.png"
+image: "assets/img/team/lan-h-tran-circ.PNG"
 jobtitle: "UROP RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
