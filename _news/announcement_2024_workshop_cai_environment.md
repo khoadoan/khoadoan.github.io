@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-02-01 15:59:00-0400
+date: 2024-01-20 15:59:00-0400
 inline: true
 ---
 
-[Heng Ji](https://blender.cs.illinois.edu/hengji.html) & I will give talks at **HCMUT/VNU-HCMC (Ho Chi Minh, Jan 31st)** and **HUST/VNU-HN (Hanoi, Feb 01 and 02)**. We're recruiting PhD Students (*at VinUni or UIUC*)/Research Assistants (*at VinUni*) to work on **LLM Truthfulness** and **NLP for Molecular Discovery**. I'm also recruiting students to work on *Counterfactual Infererence/Explanation*.
+:fire: Our **"AI for Environmental Intelligence: The Past, The Present, and The Future"** Workshop proposal (w. [Helen Nguyen](https://healtheng.illinois.edu/people/thanhnguyen), [Nitesh Chawla](https://niteshchawla.nd.edu/), [Alexandre d'Aspremont](https://www.di.ens.fr/~aspremon/), [Karina Ginn](https://cde.nus.edu.sg/cee/staff/gin-yew-hoong-karina/)) accepted at [CAI 2024](https://ieeecai.org/2024) (June 25-27, 2024).
