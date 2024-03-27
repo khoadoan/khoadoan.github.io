@@ -20,8 +20,9 @@ Khoa D Doan is currently an **Assistant Professor** in the College of Engineerin
 
 * **Program Chair**: [BUGS Workshop (NeurIPS 2023)](https://neurips2023-bugs.github.io/)
 * **Editorial Board**: [Discover Data (Springer)](https://link.springer.com/journal/44248)
+* **Area Chair** (ML/AI): NeurIPS (2024)
 * **Program Committee** (ML/AI): ICLR (2021-2024), NeurIPS (2020-2023), ICML (2020-2023), AAAI (2021-2024), IJCAI (2017-2019)
-* **Program Committee** (CV): CVPR (2020-2023), ICCV (2021-2023), ECCV (2020-2022), WACV (2022-2023)
+* **Program Committee** (CV): CVPR (2020-2024), ICCV (2021-2023), ECCV (2020-2024), WACV (2022-2023)
 * **Program Committee** (NLP): EMNLP (2023)
 * **Program Committee** (DM/Retrieval/Recsys): KDD (2017-2019), WSDM (2017-2019), WWW (2017-2019)
 
