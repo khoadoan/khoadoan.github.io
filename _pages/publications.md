@@ -7,9 +7,11 @@ years: [2024, 2023, 2022, 2021, 2020, 2019, 2017, 2016, 2015, 2014, 2013]
 nav: true
 weight: 20
 ---
+<div class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+    <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr> Majority of work done by MAIL/SAIL members!
+</div>
 
 <div class="publications">
-
 {% for y in page.years %}
   <!-- <h2 class="pyear">{{y}}&nbsp;&nbsp;</h2> -->
   <!-- <p>&nbsp;</p> -->
