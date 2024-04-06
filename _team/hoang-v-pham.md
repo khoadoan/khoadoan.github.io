@@ -6,7 +6,7 @@ jobtitle: "RA"
 fulljobtitle: "Research Assistant"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
-url: "https://www.khoadoan.me/team"
+website: "https://www.linkedin.com/in/pvh1602/"
 areas: Trustworthy ML
 promoted: true
 faculty: false

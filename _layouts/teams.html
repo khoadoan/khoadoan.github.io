@@ -134,7 +134,7 @@ bodyClass: "page-teams"
                 <!-- <div class="team-meta"> -->
                     <!-- <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                      -->                     
-                    <a href="{{ url }}">{{ team.title }}</a> -- <span class="team-description">{{ team.fulljobtitle }}</span> -- Next: <strong>{{ team.nextp }}</strong>
+                    <a href="{{ team.website }}">{{ team.title }}</a> -- <span class="team-description">{{ team.fulljobtitle }} (<i>{{ team.areas | ""}}</i>)</span> -- Next: <strong>{{ team.nextp }}</strong>
                 <!-- </div> -->
             <!-- </div> -->
         </div>

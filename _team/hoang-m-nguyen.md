@@ -6,7 +6,7 @@ jobtitle: "RA"
 fulljobtitle: "Research Assistant"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
-url: "https://www.khoadoan.me/team"
+website: "https://www.linkedin.com/in/hoang-nguyen-377b54231/"
 areas: Medical AI
 promoted: true
 faculty: false
