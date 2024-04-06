@@ -1,3 +1,51 @@
+"Bagdasaryan":
+  - firstname: ["Eugene"]
+    url: https://www.cs.cornell.edu/~eugene/
+"Zhao":
+  - firstname: ["Yang"]
+    url: https://scholar.google.com/citations?user=9zmGBugAAAAJ&hl=en
+  - firstname: ["Weijie"]
+    url: https://www.cs.rit.edu/~wjz/
+"Xie":
+  - firstname: ["Jianwen"]
+    url: https://scholar.google.com/citations?user=glaTwrUAAAAJ&hl=en
+
+"Tan":
+  - firstname: ["Shulong"]
+    url: http://www.stat.ucla.edu/~jxie/
+
+"Ta":
+  - firstname: ["The-Anh"]
+    url: https://the-anhta.github.io/
+
+"Hoang":
+  - firstname: ["Thanh-Tung"]
+    url: https://scholar.google.com/citations?user=xZU08d0AAAAJ&hl=en
+
+"Nguyen":
+  - firstname: ["Thanh T"]
+    url: https://thanhnguyentang.github.io/
+
+"Chan":
+  - firstname: ["Chee Seng"]
+    url: http://cs-chan.com/
+
+"Wong":
+  - firstname: ["Kok-Seng"]
+    url: https://sail-research.com/
+
+"Peng":
+  - firstname: ["Minlong"]
+    url: https://v-mipeng.github.io/
+
+"Tran":
+  - firstname: ["Anh"]
+    url: https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en
+
+"Pham":
+  - firstname: ["Tung"]
+    url: https://scholar.google.com.au/citations?user=KcUuEKsAAAAJ&hl=en
+
 "Yang":
   - firstname: ["Peng"]
     url: https://sites.google.com/site/pengyangshomepage/
@@ -6,9 +54,6 @@
   - firstname: ["Yingjie"]
     url: http://ylao.people.clemson.edu/
 
-"Zhao":
-  - firstname: ["Weijie"]
-    url: https://www.cs.rit.edu/~wjz/
 
 "Reddy":
   - firstname: ["Chandan K.", "Chandan K"]

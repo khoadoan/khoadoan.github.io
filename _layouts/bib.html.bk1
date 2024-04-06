@@ -14,7 +14,7 @@
   {% endif %}
   </div> -->
 
-  <div id="{{entry.key}}" class="col-sm-12">
+  <div id="{{entry.key}}" class="col-sm-9">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
@@ -24,11 +24,7 @@
           {% if site.data.venues[entry.abbr] %}
           <abbr class="badge abbr"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
           {% else %}
-            {% if entry.abbr == "PREPRINT" %}
-              <abbr class="badge" style="background-color: black;">{{entry.abbr}}</abbr>
-            {% else %}
-              <abbr class="badge">{{entry.abbr}}</abbr>
-            {% endif %}
+          <abbr class="badge">{{entry.abbr}}</abbr>
           {% endif %}
           </span>
         {% endif %}
@@ -53,29 +49,29 @@
           {% endif %}
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-              <em>{{author.first}} {{author.last}}</em>
+              <em>{{author.last}}, {{author.first}}</em>
             {% else %}
-            {{author.first}} {{author.last}}
+              {{author.last}}, {{author.first}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author_is_self %}
-                <em>{{author.first}} {{author.last}}</em>,
+                <em>{{author.last}}, {{author.first}}</em>,
               {% else %}
                 {% if coauthor_url %}
-                  <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
+                  <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
                 {% else %}
-                {{author.first}} {{author.last}},
+                  {{author.last}}, {{author.first}},
                 {% endif %}
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and <em>{{author.first}} {{author.last}}</em>
+                and <em>{{author.last}}, {{author.first}}</em>
               {% else %}
                 {% if coauthor_url %}
-                  and <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                  and <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>
                 {% else %}
-                  and {{author.first}} {{author.last}}
+                  and {{author.last}}, {{author.first}}
                 {% endif %}
               {% endif %}
             {% endunless %}
@@ -162,6 +158,16 @@
     <div class="bibtex hidden">
       {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
     </div>
+    {% endif %}
+  </div>
+
+  <div class="col-sm-3">
+    {% if entry.teaser %}
+      <div>
+        <a href="{{ entry.teaser | prepend: '/assets/img/' | relative_url }}">
+          <img class="z-depth-1 rounded img-thumbnail" src="{{ entry.teaser | prepend: '/assets/img/' | relative_url }}">
+        </a>
+      </div>
     {% endif %}
   </div>
 </div>
