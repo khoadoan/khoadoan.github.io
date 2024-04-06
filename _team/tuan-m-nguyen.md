@@ -5,7 +5,7 @@ image: "assets/img/team/tuan-m-nguyen-circ-2.jpg"
 jobtitle: "Ph.D. Student"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
-url: "https://www.khoadoan.me/team"
+website: "https://mtuann.github.io/"
 areas: Trustworthy ML
 promoted: true
 faculty: false
