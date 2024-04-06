@@ -15,6 +15,19 @@
   </div> -->
 
   <div id="{{entry.key}}" class="col-sm-12">
+    {% assign paper_from_labmember = false %}
+    {% for author in entry.author_array %}
+      {% assign fullname = author.first | append: ' ' | append: author.last %}
+      {% if site.data.labmembers[fullname] %}
+        {% assign paper_from_labmember = true %}
+      {% endif %}      
+    {% endfor %}
+    {% if entry.author_array[0].last == site.scholar.last_name%}
+      {% if site.scholar.first_name contains entry.author_array[0].first%}
+        {% assign paper_from_labmember = true %}              
+      {% endif %}
+    {% endif %}
+
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
@@ -32,16 +45,31 @@
           {% endif %}
           </span>
         {% endif %}
-        {{entry.title}}
+        {% if paper_from_labmember %}
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        {% endif %}
+        {{entry.title}}         
       </div>
       <div class="author">
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
+          {% assign author_is_labmember = false %}
+          {% assign fullname = author.first | append: ' ' | append: author.last %}
+
           {% if author.last == site.scholar.last_name%}
             {% if site.scholar.first_name contains author.first%}
-              {% assign author_is_self = true %}
+              {% assign author_is_self = true %}              
             {% endif %}
           {% endif %}
+          
+          {% if site.data.labmembers[fullname] %}
+            {% assign author_is_labmember = true %}            
+            {% assign paper_from_labmember = true %}
+          {% endif %}
+          
           {% assign coauthor_url = nil %}
           {% if site.data.coauthors[author.last] %}
             {% for coauthor in site.data.coauthors[author.last] %}
@@ -147,7 +175,8 @@
     {% endif %}
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
-    {% endif %}
+    {% endif %}    
+
     </div>
 
     <!-- Hidden abstract block -->
