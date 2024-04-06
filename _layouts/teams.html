@@ -60,9 +60,9 @@ bodyClass: "page-teams"
         <h2 style='font-family: "Playfair Display",serif;'> Students and Research Assistants </h2>
     </div>
     <div class="row pt-1 pb-1">
-        {% assign teams = site.team | where: "collaboration", "student" | sort: "weight" %}        
+        {% assign teams = site.team | where: "collaboration", "student" | where: "current", "true" | sort: "weight" %}        
         {% for team in teams %}        
-        <div class="col-12 col-md-4 mb-3">
+        <div class="col-12 col-md-4 mb-3" id="{{ team.title }}">
             <div class="team team-summary">
                 {% if team.image %}
                 <div class="team-image">
@@ -71,7 +71,7 @@ bodyClass: "page-teams"
                 {% endif %}
                 <div class="team-meta">
                     <!-- <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
-                     -->
+                     -->                     
                     <h2 class="team-name"><a href="{{ url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                     <p class="team-areas">{{ team.areas | ""}}</p>
@@ -117,6 +117,26 @@ bodyClass: "page-teams"
                     <span class="team-place">{{ team.jobplace }}</span>
                 </div>
             </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="container pt-3 pb-2">
+    <div class="pl-0 col-12 col-md-12 col-lg-12 order-2 order-md-1">
+        <h2 style='font-family: "Playfair Display",serif;'> Former Students and Research Assistants </h2>
+    </div>
+    <div class="row pt-1 pb-1">
+        {% assign teams = site.team | where: "collaboration", "student" | where: "current", "false" | sort: "weight" %}        
+        {% for team in teams %}        
+        <div class="col-12 col-md-12 mb-12" id="{{ team.title }}">
+            <!-- <div class="team team-summary">                 -->
+                <!-- <div class="team-meta"> -->
+                    <!-- <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                     -->                     
+                    <a href="{{ url }}">{{ team.title }}</a> -- <span class="team-description">{{ team.fulljobtitle }}</span> -- Next: <strong>{{ team.nextp }}</strong>
+                <!-- </div> -->
+            <!-- </div> -->
         </div>
         {% endfor %}
     </div>
