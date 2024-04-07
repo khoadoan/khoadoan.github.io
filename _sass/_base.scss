@@ -522,6 +522,13 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+
+      div.submissions.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+      div.submissions.hidden.open {
+        border-color: var(--global-text-color);
+      }
     }
   }
 }

@@ -176,7 +176,10 @@
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
     {% endif %}    
-
+    
+    {% if entry.submissions %}
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    {% endif %}
     </div>
 
     <!-- Hidden abstract block -->
@@ -190,6 +193,13 @@
     {% if entry.bibtex_show %}
     <div class="bibtex hidden">
       {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
+    </div>
+    {% endif %}
+
+    <!-- Hidden bibtex block -->
+    {% if entry.submissions %}
+    <div class="submissions hidden">
+      <p>{{ entry.submissions }}</p>
     </div>
     {% endif %}
   </div>
