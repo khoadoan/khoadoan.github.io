@@ -1,5 +1,5 @@
 ---
-title: "Hung Le Thanh Quoc"
+title: "Hung Thanh Quoc Le"
 date: 2023-05-01T10:47:58+10:00
 image: "assets/img/team/guy-1-circ.png"
 jobtitle: "VinUni RA"
