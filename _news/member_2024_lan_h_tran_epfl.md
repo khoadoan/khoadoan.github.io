@@ -6,4 +6,4 @@ inline: true
 
 <div class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">    
 <i class="bi bi-rocket-takeoff-fill"></i>
-</div> Congrats [Lan H Tran](team/#Lan H Tran) for her acceptance to **EPFL's Master Program** (our first and forever female :heart: MAIL member).
+</div> Congrats [Lan H Tran](team/#Lan H Tran) for her acceptance to **EPFL's Master Program** with scholarship (our first and forever female :heart: MAIL member).
