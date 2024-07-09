@@ -11,7 +11,7 @@ nav: true
 weight: 10
 ---
 
-<h5 style="color:red">***Warning: This page is significantly out of date. Update coming soon in Summer 2024!</h5>
+<h5 style="color:red">***Warning: This page is severely out of date. Update coming soon in Summer 2024!</h5>
 
 <!-- Here at **MAIL**, We develop computational frameworks that enable existing complex/deep models to be more suitable for practical uses. We focus on improving the following aspects of existing models: (i) training/inference, (ii) realistic assumptions, (iii) algorithmic robustness, and (iv) efficiency in constrained settings. Most of our ML/AI solutions center around large-scale approaches that have low computational complexity and require less human effort.  -->
 
