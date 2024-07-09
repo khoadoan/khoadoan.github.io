@@ -1,7 +1,7 @@
 ---
 title: "Hieu Ngoc Nguyen"
 date: 2022-11-01T10:47:58+10:00
-image: "assets/img/team/guy-1-circ.png"
+image: "assets/img/team/team-RA-10-hieu-ngoc-nguyen-circ.png"
 jobtitle: "RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"

@@ -29,6 +29,8 @@
     url: https://duykhuongnguyen.github.io/
   - firstname: ["Viet Anh"]
     url: https://vietanhnguyen.net/
+  - firstname: ["Hieu T"]
+    url: https://hieunt91.github.io/
 
 "Chan":
   - firstname: ["Chee Seng"]
@@ -44,6 +46,8 @@
 
 "Tran":
   - firstname: ["Anh"]
+    url: https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en
+  - firstname: ["Anh Tuan"]
     url: https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en
 
 "Pham":
@@ -66,6 +70,8 @@
 "Li":
   - firstname: ["Ping"]
     url: http://research.baidu.com/People/index-view?id=111
+  - firstname: ["Ang"]
+    url: https://angli.ai/
 
 "Selvaraj":
   - firstname: ["Sathiya K.", "Sathiya K", "Sathiya"]

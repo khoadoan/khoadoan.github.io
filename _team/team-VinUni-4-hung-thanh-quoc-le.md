@@ -1,12 +1,12 @@
 ---
 title: "Hung Thanh Quoc Le"
 date: 2023-05-01T10:47:58+10:00
-image: "assets/img/team/guy-1-circ.png"
+image: "assets/img/team/team-VinUni-4-hung-thanh-quoc-le-circ.png"
 jobtitle: "VinUni RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 url: "https://www.khoadoan.me/team"
-areas: NLP/LLM
+areas: Adversarial ML
 promoted: true
 faculty: false
 research_assistant: false
