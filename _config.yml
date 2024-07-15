@@ -60,8 +60,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: khoadoan106 # your GitHub user name
-# gitlab_username: # your GitLab user name
+github_username: mail-research # your GitHub user name
+group_github_username: mail-research
 twitter_username: khoaddoan # your Twitter handle
 facebook_username: mail.research # your Twitter handle
 linkedin_username: doankhoadang # your LinkedIn user name
