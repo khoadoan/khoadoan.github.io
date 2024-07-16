@@ -6,6 +6,27 @@
 @string{CVPR = {Conference on Computer Vision and Pattern Recognition,}}
 @string{ACCV = {Asian Conference on Computer Vision,}}
 
+@article{cao2024sparsellmwatermark ,
+  title={Less is More: Sparse Watermarking in LLMs with Enhanced Text Quality},
+  author={Hoang, Cao-Duy and Le, Hung T. Q. and Chu, Rui and Li, Ping and Zhao, Weijie and Lao, Yingjie and Doan, Khoa D},
+  year={2024},
+  abstract={With the widespread adoption of Large Language Models (LLMs), concerns about potential misuse have emerged. To this end, watermarking has been adapted to LLM, enabling a simple and effective way to detect and monitor generated text. However, while the existing methods can differentiate between watermarked and unwatermarked text with high accuracy, they often face a trade-off between the quality of the generated text and the effectiveness of the watermarking process. In this work, we present a novel type of LLM watermark, \textit{Sparse Watermark}, which aims to mitigate this trade-off by applying watermarks to a small subset of generated tokens distributed across the text. The key strategy involves anchoring watermarked tokens to words that have specific Part-of-Speech (POS) tags. Our experimental results demonstrate that the proposed watermarking scheme achieves high detectability while generating text that outperforms previous LLM watermarking methods in quality across various tasks.},
+  bibtex_show={true},
+  abbr={PREPRINT},
+  selected={true}
+}
+
+@article{nguyen2024wicked ,
+  title={Wicked Oddities: Selectively Poisoning for Effective Clean-Label Backdoor Attacks},
+  author={Nguyen, Quang H and Nguyen, Ngoc-Hieu and Ta, The-Anh and Nguyen-Tang, Thanh and Wong, Kok-Seng and Thanh-Tung, Hoang and Doan, Khoa D},
+  year={2024},
+  abstract={Deep neural networks are vulnerable to backdoor attacks, a type of adversarial attack that poisons the training data to manipulate the behavior of models trained on such data. Clean-label attacks are a more stealthy form of backdoor attacks that can perform the attack without changing the labels of poisoned data. Early works on clean-label attacks added triggers to a random subset of the training set, ignoring the fact that samples contribute unequally to the attack's success. This results in high poisoning rates and low attack success rates. To alleviate the problem, several supervised learning-based sample selection strategies have been proposed. However, these methods assume access to the entire labeled training set and require training, which is expensive and may not always be practical. This work studies a new and more practical (but also more challenging) threat model where the attacker only provides data for the target class (e.g., in face recognition systems) and has no knowledge of the victim model or any other classes in the training set. We study different strategies for selectively poisoning a small set of training samples in the target class to boost the attack success rate in this setting. Our threat model poses a serious threat in training machine learning models with third-party datasets, since the attack can be performed effectively with limited information. Experiments on benchmark datasets illustrate the effectiveness of our strategies in improving clean-label backdoor attacks.},
+  bibtex_show={true},
+  abbr={PREPRINT},
+  pdf={https://arxiv.org/abs/2407.10825},
+  selected={false}
+}
+
 @article{nguyen2024metallm ,
   title={MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs},
   author={Nguyen, Quang H and Hoang, Cao-Duy and Decugis, Juliette and Manchanda, Saurav and Chawla, Nitesh V and Doan, Khoa D},
@@ -14,6 +35,7 @@
   bibtex_show={true},
   abbr={PREPRINT},
   pdf={https://arxiv.org/abs/2407.10834},
+  code={https://github.com/mail-research/MetaLLM-wrapper/}, 
   selected={true}
 }
 
@@ -74,7 +96,7 @@
   bibtex_show={true},
   abbr={PREPRINT},
   pdf={https://openreview.net/forum?id=T23HYw6lta},
-  selected={true}
+  selected={false}
 }
 
 @inproceedings{hoang2023advfooler,
