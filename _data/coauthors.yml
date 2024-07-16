@@ -47,11 +47,9 @@
     url: https://v-mipeng.github.io/
 
 "Tran":
-  - firstname: ["Anh"]
+  - firstname: ["Anh T", "Anh Tuan"]
     url: https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en
-  - firstname: ["Anh Tuan"]
-    url: https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en
-
+  
 "Pham":
   - firstname: ["Tung"]
     url: https://scholar.google.com.au/citations?user=KcUuEKsAAAAJ&hl=en
@@ -59,7 +57,9 @@
 "Yang":
   - firstname: ["Peng"]
     url: https://sites.google.com/site/pengyangshomepage/
-
+  - firstname: ["Guolei"]
+    url: https://scholar.google.com/citations?user=B11lRXUAAAAJ&hl=en
+  
 "Lao":
   - firstname: ["Yingjie"]
     url: http://ylao.people.clemson.edu/
@@ -102,9 +102,6 @@
   - firstname: ["Avradeep"]
     url: https://avradeep1.github.io/
 
-"Yang":
-  - firstname: ["Guolei"]
-    url: https://scholar.google.com/citations?user=B11lRXUAAAAJ&hl=en
 
 "Kuo":
   - firstname: ["Kwo-Sen"]
@@ -117,3 +114,8 @@
 "Yu":
   - firstname: ["Hongfeng"]
     url: http://vis.unl.edu/~yu/
+
+
+"Chawla":
+  - firstname: ["Nitesh V"]
+    url: https://niteshchawla.nd.edu/
