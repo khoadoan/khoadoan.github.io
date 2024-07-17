@@ -6,7 +6,19 @@
 @string{CVPR = {Conference on Computer Vision and Pattern Recognition,}}
 @string{ACCV = {Asian Conference on Computer Vision,}}
 
-@article{cao2024sparsellmwatermark ,
+@article{nguyen2024noncooperativeBAFL,
+  title={Non-Cooperative Backdoor Attacks in Federated Learning: A New Threat Landscape},
+  author={Nguyen, Tuan M and Nguyen, Dung T and Doan, Khoa D and Wong, Kok-Seng},
+  year={2024},
+  abstract={Despite the promise of Federated Learning (FL) for privacy-preserving model training on distributed data, it remains susceptible to backdoor attacks. These attacks manipulate models by embedding triggers (specific input patterns) in the training data, forcing misclassification as predefined classes during deployment. Traditional single-trigger attacks and recent work on cooperative multiple-trigger attacks, where clients collaborate, highlight limitations in attack realism due to coordination requirements. We investigate a more alarming scenario: non-cooperative multiple-trigger attacks. Here, independent adversaries introduce distinct triggers targeting unique classes. These parallel attacks exploit FL's decentralized nature, making detection difficult. Our experiments demonstrate the alarming vulnerability of FL to such attacks, where individual backdoors can be successfully learned without impacting the main task. This research emphasizes the critical need for robust defenses against diverse backdoor attacks in the evolving FL landscape. While our focus is on empirical analysis, we believe it can guide backdoor research toward more realistic settings, highlighting the crucial role of FL in building robust defenses against diverse backdoor threats. The code is available at https://anonymous.4open.science/r/nba-980F/.},
+  bibtex_show={true},
+  abbr={PREPRINT},
+  pdf={https://arxiv.org/abs/2407.07917},
+  code={https://anonymous.4open.science/r/nba-980F/},
+  selected={true}
+}
+
+@article{cao2024sparsellmwatermark,
   title={Less is More: Sparse Watermarking in LLMs with Enhanced Text Quality},
   author={Hoang, Cao-Duy and Le, Hung T. Q. and Chu, Rui and Li, Ping and Zhao, Weijie and Lao, Yingjie and Doan, Khoa D},
   year={2024},
