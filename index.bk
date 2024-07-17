@@ -1,0 +1,5357 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  Khoa D Doan
+
+
+</title>
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<!-- Very long loading using this file, so we swap -->
+<!-- <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" /> -->
+<link rel="stylesheet" href="https://combinatronics.io/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+<!-- 
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+ -->
+<link rel="icon" href="assets/img/icon.png">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5E8HDGL2HV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-5E8HDGL2HV');
+</script>
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <div class="navbar-brand social">
+        <div class="logo">
+          <a href="https://khoadoan.me"><img width="" height="30px" alt="blank" src="/assets/img/logo/logo-mail-v2.png"></a>
+        </div>
+        <!-- <div class="logo-mobile">
+          <a href=""><img width="32px" height="20px" alt="blank" src="/assets/img/logo/logo-mail-v2.png" /></a>
+        </div> -->
+      </div>
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li> -->
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/research">
+                research
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/team">
+                group
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/contact">
+                contact
+                
+              </a>
+          </li>
+          
+          
+          
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="/assets/pdf/khoadoan_cv_current.pdf">
+                 CV
+              </a>
+          </li> -->
+
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+  <!-- <header class="post-header">
+    <h2 class="post-title"><span class="font-weight-bold">Machine Learning Algorithms</span> that Make Sense</h2>
+    <p class="desc">in constrained and large-scale settings with applications in <strong>Advertising</strong>, <strong>Healthcare</strong>, <strong>Sustainability</strong> (Climate, Computing, Agricultural), <strong>Social Goods</strong>...</p>
+  </header> -->
+  <article>
+    
+    <div class="profile float-right">
+      
+        <img class="img-fluid z-depth-1 rounded" src="/assets/img/icon-v1.png">
+      
+      
+        <!-- <div class="address"> -->
+          <!-- <p>khoadoan at vt dot edu</p>
+ -->
+        <!-- </div> -->
+        <!-- <div class="team team-summary-large"> -->          
+        <!-- </div> -->
+        <div class="social-small">
+          <div class="social contact-icons text-center">
+            <a href="mailto:%6B%68%6F%61%64%6F%61%6E%31%30%36@%67%6D%61%69%6C.%63%6F%6D"><i class="fas fa-envelope"></i></a>
+
+
+
+
+<a href="https://github.com/mail-research" target="_blank" title="GitHub"><i class="fab fa-github" style="color: red;"></i></a>
+<a href="https://www.linkedin.com/in/doankhoadang" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+<a href="https://twitter.com/khoaddoan" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+<a href="https://facebook.com/mail.research" target="_blank" title="Twitter"><i class="fab fa-facebook"></i></a>
+
+
+
+
+
+
+
+
+
+<!-- <break /> -->
+<!-- <a href="https://github.com/mail-research" target="_blank" title="GitHub"><i class="fab fa-github" style="color:red"></i></a> -->
+
+          </div>
+          <!-- <div class="contact-note">khoadoan106 AT gmail.com
+</div>           -->
+        </div>
+      
+    </div>
+    
+    <!-- <h2 class="post-title"><span class="font-weight-bold">Machine Learning Algorithms</span> that Make Sense</h2>
+    <p class="desc">in constrained and large-scale settings with applications in <strong>Advertising</strong>, <strong>Healthcare</strong>, <strong>Sustainability</strong> (Climate, Computing, Agricultural), <strong>Social Goods</strong>...</p> -->
+    <div class="team-meta-standalone">
+      <!-- <h2 class="team-name"><a href=""></a></h2> -->
+      <h3 class="team-name">Khoa D Doan</h3>                    
+      <p class="team-title">Assistant Professor</p>              
+      <p class="team-title"><a href="https://vinuni.edu.vn/college-of-engineering-computer-science/">College of Engineering and Computer Science</a>, <a href="https://vinuni.edu.vn/">VinUniversity</a>, Vietnam</p>
+      [<a href="team">more about me and our group</a> | <a href="#open-office-hour-calendar">open office hour</a> 
+      <i class="fa fa-calendar" aria-hidden="true"></i>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check-fill" viewBox="0 0 20 20">
+        <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+      </svg> -->
+      ]
+    </div>
+    <hr>
+    <div class="clearfix">
+      Here at **MAIL**, We develop computational frameworks that enable existing complex/deep models to be more suitable for practical uses. We focus on improving the following aspects of existing models: (i) training/inference, (ii) realistic assumptions, (iii) algorithmic robustness, and (iv) efficiency in constrained settings. Most of our ML/AI solutions center around large-scale approaches that have low computational complexity and require less human effort. 
+
+[more about our research](research/)
+    </div>   
+    
+    <hr>
+
+    <div class="container pr-1 pl-0">
+      <div class="row justify-content-start">
+        <div class="col-12 col-md-5 col-lg-5 order-1 order-md-1" align="left">
+          <div class="jekyll-twitter-plugin">
+<a class="twitter-timeline" data-width="400" data-height="250" data-tweet-limit="3" href="https://twitter.com/khoaddoan?ref_src=twsrc%5Etfw">Tweets by khoaddoan</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+        </div>
+        <div class="annoucement col-12 col-md-7 col-lg-7 order-2 order-md-2">
+          <strong>We're open to research/industry collaborations in ML/CV/NLP</strong>:
+          <ul>
+          <!-- <li><strong>Intersted in Ph.D. position at VinUni?</strong> Please <a href="https://vinuni.edu.vn/phd/">apply</a> through the CS department and include my name as a potential advisor in your application.</li> -->
+          <li>
+<strong>Interested in ML research as Research Assistant, Intern, PhD, Postdoc?</strong> Please fill in the form <a href="https://forms.gle/EXSe6Sb7SRsh6n2y6">here</a> (w. your CV, transcript, level of commitment, &amp; description of what types of projects you want to work on). 
+            <i>Only shortlisted candidates will be contacted!</i>
+</li>          
+          
+          
+          <!-- <li><strong style="color:red;font-style: italic;">:fire:Immediate Positions:fire:</strong>: Research Assistant (2-3), 
+            UIUC or VinUni PhD/Postdoc (co-advised with <a href="https://blender.cs.illinois.edu/hengji.html">Heng Ji</a>,
+            <a href="https://minhdo.ece.illinois.edu/">Minh Do</a>, 
+            <a href="https://aisecure.github.io/">Bo Li</a>, etc...), please also fill in the form <a href="https://forms.gle/EXSe6Sb7SRsh6n2y6">here</a>.
+          </li> -->
+          
+          
+            <li>
+<strong>Other collaboration?</strong> Please reach out via <a href="mailto:khoadoan106@gmail.com">email</a>.</li>                    
+          </ul>                  
+        </div>  
+        
+
+        
+
+        <!-- <div class="annoucement col-12 col-md-6 col-lg-6 order-1 order-md-1">
+          <strong>Prospective Ph.D. students:</strong>
+          <ul> 
+            <li><strong>Not at VinUni?</strong> Please apply through the CS department and include my name as a potential advisor in your application.</li>
+            <li><strong>VinUni student?</strong> Please email me your CV, prior experiences, and how you would like to get involved.</li>
+          </ul>
+
+          <strong>If you are a VinUni undergraduate student:</strong>
+          <ul> 
+            <li>Interested in engaging with ML research? Please reach out via email with your CV, transcript, level of commitment (e.g., 10-20 hours/week), and description of what types of projects you want to work on.</li>
+          </ul>
+
+          <strong>Prospective Visiting Students:</strong>
+          <ul>
+            <li>For short-term visiting, please fill in the form <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7O3-3HmcNlZMQM5OnBZP0jygQMIXVM0ooGQulo6KSCN2dpg/viewform">here</a>. We will contact you if there is a match.</li>
+          </ul>
+        </div>      -->
+      </div> 
+        
+    </div>
+
+    <!-- <hr /> -->
+    
+    <!-- <div class="container pr-1 pl-0">
+
+      <div class="row justify-content-start">
+        <p>
+          <strong><a href="#open-office-hour-calendar">Open Office Hour</a></strong>- I will ocassionally be holding group open office hours for *anyone*. 
+          Feel free to  <a href="#open-office-hour-calendar">sign up</a> to connect, chat, or ask any questions. 
+        </p>
+
+        <p>When I was a student, I had many questions that I had no ideas how to get help. 
+        As a Vietnamese who went abroad for higher education, 
+        and has worked in the industry and academia, and in applied projects as well as research projects, 
+        I hope that, via this modest effort, I can share some experience with you, as well as addressing some questions you may have.
+        This effort is inspired by <a href="https://mlcollective.org/services/#mloh">ML Collective</a>.
+      </p>
+        
+      </div>
+          
+    </div> -->
+
+    <hr>
+
+    
+      <div class="news">
+  <h2>news</h2>
+  
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      
+      
+        <tr>
+          <!-- <th>[07/01/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[07/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <em>Accepted papers</em> - <a href="coming-soon">[ECCV’24-a]</a> on resilient backdoor attack and <a href="coming-soon">[ECCV’24-b]</a> on backdoor attack after quantiziation(congrats <a href="team/#Hoang%20V%20Pham">Hoang V Pham</a> and <a href="https://www.vinai.io/">Tran Huynh/VinAI</a>).
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[06/30/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[06/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <div class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">    
+<i class="bi bi-rocket-takeoff-fill"></i>
+</div>
+Congrats <a href="team/#Lan%20H%20Tran">Lan H Tran</a> for her acceptance to <strong>EPFL’s Master Program</strong> with scholarship (our first and forever female <img class="emoji" title=":heart:" alt=":heart:" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" height="20" width="20"> MAIL member).
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[06/07/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[06/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <img class="emoji" title=":fire:" alt=":fire:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png" height="20" width="20"> I (w. co-leads <a href="https://healtheng.illinois.edu/people/thanhnguyen">Helen Nguyen/UIUC</a> and <a href="https://www.linkedin.com/in/giangphi/">Giang Phi/VinUni</a>, and other collaborators) received the grand-prize award (£1M) at <a href="https://thetrinitychallenge.org/">Trinity Challenge</a> (in partnership with <a href="https://solve.mit.edu/">MIT Solve</a>). Our work, using Generative AI to help farmers make better decisions and community managers have better antibiotics cluster surveilance to reduce antimicrobial resistance, is featured at several news outlets: <a href="https://www.facebook.com/share/p/zFuEf3vXT51ExYMX/?mibextid=qi2Omg">Office Annoucement</a>,  <a href="https://thanhnien.vn/du-an-khoa-hoc-viet-nam-duoc-to-chuc-quoc-te-tai-tro-1-trieu-bang-anh-185240608100441358.htm">Thanh Nien</a>, <a href="https://vnexpress.net/nha-khoa-hoc-viet-gianh-giai-thuong-toan-cau-ve-suc-khoe-4756007.html">VnExpress</a>, <a href="https://baodautu.vn/vinuni-gianh-giai-thuong-lon-nhat-tri-gia-1-trieu-bang-anh-trong-cuoc-thi-thu-thach-toan-cau-trinity-d217179.html">BaoDauTu</a>, <a href="https://dantri.com.vn/suc-khoe/vinuni-gianh-giai-thuong-cao-nhat-trong-cuoc-thi-thu-thach-trinity-20240608160801634.htm">DanTri</a>, <a href="https://www.vietnam.vn/vinuni-gianh-giai-thuong-lon-trong-cuoc-thi-toan-cau/">Vietnam.vn</a>, <a href="https://sg.finance.yahoo.com/news/vinuni-won-1-million-global-104000008.html">Yahoo Finance</a>,  etc… Click to read more about our <a href="https://solve.mit.edu/challenges/trinity-challenge-amr/solutions/81996">Farm2Vet Solution</a>.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[05/15/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[05/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <em>Accepted papers</em> - <a href="https://arxiv.org/abs/2406.00973">[UAI’24]</a> on lightweight, pluggable textual adversarial defense, and <a href="https://arxiv.org/pdf/2310.01452">[ACL’24]</a>  on cold-start recommendation with personalized rating elicitation (hat off to <a href="https://vietanhnguyen.net/">Viet-Anh Nguyen/CUHK</a>, <a href="https://www.vinai.io/">Hieu Nguyen/VinAI</a>, <a href="team/#Duy%20C%20Hoang">Duy C Hoang</a> and <a href="team/#Quang%20H%20Nguyen">Quang H Nguyen</a>
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[05/01/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[05/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <div class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">    
+<i class="bi bi-rocket-takeoff-fill"></i>
+</div>
+Congrats <a href="team/#Hoang%20V%20Pham">Hoang V Pham</a> for his acceptance to <strong>University of Warwick’s PhD Program</strong>
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[04/01/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[04/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <div class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">    
+<i class="bi bi-rocket-takeoff-fill"></i>
+</div>
+Congrats <a href="team/#Nghia%20D%20Nguyen">Nghia Dai Nguyen</a> for his acceptance to <strong>UIUC PhD Program</strong> (<em>co-advised</em>)
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[03/26/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[03/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              Will serve as Invited <strong>Area Chair</strong> for <strong>NeurIPS</strong> and <strong>ACML</strong> 2024.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[03/26/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[03/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              Will serve as <strong>Workshop Chair</strong> and <strong>Area Chair</strong> for <strong>ACML</strong> 2024.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[02/01/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[02/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <a href="https://blender.cs.illinois.edu/hengji.html">Heng Ji</a> &amp; I gave talks at <strong><a href="https://oisp.hcmut.edu.vn/en/">HCMUT</a>/<a href="https://en.hcmus.edu.vn/">HCMUS</a> (Ho Chi Minh, Jan 31st)</strong> and <strong><a href="https://hust.edu.vn/en/">HUST</a>/<a href="https://vnu.edu.vn/eng/">VNU</a>/<a href="https://www.vinai.io/">VinAI</a> (Hanoi, Feb 01 and 02)</strong>. We have immediate PhD (<em>at VinUni or UIUC</em>)/Research Assistants (<em>at VinUni</em>) positions to work on <strong>LLM Truthfulness</strong> and <strong>NLP for Molecular Discovery</strong>. I’m also recruiting students to work on <em>Counterfactual Infererence/Explanation</em>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[01/20/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[01/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <img class="emoji" title=":fire:" alt=":fire:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png" height="20" width="20"> Our <strong>“AI for Environmental Intelligence: The Past, The Present, and The Future”</strong> Workshop proposal (w. <a href="https://healtheng.illinois.edu/people/thanhnguyen">Helen Nguyen</a>, <a href="https://niteshchawla.nd.edu/">Nitesh Chawla</a>, <a href="https://www.di.ens.fr/~aspremon/">Alexandre d’Aspremont</a>, <a href="https://cde.nus.edu.sg/cee/staff/gin-yew-hoong-karina/">Karina Ginn</a>) accepted at <a href="https://ieeecai.org/2024">CAI 2024</a> (June 25-27, 2024). More information <a href="https://cai2024-ai4e.github.io/">here</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[01/20/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[01/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <img class="emoji" title=":fire:" alt=":fire:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png" height="20" width="20"> We’re granted 2 proposals by Vinuni-UIUC Smarthealth Center on <strong>Causal Inference in Healthcare</strong> and <strong>Evaluating Truthfulness/Misinformation of NLP/LLM</strong> (<a href="https://smarthealth.vinuni.edu.vn/announcement-of-selected-research-projects-for-the-2024-vishc-research-funding-program">more details</a>; <em>we’re recruiting PhD Students/RAs</em>)
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[01/17/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[01/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <em>Accepted paper</em> - <a href="https://openreview.net/pdf?id=vZ6r9GMT1n">[ICLR’24]</a> on <em>same-inference-time</em> <strong>Adversarial Defense</strong> (congrats <a href="team/#Quang%20H%20Nguyen">Quang H Nguyen</a> and <a href="https://www.vinai.io/">Tung Pham/VinAI</a>).
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[01/01/2024]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[01/2024]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              Will serve as Invited Workshop Reviewer for <strong>ICML</strong> 2024.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[12/01/2023]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[12/2023]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              <div class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">    
+<i class="bi bi-rocket-takeoff-fill"></i>
+</div>
+Congrats <a href="team/#Hoang%20M%20Nguyen">Hoang M Nguyen</a> for his new journey as <strong>PhD Student at Saarland University</strong>
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <!-- <th>[12/01/2023]</th> -->
+          <th style="padding: 0px 10px 0px 0px;">[12/2023]</th>
+          <td style="padding: 0px 13px 0px 0px;">
+            
+              Will serve as Invited PC for ECCV and ICML 2024.
+
+            
+          </td>
+        </tr>
+      
+      </table>
+    </div>
+  
+</div>
+
+    
+
+    <hr>
+
+    
+      <div class="publications">
+  <h2>selected publications [<a href="publications">full list</a>]</h2>
+  <ol class="bibliography">
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">PREPRINT</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="nguyen2024noncooperativeBAFL" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge" style="background-color: black;">PREPRINT</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Non-Cooperative Backdoor Attacks in Federated Learning: A New Threat Landscape         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Tuan M Nguyen</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    Dung T Nguyen,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="https://sail-research.com/" target="_blank">Kok-Seng Wong</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em></em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://arxiv.org/abs/2407.07917" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://anonymous.4open.science/r/nba-980F/" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+        
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Despite the promise of Federated Learning (FL) for privacy-preserving model training on distributed data, it remains susceptible to backdoor attacks. These attacks manipulate models by embedding triggers (specific input patterns) in the training data, forcing misclassification as predefined classes during deployment. Traditional single-trigger attacks and recent work on cooperative multiple-trigger attacks, where clients collaborate, highlight limitations in attack realism due to coordination requirements. We investigate a more alarming scenario: non-cooperative multiple-trigger attacks. Here, independent adversaries introduce distinct triggers targeting unique classes. These parallel attacks exploit FL's decentralized nature, making detection difficult. Our experiments demonstrate the alarming vulnerability of FL to such attacks, where individual backdoors can be successfully learned without impacting the main task. This research emphasizes the critical need for robust defenses against diverse backdoor attacks in the evolving FL landscape. While our focus is on empirical analysis, we believe it can guide backdoor research toward more realistic settings, highlighting the crucial role of FL in building robust defenses against diverse backdoor threats. The code is available at https://anonymous.4open.science/r/nba-980F/.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">nguyen2024noncooperativeBAFL</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Non-Cooperative Backdoor Attacks in Federated Learning: A New Threat Landscape}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Tuan M and Nguyen, Dung T and Doan, Khoa D and Wong, Kok-Seng}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{PREPRINT}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2407.07917}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://anonymous.4open.science/r/nba-980F/}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">PREPRINT</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="cao2024sparsellmwatermark" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge" style="background-color: black;">PREPRINT</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Less is More: Sparse Watermarking in LLMs with Enhanced Text Quality         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Cao-Duy Hoang</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Hung T. Q. Le</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  
+                    Rui Chu,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="http://research.baidu.com/People/index-view?id=111" target="_blank">Ping Li</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://www.cs.rit.edu/~wjz/" target="_blank">Weijie Zhao</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="http://ylao.people.clemson.edu/" target="_blank">Yingjie Lao</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                and <u>Khoa D Doan</u>
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em></em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://github.com/mail-research/sparse-llm-watermarking" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+        
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>With the widespread adoption of Large Language Models (LLMs), concerns about potential misuse have emerged. To this end, watermarking has been adapted to LLM, enabling a simple and effective way to detect and monitor generated text. However, while the existing methods can differentiate between watermarked and unwatermarked text with high accuracy, they often face a trade-off between the quality of the generated text and the effectiveness of the watermarking process. In this work, we present a novel type of LLM watermark, \textit{Sparse Watermark}, which aims to mitigate this trade-off by applying watermarks to a small subset of generated tokens distributed across the text. The key strategy involves anchoring watermarked tokens to words that have specific Part-of-Speech (POS) tags. Our experimental results demonstrate that the proposed watermarking scheme achieves high detectability while generating text that outperforms previous LLM watermarking methods in quality across various tasks.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">cao2024sparsellmwatermark</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Less is More: Sparse Watermarking in LLMs with Enhanced Text Quality}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hoang, Cao-Duy and Le, Hung T. Q. and Chu, Rui and Li, Ping and Zhao, Weijie and Lao, Yingjie and Doan, Khoa D}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{PREPRINT}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/mail-research/sparse-llm-watermarking}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">PREPRINT</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="nguyen2024metallm" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge" style="background-color: black;">PREPRINT</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Quang H Nguyen</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Cao-Duy Hoang</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  
+                    Juliette Decugis,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://gurdaspuriya.github.io/" target="_blank">Saurav Manchanda</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://niteshchawla.nd.edu/" target="_blank">Nitesh V Chawla</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                and <u>Khoa D Doan</u>
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em></em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://arxiv.org/abs/2407.10834" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://github.com/mail-research/MetaLLM-wrapper/" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+        
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The rapid progress in machine learning (ML) has brought forth many large language models (LLMs) that excel in various tasks and areas. These LLMs come with different abilities and costs in terms of computation or pricing. Since the demand for each query can vary, e.g., because of the queried domain or its complexity, defaulting to one LLM in an application is not usually the best choice, whether it is the biggest, priciest, or even the one with the best average test performance. Consequently, picking the right LLM that is both accurate and cost-effective for an application remains a challenge. In this paper, we introduce MetaLLM, a framework that dynamically and intelligently routes each query to the optimal LLM (among several available LLMs) for classification tasks, achieving significantly improved accuracy and cost-effectiveness. By framing the selection problem as a multi-armed bandit, MetaLLM balances prediction accuracy and cost efficiency under uncertainty. Our experiments, conducted on popular LLM platforms such as OpenAI's GPT models, Amazon's Titan, Anthropic's Claude, and Meta's LLaMa, showcase MetaLLM's efficacy in real-world scenarios, laying the groundwork for future extensions beyond classification tasks.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">nguyen2024metallm</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Quang H and Hoang, Cao-Duy and Decugis, Juliette and Manchanda, Saurav and Chawla, Nitesh V and Doan, Khoa D}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{PREPRINT}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2407.10834}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/mail-research/MetaLLM-wrapper/}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">PREPRINT</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="nguyen2024irl" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge" style="background-color: black;">PREPRINT</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Forget but Recall: Incremental Latent Rectification in Continual Learning         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Nghia D Nguyen</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://hieunt91.github.io/" target="_blank">Hieu T Nguyen</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://angli.ai/" target="_blank">Ang Li</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Hoang V Pham</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://vietanhnguyen.net/" target="_blank">Viet Anh Nguyen</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                and <u>Khoa D Doan</u>
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em></em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://arxiv.org/abs/2312.03419" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://github.com/mail-research/IRL-forget-but-recall" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+        
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">nguyen2024irl</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Forget but Recall: Incremental Latent Rectification in Continual Learning}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Nghia D and Nguyen, Hieu T and Li, Ang and Pham, Hoang V and Nguyen, Viet Anh and Doan, Khoa D}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{PREPRINT}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2312.03419}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/mail-research/IRL-forget-but-recall}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">UAI</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="nguyen2024cold" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">UAI</abbr>
+            
+          
+          </span>
+        
+        
+        Cold-start Recommendation by Personalized Embedding Region Elicitation         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://hieunt91.github.io/" target="_blank">Hieu Trung Nguyen</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://duykhuongnguyen.github.io/" target="_blank">Duy Nguyen</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="https://vietanhnguyen.net/" target="_blank">Viet Anh Nguyen</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In The Conference on Uncertainty in Artificial Intelligence</em>
+      
+      
+        2023
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://arxiv.org/pdf/2406.00973" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">nguyen2024cold</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Cold-start Recommendation by Personalized Embedding Region Elicitation}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Hieu Trung and Nguyen, Duy and Doan, Khoa D and Nguyen, Viet Anh}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{The Conference on Uncertainty in Artificial Intelligence}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{UAI}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://arxiv.org/pdf/2406.00973}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{RecSys'23 -- CIKM'23 -- AAAI'24 -- UAI'24}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>RecSys'23 -- CIKM'23 -- AAAI'24 -- UAI'24</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">PREPRINT</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="yang2023synthesizing" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge" style="background-color: black;">PREPRINT</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Synthesizing Physical Backdoor Datasets: An Automated Framework Leveraging Deep Generative Models         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Sze Jue Yang</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Chinh D La</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Quang H Nguyen</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://www.cs.cornell.edu/~eugene/" target="_blank">Eugene Bagdasaryan</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://sail-research.com/" target="_blank">Kok-Seng Wong</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&amp;hl=en" target="_blank">Anh T Tran</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="http://cs-chan.com/" target="_blank">Chee Seng Chan</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                and <u>Khoa D Doan</u>
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em></em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://arxiv.org/abs/2312.03419" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://github.com/mail-research/synthetic-physical-backdoor-datasets" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+        
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">yang2023synthesizing</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Synthesizing Physical Backdoor Datasets: An Automated Framework Leveraging Deep Generative Models}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yang, Sze Jue and La, Chinh D and Nguyen, Quang H and Bagdasaryan, Eugene and Wong, Kok-Seng and Tran, Anh T and Chan, Chee Seng and Doan, Khoa D}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{PREPRINT}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/mail-research/synthetic-physical-backdoor-datasets}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2312.03419}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">ACL-Findings</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="hoang2023advfooler" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">ACL-Findings</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Fooling the Textual Fooler via Randomizing Latent Representations         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Cao-Duy Hoang</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Quang H Nguyen</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://gurdaspuriya.github.io/" target="_blank">Saurav Manchanda</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://v-mipeng.github.io/" target="_blank">Minlong Peng</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://sail-research.com/" target="_blank">Kok-Seng Wong</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                and <u>Khoa D Doan</u>
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Findings of the Association for Computational Linguistics</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://arxiv.org/abs/2310.01452" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://github.com/mail-research/AdvFooler-text-defender" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">hoang2023advfooler</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Fooling the Textual Fooler via Randomizing Latent Representations}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hoang, Cao-Duy and Nguyen, Quang H and Manchanda, Saurav and Peng, Minlong and Wong, Kok-Seng and Doan, Khoa D}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{ACL-Findings}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Findings of the Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2310.01452}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/mail-research/AdvFooler-text-defender}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{EMNLP'24 -- ICLR'24 -- ACL'24}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>EMNLP'24 -- ICLR'24 -- ACL'24</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">ICLR</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="nguyen2023randomized" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">ICLR</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Understanding the Robustness of Randomized Feature Defense Against Query-Based Adversarial Attacks         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Quang H Nguyen</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="http://ylao.people.clemson.edu/" target="_blank">Yingjie Lao</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://scholar.google.com.au/citations?user=KcUuEKsAAAAJ&amp;hl=en" target="_blank">Tung Pham</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://sail-research.com/" target="_blank">Kok-Seng Wong</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                and <u>Khoa D Doan</u>
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In The Twelfth International Conference on Learning Representations</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://openreview.net/forum?id=vZ6r9GMT1n" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://github.com/mail-research/randomized_defenses" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Recent works have shown that deep neural networks are vulnerable to adversarial examples that find samples close to the original image but can make the model misclassify. Even with access only to the model's output, an attacker can employ black-box attacks to generate such adversarial examples. In this work, we propose a simple and lightweight defense against black-box attacks by adding random noise to hidden features at intermediate layers of the model at inference time. Our theoretical analysis confirms that this method effectively enhances the model's resilience against both score-based and decision-based black-box attacks. Importantly, our defense does not necessitate adversarial training and has minimal impact on accuracy, rendering it applicable to any pre-trained model. Our analysis also reveals the significance of selectively adding noise to different parts of the model based on the gradient of the adversarial objective function, which can be varied during the attack. We demonstrate the robustness of our defense against multiple black-box attacks through extensive empirical experiments involving diverse models with various architectures.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">nguyen2023randomized</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Understanding the Robustness of Randomized Feature Defense Against Query-Based Adversarial Attacks}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Quang H and Lao, Yingjie and Pham, Tung and Wong, Kok-Seng and Doan, Khoa D}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{The Twelfth International Conference on Learning Representations}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{ICLR}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=vZ6r9GMT1n}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/mail-research/randomized_defenses}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{NeurIPS'23 -- ICLR'24}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>NeurIPS'23 -- ICLR'24</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">NeurIPS</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="nguyen2024iba" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">NeurIPS</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Iba: Towards irreversible backdoor attacks in federated learning         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Thuy Dung Nguyen</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Tuan M Nguyen</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&amp;hl=en" target="_blank">Anh T Tran</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="https://sail-research.com/" target="_blank">Kok-Seng Wong</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Advances in Neural Information Processing Systems</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/d0c6bc641a56bebee9d985b937307367-Abstract-Conference.html" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://github.com/sail-research/iba" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">nguyen2024iba</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Iba: Towards irreversible backdoor attacks in federated learning}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Thuy Dung and Nguyen, Tuan M and Tran, Anh T and Doan, Khoa D and Wong, Kok-Seng}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Advances in Neural Information Processing Systems}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{36}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{NeurIPS'23}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{NeurIPS}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://proceedings.neurips.cc/paper_files/paper/2023/hash/d0c6bc641a56bebee9d985b937307367-Abstract-Conference.html}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/sail-research/iba}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>NeurIPS'23</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">EAAI</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="nguyen2024backdoor" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">EAAI</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Backdoor attacks and defenses in federated learning: Survey, challenges and future research directions         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Thuy Dung Nguyen</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    <span style="font-weight: bold;">Tuan M Nguyen</span>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  
+                    Phi Le Nguyen,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+          
+          
+            
+              
+                
+                  
+                    Hieu H Pham,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="https://sail-research.com/" target="_blank">Kok-Seng Wong</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Engineering Applications of Artificial Intelligence</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://www.sciencedirect.com/science/article/pii/S0952197623013507" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">nguyen2024backdoor</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Backdoor attacks and defenses in federated learning: Survey, challenges and future research directions}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nguyen, Thuy Dung and Nguyen, Tuan M and Le Nguyen, Phi and Pham, Hieu H and Doan, Khoa D and Wong, Kok-Seng}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Engineering Applications of Artificial Intelligence}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{127}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{107166}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{EAAI'24}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{EAAI}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://www.sciencedirect.com/science/article/pii/S0952197623013507}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>EAAI'24</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">SIGIR</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="doan2023flora" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">SIGIR</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Asymmetric Hashing for Fast Ranking via Neural Network Measures         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="http://www.stat.ucla.edu/~jxie/" target="_blank">Shulong Tan</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://www.cs.rit.edu/~wjz/" target="_blank">Weijie Zhao</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="http://research.baidu.com/People/index-view?id=111" target="_blank">Ping Li</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In 46th International ACM SIGIR Conference on Research and Development in Information Retrieval</em>
+      
+      
+        2023
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://dl.acm.org/doi/abs/10.1145/3539618.3591640" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">doan2023flora</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{SIGIR}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Asymmetric Hashing for Fast Ranking via Neural Network Measures}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doan, Khoa D and Tan, Shulong and Zhao, Weijie and Li, Ping}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{46th International ACM SIGIR Conference on Research and Development in Information Retrieval}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{SIGIR'21 -- RecSys'21 -- WSDM'22 -- WWW'22 -- SIGIR'22 -- VLDB'23 -- CIKM'22 -- WWW'23 -- SIGIR'23}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://dl.acm.org/doi/abs/10.1145/3539618.3591640}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>SIGIR'21 -- RecSys'21 -- WSDM'22 -- WWW'22 -- SIGIR'22 -- VLDB'23 -- CIKM'22 -- WWW'23 -- SIGIR'23</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">AAAI</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="doan2023bdvitt" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">AAAI</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Defending backdoor attacks on vision transformer via patch processing         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="http://ylao.people.clemson.edu/" target="_blank">Yingjie Lao</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="http://research.baidu.com/People/index-view?id=111" target="_blank">Ping Li</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In AAAI Conference on Artificial Intelligence</em>
+      
+      
+        2023
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25125" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">doan2023bdvitt</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{AAAI}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Defending backdoor attacks on vision transformer via patch processing}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doan, Khoa D and Lao, Yingjie and Li, Ping}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{AAAI Conference on Artificial Intelligence}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{CVPR'22 -- ICCV'22 -- AAAI'23}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">teaser</span> <span class="p">=</span> <span class="s">{doan2023bdvits.png}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://ojs.aaai.org/index.php/AAAI/article/view/25125}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>CVPR'22 -- ICCV'22 -- AAAI'23</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">NeurIPS</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="doan2022marksman" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">NeurIPS</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Marksman Backdoor: Backdoor Attacks with Arbitrary Target Class         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="http://ylao.people.clemson.edu/" target="_blank">Yingjie Lao</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="http://research.baidu.com/People/index-view?id=111" target="_blank">Ping Li</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Thirty-Sixth Conference on Neural Information Processing Systems</em>
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://openreview.net/forum?id=i-k6J4VkCDq" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://github.com/khoadoan106/backdoor_attacks" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+      
+      <a href="https://nips.cc/media/neurips-2022/Slides/52924.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">doan2022marksman</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{NeurIPS}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Marksman Backdoor: Backdoor Attacks with Arbitrary Target Class}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doan, Khoa D and Lao, Yingjie and Li, Ping}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Thirty-Sixth Conference on Neural Information Processing Systems}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{NeurIPS'22}</span><span class="p">,</span>
+  <span class="na">teaser</span> <span class="p">=</span> <span class="s">{doan2022marksman.png}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=i-k6J4VkCDq}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/khoadoan106/backdoor_attacks}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{https://nips.cc/media/neurips-2022/Slides/52924.pdf}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>NeurIPS'22</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">CVPR</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="doan2022hswd" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">CVPR</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        One Loss for Quantization: Deep Hashing with Discrete Wasserstein Distributional Matching         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://sites.google.com/site/pengyangshomepage/" target="_blank">Peng Yang</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="http://research.baidu.com/People/index-view?id=111" target="_blank">Ping Li</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Conference on Computer Vision and Pattern Recognition</em>
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://openreview.net/pdf?id=uaqweIZ-9_k" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://github.com/khoadoan106/single_loss_quantization" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+      
+      <a href="/assets/pdf/doan2022hswd-slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">doan2022hswd</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{CVPR}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{One Loss for Quantization: Deep Hashing with Discrete Wasserstein Distributional Matching}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doan, Khoa D and Yang, Peng and Li, Ping}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Conference on Computer Vision and Pattern Recognition}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{CVPR'22}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{doan2022hswd-slides.pdf}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/khoadoan106/single_loss_quantization}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://openreview.net/pdf?id=uaqweIZ-9_k}</span><span class="p">,</span>
+  <span class="na">teaser</span> <span class="p">=</span> <span class="s">{doan2022hswd.png}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>CVPR'22</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">NeurIPS</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="doan2021wb" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">NeurIPS</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Backdoor Attack with Imperceptible Input and Latent Modification         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="http://ylao.people.clemson.edu/" target="_blank">Yingjie Lao</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="http://research.baidu.com/People/index-view?id=111" target="_blank">Ping Li</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Thirty-Fifth Conference on Neural Information Processing Systems</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://proceedings.neurips.cc/paper/2021/file/9d99197e2ebf03fc388d09f1e94af89b-Paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://recorder-v3.slideslive.com/?share=51522&amp;s=8af881c0-56e8-451e-865f-adb1e90e5471" class="btn btn-sm z-depth-0" role="button" target="_blank">VIDEO</a>
+    
+    
+    
+    
+      <a href="https://github.com/khoadoan106/backdoor_attacks" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+      
+      <a href="/assets/pdf/doan2021wb-slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">doan2021wb</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{NeurIPS}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Backdoor Attack with Imperceptible Input and Latent Modification}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doan, Khoa D and Lao, Yingjie and Li, Ping}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Thirty-Fifth Conference on Neural Information Processing Systems}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{NeurIPS'21}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://proceedings.neurips.cc/paper/2021/file/9d99197e2ebf03fc388d09f1e94af89b-Paper.pdf}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/khoadoan106/backdoor_attacks}</span><span class="p">,</span>
+  <span class="na">video</span> <span class="p">=</span> <span class="s">{https://recorder-v3.slideslive.com/?share=51522&amp;s=8af881c0-56e8-451e-865f-adb1e90e5471}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{doan2021wb-slides.pdf}</span><span class="p">,</span>
+  <span class="na">teaser</span> <span class="p">=</span> <span class="s">{doan2021wb.png}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>NeurIPS'21</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">ICCV</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="doan2021lira" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">ICCV</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        LIRA: Learnable, Imperceptible and Robust Backdoor Attacks         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="http://ylao.people.clemson.edu/" target="_blank">Yingjie Lao</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://www.cs.rit.edu/~wjz/" target="_blank">Weijie Zhao</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="http://research.baidu.com/People/index-view?id=111" target="_blank">Ping Li</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In International Conference on Computer Vision</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Doan_LIRA_Learnable_Imperceptible_and_Robust_Backdoor_Attacks_ICCV_2021_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://github.com/khoadoan106/backdoor_attacks" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+      
+      <a href="https://github.com/sunbelbd/invisible_backdoor_attacks/raw/master/resources/ICCV2021-LIRA-Poster.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+      
+    
+    
+      
+      <a href="https://github.com/sunbelbd/invisible_backdoor_attacks/raw/master/resources/ICCV2021-LIRA-Slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Recently, machine learning models have demonstrated to be vulnerable to backdoor attacks, primarily due to the lack of transparency in black-box models such as deep neural networks. A third-party model can be poisoned such that it works adequately in normal conditions but behaves maliciously on samples with specific trigger patterns. However, the trigger injection function is manually defined in most existing backdoor attack methods, e.g., placing a small patch of pixels on an image or slightly deforming the image before poisoning the model. This results in a two-stage approach with a sub-optimal attack success rate and a lack of complete stealthiness under human inspection.
+
+  In this paper, we propose a novel and stealthy backdoor attack framework, LIRA, which jointly learns the optimal, stealthy trigger injection function and poisons the model. We formulate such an objective as a non-convex, constrained optimization problem. Under this optimization framework, the trigger generator function will learn to manipulate the input with imperceptible noise to preserve the model performance on the clean data and maximize the attack success rate on the poisoned data. Then, we solve this challenging optimization problem with an efficient, two-stage stochastic optimization procedure. Finally, the proposed attack framework achieves 100% success rates in several benchmark datasets, including MNIST, CIFAR10, GTSRB, and T-ImageNet, while simultaneously bypassing existing backdoor defense methods and human inspection.
+  </p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">doan2021lira</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{ICCV}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{LIRA: Learnable, Imperceptible and Robust Backdoor Attacks}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doan, Khoa D and Lao, Yingjie and Zhao, Weijie and Li, Ping}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{International Conference on Computer Vision}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{ICCV'21}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/khoadoan106/backdoor_attacks}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{https://github.com/sunbelbd/invisible_backdoor_attacks/raw/master/resources/ICCV2021-LIRA-Slides.pdf}</span><span class="p">,</span>
+  <span class="na">poster</span> <span class="p">=</span> <span class="s">{https://github.com/sunbelbd/invisible_backdoor_attacks/raw/master/resources/ICCV2021-LIRA-Poster.pdf}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://openaccess.thecvf.com/content/ICCV2021/papers/Doan_LIRA_Learnable_Imperceptible_and_Robust_Backdoor_Attacks_ICCV_2021_paper.pdf}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">teaser</span> <span class="p">=</span> <span class="s">{doan2021lira.png}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>ICCV'21</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">SIGIR</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="doan2021interpretable" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">SIGIR</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Interpretable Graph Similarity Computation via Differentiable Optimal Alignment of Node Embeddings         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://gurdaspuriya.github.io/" target="_blank">Saurav Manchanda</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  
+                    Suchismit Mahapatra,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="https://people.cs.vt.edu/reddy/index.html" target="_blank">Chandan K Reddy</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In 44th International ACM SIGIR Conference on Research and Development in Information Retrieval</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="/assets/pdf/doan2021interpretable.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+      <a href="https://www.youtube.com/watch?v=IWxxsuFPsgs&amp;t=1s" class="btn btn-sm z-depth-0" role="button" target="_blank">VIDEO</a>
+    
+    
+    
+    
+      <a href="https://github.com/khoadoan/GraphOTSim" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+      
+      <a href="https://github.com/khoadoan/GraphOTSim/raw/main/resources/SIGIR21-fp0937-slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      
+    
+        
+    
+    
+      <a class="submissions btn btn-sm z-depth-0" role="button">Submission History</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Computing graph similarity is an important task in many graph-related applications
+  such as retrieval in graph databases or graph clustering. While numerous measures
+  have been proposed to capture the similarity between a pair of graphs, Graph Edit
+  Distance (GED) and Maximum Common Subgraphs (MCS) are the two widely used measures
+  in practice. GED and MCS are domain-agnostic measures of structural similarity between
+  the graphs and define the similarity as a function of pairwise alignment of different
+  entities (such as nodes, edges, and subgraphs) in the two graphs. The explicit explainability
+  offered by the pairwise alignment provides transparency and justification of the similarity
+  score, thus, GED and MCS have important practical applications. However, their exact
+  computations are known to be NP-hard. While recently proposed neural-network based
+  approximations have been shown to accurately compute these similarity scores, they
+  have limited ability in providing comprehensive explanations compared to classical
+  combinatorial algorithms, e.g., Beam search. This paper aims at efficiently approximating
+  these domain-agnostic similarity measures through a neural network, and simultaneously
+  learning the alignments (i.e., explanations) similar to those of classical intractable
+  methods. Specifically, we formulate the similarity between a pair of graphs as the
+  minimal "transformation" cost from one graph to another in the learnable node-embedding
+  space. We show that, if node embedding is able to capture its neighborhood context
+  closely, our proposed similarity function closely approximates both the alignment
+  and the similarity score of classical methods. Furthermore, we also propose an efficient
+  differentiable computation of our proposed objective for model training. Empirically,
+  we demonstrate that the proposed method achieves up to 50%-100% reduction in the Mean
+  Squared Error for the graph similarity approximation task and up to 20% improvement
+  in the retrieval evaluation metrics for the graph retrieval task. The source code
+  is available at https://github.com/khoadoan/GraphOTSim.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">doan2021interpretable</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{SIGIR}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3404835.3462960}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/khoadoan/GraphOTSim}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{doan2021interpretable.pdf}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{https://github.com/khoadoan/GraphOTSim/raw/main/resources/SIGIR21-fp0937-slides.pdf}</span><span class="p">,</span>
+  <span class="na">video</span> <span class="p">=</span> <span class="s">{https://www.youtube.com/watch?v=IWxxsuFPsgs&amp;t=1s}</span><span class="p">,</span>
+  <span class="na">teaser</span> <span class="p">=</span> <span class="s">{doan2021interpretable.png}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">submissions</span> <span class="p">=</span> <span class="s">{AAAI'21 -- WWW'21 -- SIGIR'21}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doan, Khoa D and Manchanda, Saurav and Mahapatra, Suchismit and Reddy, Chandan K}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Interpretable Graph Similarity Computation via Differentiable Optimal Alignment of Node Embeddings}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{9781450380379}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3404835.3462960}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{44th International ACM SIGIR Conference on Research and Development in Information Retrieval}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{665–674}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{10}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{similarity search, model interpretability, graph similarity, GCN}</span><span class="p">,</span>
+  <span class="na">location</span> <span class="p">=</span> <span class="s">{Virtual Event, Canada}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{SIGIR '21}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="submissions hidden">
+      <p>AAAI'21 -- WWW'21 -- SIGIR'21</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">WWW</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="doan2020efficient" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">WWW</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Efficient Implicit Unsupervised Text Hashing Using Adversarial Autoencoder         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="https://people.cs.vt.edu/reddy/index.html" target="_blank">Chandan K Reddy</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Proceedings of The Web Conference</em>
+      
+      
+        2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://dl.acm.org/doi/abs/10.1145/3366423.3380150" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+      
+      <a href="https://people.cs.vt.edu/~reddy/papers/WWW20a.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Searching for documents with semantically similar content is a fundamental problem
+  in the information retrieval domain with various challenges, primarily, in terms of
+  efficiency and effectiveness. Despite the promise of modeling structured dependencies
+  in documents, several existing text hashing methods lack an efficient mechanism to
+  incorporate such vital information. Additionally, the desired characteristics of an
+  ideal hash function, such as robustness to noise, low quantization error and bit balance/uncorrelation,
+  are not effectively learned with existing methods. This is because of the requirement
+  to either tune additional hyper-parameters or optimize these heuristically and explicitly
+  constructed cost functions. In this paper, we propose a Denoising Adversarial Binary
+  Autoencoder (DABA) model which presents a novel representation learning framework
+  that captures structured representation of text documents in the learned hash function.
+  Also, adversarial training provides an alternative direction to implicitly learn a
+  hash function that captures all the desired characteristics of an ideal hash function.
+  Essentially, DABA adopts a novel single-optimization adversarial training procedure
+  that minimizes the Wasserstein distance in its primal domain to regularize the encoder’s
+  output of either a recurrent neural network or a convolutional autoencoder. We empirically
+  demonstrate the effectiveness of our proposed method in capturing the intrinsic semantic
+  manifold of the related documents. The proposed method outperforms the current state-of-the-art
+  shallow and deep unsupervised hashing methods for the document retrieval task on several
+  prominent document collections.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">doan2020efficient</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{WWW}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3366423.3380150}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://dl.acm.org/doi/abs/10.1145/3366423.3380150}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://people.cs.vt.edu/~reddy/papers/WWW20a.pdf}</span><span class="p">,</span>
+  <span class="na">teaser</span> <span class="p">=</span> <span class="s">{doan2020efficient.png}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doan, Khoa D and Reddy, Chandan K}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Efficient Implicit Unsupervised Text Hashing Using Adversarial Autoencoder}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{9781450370233}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3366423.3380150}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of The Web Conference}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{684–694}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{autoencoder, Hashing, adversarial training, deep learning.}</span><span class="p">,</span>
+  <span class="na">location</span> <span class="p">=</span> <span class="s">{Taipei, Taiwan}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{WWW '20}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">arXiv</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="badirli2020gradient" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">arXiv</abbr>
+            
+          
+          </span>
+        
+        
+        Gradient boosting neural networks: Grownet         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://scholar.google.com/citations?user=Mkaq4VYAAAAJ&amp;hl=en" target="_blank">Sarkhan Badirli</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://xuanqing94.github.io/" target="_blank">Xuanqing Liu</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://zmxing.github.io/" target="_blank">Zhengming Xing</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  
+                    <a href="https://avradeep1.github.io/" target="_blank">Avradeep Bhowmik</a>,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="http://www.keerthis.com/" target="_blank">Sathiya K Selvaraj</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>arXiv preprint arXiv:2002.07971</em>
+      
+      
+        2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://arxiv.org/pdf/2002.07971.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+      <a href="https://github.com/sbadirli/GrowNet" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+        
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>A novel gradient boosting framework is proposed where shallow neural networks are employed as ``weak learners''. General loss functions are considered under this unified framework with specific examples presented for classification, regression, and learning to rank. A fully corrective step is incorporated to remedy the pitfall of greedy function approximation of classic gradient boosting decision tree. The proposed model rendered outperforming results against state-of-the-art boosting methods in all three tasks on multiple datasets. An ablation study is performed to shed light on the effect of each model components and model hyperparameters.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">badirli2020gradient</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2002.07971}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/sbadirli/GrowNet}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://arxiv.org/pdf/2002.07971.pdf}</span><span class="p">,</span>
+  <span class="na">teaser</span> <span class="p">=</span> <span class="s">{badirli2020gradient.png}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Gradient boosting neural networks: Grownet}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Badirli, Sarkhan and Liu, Xuanqing and Xing, Zhengming and Bhowmik, Avradeep and Doan, Khoa D and Selvaraj, Sathiya K}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2002.07971}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <!-- <div class="col-sm-1 abbr">
+  
+    <div>
+    
+    <abbr class="badge">CIKM</abbr>
+    
+    </div>
+  
+  </div> -->
+
+  <div id="doan2019adversarial" class="col-sm-12">
+    
+    
+    
+
+    
+      <div class="title">
+        
+          <span class="abbr">
+          
+            
+              <abbr class="badge">CIKM</abbr>
+            
+          
+          </span>
+        
+        
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+          <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr>
+        </span>
+
+        
+        Adversarial Factorization Autoencoder for Look-Alike Modeling         
+      </div>
+      <div class="author">
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                <u>Khoa D Doan</u>,
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  
+                    Pranjul Yadav,
+                  
+                
+            
+                
+              
+            
+          
+        
+          
+          
+          
+
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+            
+              
+                
+                  and <a href="https://people.cs.vt.edu/reddy/index.html" target="_blank">Chandan K Reddy</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Proceedings of the 28th ACM International Conference on Information and Knowledge Management</em>
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+      
+      <a href="https://dmkd.cs.vt.edu/papers/CIKM19.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Digital advertising is performed in multiple ways, for e.g., contextual, display-based
+  and search-based advertising. Across these avenues, the primary goal of the advertiser
+  is to maximize the return on investment. To realize this, the advertiser often aims
+  to target the advertisements towards a targeted set of audience as this set has a
+  high likelihood to respond positively towards the advertisements. One such form of
+  tailored and personalized, targeted advertising is known as look-alike modeling, where
+  the advertiser provides a set of seed users and expects the machine learning model
+  to identify a new set of users such that the newly identified set is similar to the
+  seed-set with respect to the online purchasing activity. Existing look-alike modeling
+  techniques (i.e., similarity-based and regression-based) suffer from serious limitations
+  due to the implicit constraints induced during modeling. In addition, the high-dimensional
+  and sparse nature of the advertising data increases the complexity. To overcome these
+  limitations, in this paper, we propose a novel Adversarial Factorization Autoencoder
+  that can efficiently learn a binary mapping from sparse, high-dimensional data to
+  a binary address space through the use of an adversarial training procedure. We demonstrate
+  the effectiveness of our proposed approach on a dataset obtained from a real-world
+  setting and also systematically compare the performance of our proposed approach with
+  existing look-alike modeling baselines.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">doan2019adversarial</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{CIKM}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://dmkd.cs.vt.edu/papers/CIKM19.pdf}</span><span class="p">,</span>
+  <span class="na">teaser</span> <span class="p">=</span> <span class="s">{doan2019adversarial.png}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Doan, Khoa D and Yadav, Pranjul and Reddy, Chandan K}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Adversarial Factorization Autoencoder for Look-Alike Modeling}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{9781450369763}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3357384.3357807}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3357384.3357807}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 28th ACM International Conference on Information and Knowledge Management}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{2803–2812}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{10}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{deep learning, autoencoder, hashing, factorization, adversarial training, look-alike modeling}</span><span class="p">,</span>
+  <span class="na">location</span> <span class="p">=</span> <span class="s">{Beijing, China}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{CIKM '19}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+</ol>
+  <div class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
+    <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr> Majority of work done by MAIL/SAIL members!
+  </div>
+
+  <div>
+    <a class="btn btn-sm" role="button" style="color: black; border: 1px solid black; font-style: normal; padding: 0.0rem 0.0rem 0.0rem 0.0rem;">Submission History</a> shows the venues where the work has been submitted (🙃 including <strong>rejections</strong> 🙃). I hope some of my poor rejection/failure histories (record now is 10 rejections 😅) give you some encouragement to try again when things don't work out (don't give up -- good work doesn't need to be rushed)!
+  </div>
+</div>
+
+    
+
+    <hr>
+
+    <div class="news">
+      <h2>Open Office Hour</h2>
+    <p>
+      I will ocassionally be holding group open office hours (fully ONLINE) for *anyone*. 
+      Feel free to  <a href="#open-office-hour-calendar">sign up</a> to connect, chat, or ask any questions. 
+    </p>
+
+    <p>When I was a student, I was clueless sometimes (if not most of the time) and I had no idea how to get help. 
+      I hope that, via this modest effort, I can share some experience with you, as well as address some questions you may have, 
+      using my experience working in both industry and academia and applied and research projects, 
+      as well as experience in studying abroad in the US. 
+    <strong>I encourage to converse in English.</strong>
+    <!-- Calendly inline widget begin -->
+    </p>
+<div id="open-office-hour-calendar" class="calendly-inline-widget" data-url="https://calendly.com/khoa-vinuni/mail-open-office-hour" style="min-width:320px;height:950px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!-- Calendly inline widget end -->
+    </div>
+    <p>This effort is inspired by <a href="https://mlcollective.org/services/#mloh">ML Collective</a></p>
+
+    
+  </article>
+  <!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=6Aazaa3W3ib-sAIfPEQYBd0A-PM2ZbkZfCUcYo54GsE'></script> -->
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<div class="container mt-0">
+  <em>The brick walls are there for a reason. The brick walls are not there to keep us out. The brick walls are there to give us a chance to show how badly we want something</em> -- <a href="https://en.wikipedia.org/wiki/Randy_Pausch">Randy Pausch</a>
+
+</div>
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=200&amp;t=n&amp;d=6Aazaa3W3ib-sAIfPEQYBd0A-PM2ZbkZfCUcYo54GsE&amp;co=233d4d"></script>
+
+
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    © Copyright 2024 Khoa D Doan.
+    
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
