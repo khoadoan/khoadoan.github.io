@@ -11,7 +11,7 @@ nav: true
 weight: 10
 ---
 
-<h5 style="color:red">***Warning: This page is severely out of date. Update coming soon in Summer 2024!</h5>
+<!-- <h5 style="color:red">***Warning: This page is severely out of date. Update coming soon in Summer 2024!</h5> -->
 
 <!-- Here at **MAIL**, We develop computational frameworks that enable existing complex/deep models to be more suitable for practical uses. We focus on improving the following aspects of existing models: (i) training/inference, (ii) realistic assumptions, (iii) algorithmic robustness, and (iv) efficiency in constrained settings. Most of our ML/AI solutions center around large-scale approaches that have low computational complexity and require less human effort.  -->
 
@@ -26,27 +26,64 @@ Our research focuses on understanding the practical limits of using existing ML 
 
 Our goal, therefore, is to develop computational frameworks that enable existing complex/deep models to be more suitable for practical uses. We focus on improving the following aspects of existing models: (i) **training/inference**, (ii) **realistic assumptions**, (iii) **algorithmic robustness**, and (iv) **efficiency in constrained settings**. Most of our ML/AI solutions center around generative-based approaches that have low computational complexity and require less human effort. Currently, our research activities include, but not limited to, the following themes (*with selected publications*):
 
+<span style='font-size:1.2em'>**Trustworthy Machine Learning**</span>
+
+We focus in several issues such as security vulnerabilities in training data, training process, and model inference, robust predictions under missing data and OOD scenarios, and vulnerabilities in Federated Learning systems.
+
+* Overcoming Catastrophic Forgetting in Federated Class-Incremental Learning via Federated Global Twin Generator (2024 by Nguyen et al)
+* Estimating Uncertainties of Multimodal Models with Missing Modalities (2024 Nguyen et al.)
+* Non-Cooperative Backdoor Attacks in Federated Learning: A New Threat Landscape (2024 by Nguyen et al.)
+* Everyone Can Attack: Repurpose Lossy Compression as a Natural Backdoor Attack
+(2024 by Yang et al.)
+* Synthesizing Physical Backdoor Datasets: An Automated Framework Leveraging Deep Generative Models (2024 by Yang et al.)
+* Flatness-aware Sequential Learning Generates Resilient Backdoors (***ECCV*** 2024 by Pham et al.)
+* Data Poisoning Quantization Backdoor Attack (***ECCV*** 2024 by Huynh et al.)
+* Composite Concept Extraction through Backdooring (**ICPR*** 2024 by Ghosh et al.)
+* Fooling the Textual Fooler via Randomizing Latent Representations (***ACL*** 2024 by Hoang et al.)
+* Understanding the Robustness of Randomized Feature Defense Against Query-Based Adversarial Attacks (***ICLR*** 2024 by Nguyen et al.)
+* Backdoor attacks and defenses in federated learning: Survey, challenges and future research directions (***EAAI*** 2024 by Nguyen et al.)
+* Iba: Towards irreversible backdoor attacks in federated learning (***NeurIPS*** 2023 by Nguyen et al.)
+* A Cosine Similarity-based Method for Out-of-Distribution Detection (***ICML-W*** 2023 by Nguyen et al.)
+* Clean-label Backdoor Attacks by Selectively Poisoning with Limited Information from Target Class (***NeurIPS-W*** 2023 by Nguyen et al.)
+* Defending backdoor attacks on vision transformer via patch processing  (***AAAI*** 2023 by Doan et al.)
+* Marksman Backdoor: Backdoor Attacks with Arbitrary Target Class (***NeurIPS*** 2022 by Doan et al.)
+* Backdoor Attack with Imperceptible Input and Latent Modification (***NeurIPS*** 2021 by Doan et al.)
+* LIRA: Learnable, Imperceptible and Robust Backdoor Attacks (***ICCV*** 2021 by Doan et al.)
+
 <span style='font-size:1.2em'>**Information Retrieval and Applications**</span>
 
-* Interpretable Graph Similarity Computation via Differentiable Optimal Alignment of Node Embeddings (*SIGIR* 2021 by Doan et al.)
-* Efficient Implicit Unsupervised Text Hashing using Adversarial Autoencoder (*WWW* 2020 by Doan et al.)
-* Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance (*arxiv* 2021 by Doan et al.)
-* Generative Hashing Network (*ACCV* 2022 by Doan et al.)
-* EBM Hashing Network (*Under Submission* 2021 by Doan et al.)
-* One Loss for Quantization: Deep Hashing with Discrete Wasserstein Distributional Matching  (*CVPR* 2022 by Doan et al.)
+We focus in hashing-based methods and retrieval with complex, non-metric measures.
+
+* Cooperative Learning of Multipurpose Descriptor and Contrastive Pair Generator via Variational MCMC Teaching for Supervised Image Hashing (2024 by Doan et al)
 * Asymmetric Hashing for Fast Ranking via Neural Network Measures  (*SIGIR* 2023 by Doan et al.)
+* One Loss for Quantization: Deep Hashing with Discrete Wasserstein Distributional Matching  (*CVPR* 2022 by Doan et al.)
+* Generative Hashing Network (*ACCV* 2022 by Doan et al.)
+* Interpretable Graph Similarity Computation via Differentiable Optimal Alignment of Node Embeddings (*SIGIR* 2021 by Doan et al.)
+* Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance (2021 by Doan et al.)
+* Efficient Implicit Unsupervised Text Hashing using Adversarial Autoencoder (*WWW* 2020 by Doan et al.)
 
-<span style='font-size:1.2em'>**Generative Models**</span>
+<span style='font-size:1.2em'>**Efficient Generative AI**</span>
 
-* Image Generation Via Minimizing Frechet Distance in Discriminator Feature Space (*arxiv* 2021 by Doan et al.)
-* Regression via implicit models and optimal transport cost minimization (*arxiv* 2020 by Manchanda et al.)
+We focus on developing low-resource algorithms for generative AIs.
 
-<span style='font-size:1.2em'>**AI Backdoor Security with Generative Models**</span>
+* Sparse Watermarking in LLMs with Enhanced Text Quality (2024 by Hoang et al.)
+* Fair Generation in LLMs with RAG (Chu et al.)
+* Reward Over-optimization in Direct Alignment Algorithms with Adaptive Learning (2024 by Nguyen et al.)
+* Predictive Concept Attribution in Difussion Models (by Nguyen et al.)
+* Synthesizing Physical Backdoor Datasets: An Automated Framework Leveraging Deep Generative Models (2024 by Yang et al.)
+* Image Generation Via Minimizing Frechet Distance in Discriminator Feature Space (2021 by Doan et al.)
+
+<span style='font-size:1.2em'>**Low-resource Machine Learning**</span>
+
+Currently, a large part of our research focuses on solving various societal challenges with AI in Vietnam. We're working on problems such as low-resource NLP, low-resource remote-sensing predictive algorithms, cross-cultural language understanding, and visual question answering algorithms for medical domain. For more information, please visit the [Center for Envrionmental Intelligence](https://cei.vinuni.edu.vn/) (**CEI**, where Prof. Khoa D. Doan is currently the Environment Monitoring Lab Director) and [VinUni-Illinois Smart Health Center](https://smarthealth.vinuni.edu.vn/) (**VISHC**, where Prof. Khoa D. Doan is currently the Associate Director)
+
+
+<!-- <span style='font-size:1.2em'>**AI Backdoor Security with Generative Models**</span>
 
 * Backdoor Attack with Imperceptible Input and Latent Modification (*NeurIPS* 2021 by Doan et al.)
 * LIRA: Learnable, Imperceptible and Robust Backdoor Attacks (*ICCV* 2021 by Doan et al.)
 * Adversarial Defenses for Vision Transformers   (*Under Submission* 2022 by Peng et al.)
 * Marksman Backdoor: Backdoor Attacks with Arbitrary Target Class (*NeurIPS* 2022 by Doan et al.)
-* Defending backdoor attacks on vision transformer via patch processing  (*AAAI* 2023 by Doan et al.)
+* Defending backdoor attacks on vision transformer via patch processing  (*AAAI* 2023 by Doan et al.) -->
 
 <!-- # Industry Interests -->

@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="post">
   <!-- <header class="post-header">
     <h2 class="post-title">{{ page.title }}</h2>
@@ -33,8 +32,14 @@ layout: default
     <div class="team-meta-standalone">
       <!-- <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2> -->
       <h3 class="team-name">{{ site.full_name }}</h3>                    
-      <p class="team-title">{{ site.jobtitle }}</p>              
-      <p class="team-title">{{ site.department }}</p>
+      <p class="team-title">{{ site.jobtitle }} -- {{ site.department }}</p>
+      <!-- <p class="team-title">{{ site.jobtitle }}</p>              
+      <p class="team-title">{{ site.department }}</p> -->
+
+      {% if site.secondjobtitle %}
+      <p class="team-title">{{ site.secondjobtitle }} -- {{ site.seconddepartment }}</p>
+      {% endif %}
+
       [<a href="team">more about me and our group</a> | <a href="#open-office-hour-calendar">open office hour</a> 
       <i class="fa fa-calendar" aria-hidden="true"></i>
       <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check-fill" viewBox="0 0 20 20">
@@ -67,7 +72,11 @@ layout: default
             <a href="https://minhdo.ece.illinois.edu/">Minh Do</a>, 
             <a href="https://aisecure.github.io/">Bo Li</a>, etc...), please also fill in the form <a href="https://forms.gle/EXSe6Sb7SRsh6n2y6">here</a>.
           </li> -->
+
           
+          <li><strong style="color:red;font-style: italic;">:fire:Several Positions (PhD, Master, Research Assistants, Software Developers):fire:</strong>
+            are SOON posted (by Mid November, 2024). Please check back in a few weeks for potential collaborations.
+          </li>
           
             <li><strong>Other collaboration?</strong> Please reach out via <a href="mailto:{{site.email}}">email</a>.</li>                    
           </ul>                  
@@ -145,11 +154,18 @@ layout: default
       as well as experience in studying abroad in the US. 
     <strong>I encourage to converse in English.</strong>
     <!-- Calendly inline widget begin -->
-    <div id="open-office-hour-calendar" class="calendly-inline-widget" data-url="https://calendly.com/khoa-vinuni/mail-open-office-hour" style="min-width:320px;height:950px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!-- <div id="open-office-hour-calendar" class="calendly-inline-widget" data-url="https://calendly.com/khoa-vinuni/mail-open-office-hour" style="min-width:320px;height:950px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
     <!-- Calendly inline widget end -->
+    <!-- </div> -->
+    
+    <div id="open-office-hour-calendar" class="calendly-inline-widget" style="position: relative;min-width:320px;height:950px;" data-processed="true"><div class="calendly-spinner"><div class="calendly-bounce1"></div><div class="calendly-bounce2"></div><div class="calendly-bounce3"></div></div>
+    <iframe src='https://outlook.office365.com/owa/calendar/MAILPublic@vinuni.edu.vn/bookings/s/V4kX-LYYsk6V06I8N_3V2w2' width='100%' height='100%' frameborder="0"></iframe>
     </div>
+
+    
     <p>This effort is inspired by <a href="https://mlcollective.org/services/#mloh">ML Collective</a></p>
+
 
     {% if page.social %}
     <div class="social">

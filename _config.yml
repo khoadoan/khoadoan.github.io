@@ -13,7 +13,9 @@ site_icon: "assets/img/icon-v2.png"
 title: blank # the website title (if blank, full name will be used instead)
 full_name: Khoa D Doan
 jobtitle: Assistant Professor
-department: "<a href='https://vinuni.edu.vn/college-of-engineering-computer-science/'>College of Engineering and Computer Science</a>, <a href='https://vinuni.edu.vn/'>VinUniversity</a>, Vietnam"
+department: "<a href='https://vinuni.edu.vn/college-of-engineering-computer-science/'>College of Engineering & Computer Science</a>, <a href='https://vinuni.edu.vn/'>VinUniversity</a>"
+secondjobtitle: Associate Director
+seconddepartment: "<a href='https://smarthealth.vinuni.edu.vn/'>VinUni-Illinois Smart Health Center</a>"
 first_name: Khoa
 middle_name: D
 last_name: Doan
