@@ -11,6 +11,7 @@
   author={Khvatskii, Grigorii and Moniz, Nuno and Doan, Khoa D and Chawla, Nitesh},
   booktitle={8th International Conference on Data Science and Management of Data},
   year={2024},
+  abstract={The unique characteristics of text data make classification tasks a complex problem. Advances in unsupervised and semi-supervised learning and autoencoder architectures addressed several challenges. However, they still struggle with imbalanced text classification tasks, a common scenario in real-world applications, demonstrating a tendency to produce embeddings with unfavorable properties, such as class overlap. In this paper, we show that leveraging class-aware contrastive optimization combined with denoising autoencoders can successfully tackle imbalanced text classification tasks, achieving better performance than the current state-of-the-art. Concretely, our proposal combines reconstruction loss with contrastive class separation in the embedding space, allowing a better balance between the truthfulness of the generated embeddings and the model's ability to separate different classes. Compared with an extensive set of traditional and state-of-the-art competing methods, our proposal demonstrates a notable increase in performance across a wide variety of text datasets.},
 
   bibtex_show={true},
   abbr={CODS-COMAD},
@@ -24,6 +25,7 @@
   author={Pham, Hoang V and Ta, The-Anh and Tran, Anh and Doan, Khoa D},
   booktitle={European Conference on Computer Vision},
   year={2024},
+  abstract={Recently, backdoor attacks have become an emerging threat to the security of machine learning models. From the adversary's perspective, the implanted backdoors should be resistant to defensive algorithms, but some recently proposed fine-tuning defenses can remove these backdoors with notable efficacy. This is mainly due to the catastrophic forgetting (CF) property of deep neural networks. This paper counters CF of backdoors by leveraging continual learning (CL) techniques. We begin by investigating the connectivity between a backdoored and fine-tuned model in the loss landscape. Our analysis confirms that fine-tuning defenses, especially the more advanced ones, can easily push a poisoned model out of the backdoor regions, making it forget all about the backdoors. Based on this finding, we re-formulate backdoor training through the lens of CL and propose a novel framework, named Sequential Backdoor Learning (SBL), that can generate resilient backdoors. This framework separates the backdoor poisoning process into two tasks: the first task learns a backdoored model, while the second task, based on the CL principles, moves it to a backdoored region resistant to fine-tuning. We additionally propose to seek flatter backdoor regions via a sharpness-aware minimizer in the framework, further strengthening the durability of the implanted backdoor. Finally, we demonstrate the effectiveness of our method through extensive empirical experiments on several benchmark datasets in the backdoor domain. The source code is available at https://github.com/mail-research/SBL-resilient-backdoors},
 
   code={https://github.com/mail-research/SBL-resilient-backdoors},
   bibtex_show={true},
@@ -39,6 +41,7 @@
   author={Huynh, Tran and Tran, Anh and Doan, Khoa D and Pham, Tung},
   booktitle={European Conference on Computer Vision},
   year={2024},
+  abstract={Deep learning (DL) models are often large and require a lot of computing power. Hence, model quantization is frequently used to reduce their size and complexity, making them more suitable for deployment on edge devices or achieving real-time performance. It has been previously shown that standard quantization frameworks can be exploited to activate the backdoor in a DL model. This means that an attacker could create a hijacked model that appears normal and free from backdoors (even when examined by state-of-the-art defenses), but when it is quantized, the backdoor is activated, and the attacker can control the model’s output. Existing backdoor attack methods on quantization models require full access to the victim model, which might not hold in practice. In this work, we focus on designing a novel quantization backdoor based on data poisoning, which requires zero knowledge of the target model. The key component is a trigger pattern generator, which is trained together with a surrogate model in an alternating manner. The attack’s effectiveness is tested on multiple benchmark datasets, including CIFAR10, CelebA, and ImageNet10, as well as state-of-the-art backdoor defenses.},
 
   bibtex_show={true},
   abbr={ECCV},
@@ -52,6 +55,9 @@
   author={Ghosh, Banibrata and Harikumar, Haripriya and Doan, Khoa D and Venkatesh, Svetha and Rana, Santu},
   booktitle={27th International Conference on Pattern Recognition},
   year={2024},
+  abstract={Learning composite concepts, such as "red car", from individual
+examples—like a white car representing the concept of "car" and a red strawberry representing the concept of "red"—is inherently challenging. This paper introduces a novel method called Composite Concept Extractor (CoCE), which leverages techniques from traditional backdoor attacks to learn these composite concepts in a zero-shot setting, requiring
+only examples of individual concepts. By repurposing the trigger-based model backdooring mechanism, we create a strategic distortion in the manifold of the target object (e.g., "car") induced by example objects with the target property (e.g., "red") from objects "red strawberry", ensuring the distortion selectively affects the target objects with the target property. Contrastive learning is then employed to further refine this distortion and a method is formulated for detecting objects that are influenced by the distortion. Extensive experiments with in-depth analysis across different datasets demonstrates the utility and applicability of our proposed approach.},
 
   bibtex_show={true},
   abbr={ICPR},
