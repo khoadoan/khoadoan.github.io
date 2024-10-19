@@ -50,11 +50,11 @@ layout: default
     <div class="clearfix">
       {{ content }}
       <div class="team-meta-standalone">
-        <h3 class="team-name">{{ site.full_name }}</h3>
-        <p class="team-title">{{ site.jobtitle }} -- {{ site.department }}</p>
+        <p class="team-name"  style="font-size: 0.9rem;">{{ site.full_name }}</p>
+        <p class="team-title"  style="font-size: 0.8rem;">{{ site.jobtitle }} -- {{ site.department }}</p>
   
         {% if site.secondjobtitle %}
-        <p class="team-title">{{ site.secondjobtitle }} -- {{ site.seconddepartment }}</p>
+        <p class="team-title"  style="font-size: 0.8rem;">{{ site.secondjobtitle }} -- {{ site.seconddepartment }}</p>
         {% endif %}
   
         <!-- [<a href="team">more about me and our group</a> | <a href="#open-office-hour-calendar">open office hour</a>  -->
