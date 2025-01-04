@@ -24,14 +24,17 @@ weight: 10
 
 <!-- <h1 class="post-title">{{ "Research Interests"}}</h1><a name="research_interests"></a> -->
 # Research Interests
+Our research seek answers to the following question: *Are existing ML methods simple to use and reliable for practical uses*? **Simplicity**, given the context where ML is to be deployed, refers to the ability to (i) feasibly build or implement the method, (ii) execute the deployed model efficiently, and (iii) evolve the deployed model with less effort. **Reliability** relates to (i) whether we can rely on the model to solve the intended task well, (ii) whether this performance is preserved under frequently perturbed environments in practice such as data corruptions or distributional changes, and (iii) whether the model is resilient to (i.e., its performance is not significantly affected by) various forms of security attacks such as adversarial examples and causal attacks. In this sense, I believe that many existing ML methods, including those with *complex* deep neural networks (DNNs), are *reliable in ideal and high-resource settings* but *not yet reliable and simple to use given real-world constraints*. The effort to answer this question will help us truly realize the potential of AI/ML methodology in practice, further advancing its societal benefits, especially for many low-resource and low-income communities that have yet equally benefitted from these advancements.
 
-Our research focuses on understanding the practical limits of using existing ML methods in the real-world. Essential, we seek answers to the following question: *How to make ML models simpler & reliable to use in constrained settings*? **Simplicity** refers to the ability to (i) build or implement the method easily, (ii) execute the deployed model efficiently, and (iii) evolve the deployed model with less effort. **Reliability** relates to (i) whether we can rely on the model to solve the intended task well, (ii) whether this performance is preserved under frequently perturbed environments in practice such as data corruptions or distributional changes, and (iii) whether the model is resilient to (i.e., its performance is not significantly affected by) various forms of security attacks such as adversarial examples and causal attacks. In this sense, we believe that many existing ML methods, including those with *complex* deep neural networks, are *reliable* but *not yet easy-to-use* because they do not satisfy various constraints seen in real-world applications. We also strongly believe the effort to answer this question will help us truly realize the potential of AI/ML methodology in practice.  
+<!-- Our research focuses on understanding the practical limits of using existing ML methods in the real-world. Essential, we seek answers to the following question: *How to make ML models simpler & reliable to use in constrained settings*? **Simplicity** refers to the ability to (i) build or implement the method easily, (ii) execute the deployed model efficiently, and (iii) evolve the deployed model with less effort. **Reliability** relates to (i) whether we can rely on the model to solve the intended task well, (ii) whether this performance is preserved under frequently perturbed environments in practice such as data corruptions or distributional changes, and (iii) whether the model is resilient to (i.e., its performance is not significantly affected by) various forms of security attacks such as adversarial examples and causal attacks. In this sense, we believe that many existing ML methods, including those with *complex* deep neural networks, are *reliable* but *not yet easy-to-use* because they do not satisfy various constraints seen in real-world applications. We also strongly believe the effort to answer this question will help us truly realize the potential of AI/ML methodology in practice.   -->
 
-Our goal, therefore, is to develop computational frameworks that enable existing complex/deep models to be more suitable for practical uses. We focus on improving the following aspects of existing models: (i) **training/inference**, (ii) **realistic assumptions**, (iii) **algorithmic robustness**, and (iv) **efficiency in constrained settings**. Most of our ML/AI solutions center around generative-based approaches that have low computational complexity and require less human effort. Currently, our research activities include, but not limited to, the following themes (*with selected publications*):
+Our goal, therefore, is to develop computational frameworks that enable existing complex/deep models to be more suitable for practical uses. We focus on studying and improving the following aspects of existing ML models: (i) **training**, (ii) **inference**, (iii) **realistic assumptions**, and (iv) **security/robustness**. Our current research scope roughly falls into the following areas or themes:
+<!-- therefore, is to develop computational frameworks that enable existing complex/deep models to be more suitable for practical uses. We focus on improving the following aspects of existing models: (i) **training/inference**, (ii) **realistic assumptions**, (iii) **algorithmic robustness**, and (iv) **efficiency in constrained settings**. Most of our ML/AI solutions center around generative-based approaches that have low computational complexity and require less human effort. Currently, our research activities include, but not limited to, the following themes (*with selected publications*): -->
 
-<span style='font-size:1.2em'>**Trustworthy Machine Learning**</span>
+<span style='font-size:1.2em'>**Robust Machine Learning**</span>
 
-We focus in several issues such as security vulnerabilities in training data, training process, and model inference, robust predictions under missing data and OOD scenarios, and vulnerabilities in Federated Learning systems.
+<!-- We focus in several issues such as security vulnerabilities in training data, training process, and model inference, robust predictions under missing data and OOD scenarios, and vulnerabilities in Federated Learning systems. -->
+We first aim to investigate the security and reliability issues of existing ML models under various forms of attacks -- including causative attacks (such as trojan/backdoor attacks) and exploratory attacks (such as adversarial examples) -- and test-time distributional changes, then develop suitable countermeasures and mitigation approaches to ensure their safe and effective deployment in real-world scenarios.  
 
 * Overcoming Catastrophic Forgetting in Federated Class-Incremental Learning via Federated Global Twin Generator (2024 by Nguyen et al)
 * Estimating Uncertainties of Multimodal Models with Missing Modalities (2024 Nguyen et al.)
@@ -53,9 +56,10 @@ We focus in several issues such as security vulnerabilities in training data, tr
 * Backdoor Attack with Imperceptible Input and Latent Modification (***NeurIPS*** 2021 by Doan et al.)
 * LIRA: Learnable, Imperceptible and Robust Backdoor Attacks (***ICCV*** 2021 by Doan et al.)
 
-<span style='font-size:1.2em'>**Information Retrieval and Applications**</span>
+<span style='font-size:1.2em'>**Practical Information Retrieval**</span>
 
-We focus in hashing-based methods and retrieval with complex, non-metric measures.
+<!-- We focus in hashing-based methods and retrieval with complex, non-metric measures. -->
+We aim to develop retrieval models, especially the hashing/quantization techniques, that (i) can be trained efficiently on large-scale data, (ii) can make inference decisions in real-time, (iii) can generalize well with limited labeled data,  and (iv) have robust inference such as out-of-distribution and missing-data robustness.
 
 * Cooperative Learning of Multipurpose Descriptor and Contrastive Pair Generator via Variational MCMC Teaching for Supervised Image Hashing (2024 by Doan et al)
 * Asymmetric Hashing for Fast Ranking via Neural Network Measures  (*SIGIR* 2023 by Doan et al.)
@@ -65,10 +69,13 @@ We focus in hashing-based methods and retrieval with complex, non-metric measure
 * Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance (2021 by Doan et al.)
 * Efficient Implicit Unsupervised Text Hashing using Adversarial Autoencoder (*WWW* 2020 by Doan et al.)
 
-<span style='font-size:1.2em'>**Efficient Generative AI**</span>
+<span style='font-size:1.2em'>**Generative Modeling and its Applications**</span>
 
-We focus on developing low-resource algorithms for generative AIs.
+<!-- We focus on developing low-resource algorithms for generative AIs. -->
 
+We aim to (i) study and understand the characteristics and principles behind generative models, including generative-adversarial networks, energy-based models, and diffusion models then (ii) develop robust, data-efficient, and/or secured generative-based predictive frameworks, focusing on accelerating security and reliability research in practical applications.
+
+* Unveiling Concept Attribution in Diffusion Models (2024 by Nguyen et al.)
 * Sparse Watermarking in LLMs with Enhanced Text Quality (2024 by Hoang et al.)
 * Fair Generation in LLMs with RAG (Chu et al.)
 * Reward Over-optimization in Direct Alignment Algorithms with Adaptive Learning (2024 by Nguyen et al.)
@@ -78,7 +85,9 @@ We focus on developing low-resource algorithms for generative AIs.
 
 <span style='font-size:1.2em'>**Low-resource Machine Learning**</span>
 
-Currently, a large part of our research focuses on solving various societal challenges with AI in Vietnam. We're working on problems such as low-resource NLP, low-resource remote-sensing predictive algorithms, cross-cultural language understanding, and visual question answering algorithms for medical domain. For more information, please visit the [Center for Envrionmental Intelligence](https://cei.vinuni.edu.vn/) (**CEI**, where Prof. Khoa D. Doan is currently the Environment Monitoring Lab Director) and [VinUni-Illinois Smart Health Center](https://smarthealth.vinuni.edu.vn/) (**VISHC**, where Prof. Khoa D. Doan is currently the Associate Director)
+One of our lifelong passions is to catalyze equitable access to AI tools and approaches in low-resource and low-income communities, starting with the development of high-quality, culture-aware benchmarking systems, and ending with suitable solutions to adapt the existing ML models with satisfactory performance and efficient resource utilization. **This effort will help democratize knowledge in these communities, significantly improving the quality of life of their citizens.**
+
+Consequently, a large part of our research is now devoted to solving various societal challenges with AI in low-resource communities. We're working on problems such as low-resource NLP, low-resource remote-sensing predictive algorithms, cross-cultural language understanding, and visual question answering algorithms for medical domain. For more information, please visit the [Center for Envrionmental Intelligence](https://cei.vinuni.edu.vn/) (**CEI**, where Prof. Khoa D. Doan is currently the Environment Monitoring Lab Director) and [VinUni-Illinois Smart Health Center](https://smarthealth.vinuni.edu.vn/) (**VISHC**, where Prof. Khoa D. Doan is currently the Associate Director)
 
 **VinUni-Illinois Smart Health Center** (<a href="smarthealth.vinuni.edu.vn" id="VISHC">VISHC</a>) --  VISHC is open to collaborate with all researchers and research/industry institutions in Vietnam and around the world. VISHC aims to solve various healthcare related challenges with translational and innovative research. Led by Prof. [Minh Do](https://ece.illinois.edu/about/directory/faculty/minhdo) and Prof. [Helen Nguyen](https://cee.illinois.edu/directory/profile/thn) at UIUC, and Prof. [Khoa D Doan](https://vinuni.edu.vn/people/khoa-d-doan-phd/) at VinUni (*who leads MAIL-Research*), the VISHC's team comprises of world-renowned researchers and talented PhD/Master Students, Research Assistants and Postdocs. Please reach out via [email](mailto:khoa.dd@vinuni.edu.vn) for any collaboration opportunities.
 
