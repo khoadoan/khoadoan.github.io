@@ -1,0 +1,1 @@
+magick mogrify -path social-thumb/ -resize 20% social-img/*
