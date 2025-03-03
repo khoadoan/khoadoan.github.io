@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 <span style="text-transform: uppercase; font-weight: bold">MAIL Research</span> aims to develop <span class="font-weight-bold">Machine Learning Algorithms</span> that **Make Sense** in constrained and large-scale settings with applications in <strong>Advertising</strong>, <strong>Healthcare</strong>, <strong>Sustainability</strong> (Climate, Computing, Agricultural), <strong>Social Goods</strong>... 
 
-[[more about our research](research)] [[more about SAIL Research](https://sail-research.com/) <i class="fa fa-external-link" aria-hidden="true"></i>] [<a href="#open-office-hour-calendar">open office hour</a> 
+[[more about our research](research)] [[SAIL Research](https://sail-research.com/) <i class="fa fa-external-link" aria-hidden="true"></i>] [[photos](/photos) <i class="fa fa-picture-o" />] [<a href="#open-office-hour-calendar">open office hour</a> 
   <i class="fa fa-calendar" aria-hidden="true"></i>]
 
 **VinUni-Illinois Smart Health Center** ([VISHC](smarthealth.vinuni.edu.vn)) --  VISHC is open to collaborate with all researchers and industry practioners inside/oustide of Vietnam to solve healthcare related challenges with translational and innovative research, **together**. Please reach out via [[email](mailto:khoa.dd@vinuni.edu.vn)] for collaboration. [[more about VISHC](research/#VISHC)].
