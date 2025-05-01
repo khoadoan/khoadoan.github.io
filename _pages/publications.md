@@ -7,8 +7,8 @@ nav: true
 weight: 20
 ---
 <div style="font-style: normal">
-<div class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done by MAIL/SAIL members!">
-    <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr> Majority of work done by MAIL/SAIL members!
+<div class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Majority of work done or significant contribution by MAIL/SAIL members!">
+    <abbr class="badge bg-danger"><i class="bi bi-check2"></i></abbr> Majority of work done or significant contribution by MAIL/SAIL members!
 </div>
 
 <div>
