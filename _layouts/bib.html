@@ -51,7 +51,11 @@
         </span>
 
         {% endif %}
+        {% if entry.note %}
+          <abbr class="badge" style="background-color: yellowgreen;">{{entry.note}}</abbr>
+        {% endif %}
         {{entry.title}}         
+        
       </div>
       <div class="author">
         {% for author in entry.author_array %}
