@@ -6,12 +6,13 @@ jobtitle: "RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 url: "https://www.khoadoan.me/team"
-areas: Efficient NLP
+areas: Efficient Inference
 promoted: true
 faculty: false
 research_assistant: true
 urop_assistant: false
 phd_student: false
 weight: 13
-current: true
+current: false
+nextp: PhD Student at UIUC
 ---

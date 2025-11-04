@@ -13,5 +13,6 @@ research_assistant: false
 urop_assistant: true
 phd_student: false
 weight: 506
-current: true
+current: false
+nextp: Research Assistant at MAIL-Research
 ---

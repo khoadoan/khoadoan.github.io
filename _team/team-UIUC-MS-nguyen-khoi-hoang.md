@@ -1,17 +1,17 @@
 ---
-title: "Nghia D Nguyen"
+title: "Hoang K. Nguyen"
 date: 2022-11-01T10:47:58+10:00
-image: "assets/img/team/team-VinUni-2-nghia-d-nguyen-circ.png"
-jobtitle: "PhD Student (UIUC)"
+image: "assets/img/team/gal-1-circ.png"
+jobtitle: "MS Student (UIUC)"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 url: "https://www.khoadoan.me/team"
-areas: Causal ML
+areas: "Mental Health NLP"
 promoted: true
 faculty: false
 research_assistant: false
 urop_assistant: false
 phd_student: true
-weight: 2001
+weight: 20001
 current: true
 ---

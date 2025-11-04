@@ -13,5 +13,6 @@ research_assistant: true
 urop_assistant: false
 phd_student: false
 weight: 7
-current: true
+current: false
+nextp: PhD Student at Institut Polytechnique de Paris
 ---

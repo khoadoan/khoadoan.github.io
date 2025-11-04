@@ -1,18 +1,17 @@
 ---
-title: "Nghia P Hoang"
-date: 2022-11-01T10:47:58+10:00
-image: "assets/img/team/team-RA-9-nghia-pham-hoang-circ.png"
+title: "Hoang Phan"
+date: 2023-05-01T10:47:58+10:00
+image: "assets/img/team/team-VinUni-6-phan-hoang-circ.png"
 jobtitle: "RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 url: "https://www.khoadoan.me/team"
-areas: LLM Apps
+areas: ML on ML
 promoted: true
 faculty: false
 research_assistant: true
 urop_assistant: false
 phd_student: false
-weight: 9
-current: false
-nextp: AI Engineer at FPT
+weight: 506
+current: true
 ---
