@@ -14,7 +14,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-<span style="text-transform: uppercase; font-weight: bold">MAIL Research</span> aims to develop <span class="font-weight-bold">Machine Learning Algorithms</span> that **Make Sense** in constrained and large-scale settings with applications in <strong>Advertising</strong>, <strong>Healthcare</strong>, <strong>Sustainability</strong> (Climate, Computing, Agricultural), <strong>Social Goods</strong>... 
+<span style="text-transform: uppercase; font-weight: bold">MAIL Research</span> aims to develop <span class="font-weight-bold">Machine Learning Algorithms</span> that **Make Sense** in <em>constrained</em> and <em>large-scale</em>, <em>societal</em> applications in <strong>Advertising</strong>, <strong>Healthcare</strong>, <strong>Sustainability</strong> (Remote Sensing, Computing, Agricultural)... 
 
 [[more about our research](research)] [[SAIL Research](https://sail-research.com/) <i class="fa fa-external-link" aria-hidden="true"></i>] [[photos](/photos) <i class="fa fa-picture-o" />] [<a href="#open-office-hour-calendar">open office hour</a> 
   <i class="fa fa-calendar" aria-hidden="true"></i>]

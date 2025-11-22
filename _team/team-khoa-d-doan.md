@@ -22,7 +22,7 @@ Previously, he was a **Researcher** in the Cognitive Computing Lab at [Baidu Res
 
 * **Organizing Chair**: [BUGS Workshop (NeurIPS 2023)](https://neurips2023-bugs.github.io/), [AI4E Workshop (CAI 2024)](https://cai2024-ai4e.github.io/), [ACML 2024](https://acml-conf.org/2024/)
 * **Editorial Board**: [ACM AI Letters](https://dl.acm.org/journal/ailet), [Discover Data (Springer)](https://link.springer.com/journal/44248)
-* **Area Chair** (ML/AI): ICLR (2026), ICML (2025), ICLR (2026), NeurIPS (2024-2025), ACML (2024-2025), AISTATS (2025-2026)
+* **Area Chair** (ML/AI): ICLR (2026), ICML (2025-2026), ICLR (2026), NeurIPS (2024-2025), ACML (2024-2025), AISTATS (2025-2026)
 * **Program Committee** (ML/AI): ICLR (2021-2025), NeurIPS (2020-2023), ICML (2020-2024), AAAI (2021-2026), IJCAI (2017-2019)
 * **Program Committee** (CV): CVPR (2020-2025), ICCV (2021-2025), ECCV (2020-2024), WACV (2022-2025)
 * **Program Committee** (NLP): EMNLP (2023-2025), ACL (2025)
