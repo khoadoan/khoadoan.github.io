@@ -6,6 +6,20 @@
 @string{CVPR = {Conference on Computer Vision and Pattern Recognition,}}
 @string{ACCV = {Asian Conference on Computer Vision,}}
 
+@article{nguyen2026irl ,
+  title={Retrospective Feature Estimation for Continual Learning},
+  author={Nguyen, Nghia D and Nguyen, Hieu T and Li, Ang and Pham, Hoang V and Nguyen, Viet Anh and Doan, Khoa D},
+  year={2026},
+  abstract={The intrinsic capability to continuously learn a changing data stream is a desideratum of deep neural networks (DNNs). However, current DNNs suffer from catastrophic forgetting, which interferes with remembering past knowledge. To mitigate this issue, existing Continual Learning (CL) approaches often retain exemplars for replay, regularize learning, or allocate dedicated capacity for new tasks. This paper investigates an unexplored direction for CL called Retrospective Feature Estimation (RFE). RFE learns to reverse feature changes by aligning the features from the current trained DNN backward to the feature space of the old task, where performing predictions is easier. This retrospective process utilizes a chain of small feature mapping networks called retrospector modules. Empirical experiments on several CL benchmarks, including CIFAR10, CIFAR100, and Tiny ImageNet, demonstrate the effectiveness and potential of this novel CL direction compared to existing representative CL methods.},
+
+  bibtex_show={true},
+  abbr={TMLR},
+  journal={Transactions on Machine Learning Research},
+  pdf={https://openreview.net/pdf?id=9NnhVME4Q6},
+  code={https://github.com/mail-research/IRL-forget-but-recall},
+  selected={true}
+}
+
 @inproceedings{nguyen2025merging3d,
   title={How Many Tokens Do 3D Point Cloud Transformer Architectures Really Need?},
   author={Tran, Tuan A and Nguyen, Duy MH and Tran, Chau H and others},
@@ -174,19 +188,6 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   abbr={PREPRINT},
   pdf={https://arxiv.org/abs/2407.10834},
   code={https://github.com/mail-research/MetaLLM-wrapper/}, 
-  selected={true}
-}
-
-@article{nguyen2024irl ,
-  title={Forget but Recall: Incremental Latent Rectification in Continual Learning},
-  author={Nguyen, Nghia D and Nguyen, Hieu T and Li, Ang and Pham, Hoang V and Nguyen, Viet Anh and Doan, Khoa D},
-  year={2024},
-  abstract={Intrinsic capability to continuously learn a changing data stream is a desideratum of deep neural networks (DNNs). However, current DNNs suffer from catastrophic forgetting, which hinders remembering past knowledge. To mitigate this issue, existing Continual Learning (CL) approaches either retain exemplars for replay, regularize learning, or allocate dedicated capacity for new tasks. This paper investigates an unexplored CL direction for incremental learning called Incremental Latent Rectification or ILR. In a nutshell, ILR learns to propagate with correction (or rectify) the representation from the current trained DNN backward to the representation space of the old task, where performing predictive decisions is easier. This rectification process only employs a chain of small representation mapping networks, called rectifier units. Empirical experiments on several continual learning benchmarks, including CIFAR10, CIFAR100, and Tiny ImageNet, demonstrate the effectiveness and potential of this novel CL direction compared to existing representative CL methods.},
-
-  bibtex_show={true},
-  abbr={PREPRINT},
-  pdf={https://arxiv.org/abs/2312.03419},
-  code={https://github.com/mail-research/IRL-forget-but-recall},
   selected={true}
 }
 
