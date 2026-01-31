@@ -15,4 +15,5 @@ phd_student: false
 weight: 9
 current: false
 nextp: AI Engineer at FPT
+show: true
 ---

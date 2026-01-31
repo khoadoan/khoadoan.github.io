@@ -15,4 +15,5 @@ phd_student: false
 weight: 7
 current: false
 nextp: PhD Student at Institut Polytechnique de Paris
+show: true
 ---

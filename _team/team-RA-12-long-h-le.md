@@ -16,4 +16,5 @@ phd_student: false
 weight: 6
 current: false
 nextp: Master Student at University of Stuttgart
+show: true
 ---

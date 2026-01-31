@@ -15,4 +15,5 @@ phd_student: false
 weight: 10
 current: false
 nextp: PhD Student at Penn State University
+show: true
 ---

@@ -16,4 +16,5 @@ phd_student: false
 weight: 6
 current: false
 nextp: PhD Student at University of Warwick
+show: true
 ---

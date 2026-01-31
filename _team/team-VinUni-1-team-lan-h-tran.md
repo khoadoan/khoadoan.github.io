@@ -17,4 +17,5 @@ phd_student: false
 weight: 501
 current: false
 nextp: Master Student at EPFL
+show: true
 ---

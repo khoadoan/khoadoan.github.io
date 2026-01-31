@@ -16,4 +16,5 @@ phd_student: false
 weight: 105
 current: False
 nextp: PhD Student at UIUC (co-advised)
+show: true
 ---

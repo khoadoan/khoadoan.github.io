@@ -16,4 +16,5 @@ phd_student: false
 weight: 5
 current: false
 nextp: PhD Student at Saarland University
+show: true
 ---

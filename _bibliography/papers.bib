@@ -10,18 +10,20 @@
   title={Retrospective Feature Estimation for Continual Learning},
   author={Nguyen, Nghia D and Nguyen, Hieu T and Li, Ang and Pham, Hoang V and Nguyen, Viet Anh and Doan, Khoa D},
   year={2026},
-  abstract={The intrinsic capability to continuously learn a changing data stream is a desideratum of deep neural networks (DNNs). However, current DNNs suffer from catastrophic forgetting, which interferes with remembering past knowledge. To mitigate this issue, existing Continual Learning (CL) approaches often retain exemplars for replay, regularize learning, or allocate dedicated capacity for new tasks. This paper investigates an unexplored direction for CL called Retrospective Feature Estimation (RFE). RFE learns to reverse feature changes by aligning the features from the current trained DNN backward to the feature space of the old task, where performing predictions is easier. This retrospective process utilizes a chain of small feature mapping networks called retrospector modules. Empirical experiments on several CL benchmarks, including CIFAR10, CIFAR100, and Tiny ImageNet, demonstrate the effectiveness and potential of this novel CL direction compared to existing representative CL methods.},
+  abstract={The intrinsic capability to continuously learn a changing data stream is a desideratum of deep neural networks (DNNs). However, current DNNs suffer from catastrophic forgetting, which interferes with remembering past knowledge. To mitigate this issue, existing Continual Learning (CL) approaches often retain exemplars for replay, regularize learning, or allocate dedicated capacity for new tasks. This paper investigates an unexplored direction for CL called Retrospective Feature Estimation (RFE). RFE learns to reverse feature changes by aligning the features from the current trained DNN backward to the feature space of the old task, where performing predictions is easier. This retrospective process utilizes a chain of small feature mapping networks called retrospector modules. Empirical experiments on several CL benchmarks, including CIFAR10, CIFAR100, and Tiny ImageNet, demonstrate the effectiveness and potential of this novel CL direction compared to existing representative CL methods, motivating further research into retrospective mechanisms as a principled alternative for mitigating catastrophic forgetting in CL. Code is available at: https://github.com/mail-research/retrospective-feature-estimation},
 
   bibtex_show={true},
   abbr={TMLR},
   journal={Transactions on Machine Learning Research},
   pdf={https://openreview.net/pdf?id=9NnhVME4Q6},
-  code={https://github.com/mail-research/IRL-forget-but-recall},
-  selected={true}
+  code={https://github.com/mail-research/retrospective-feature-estimation},
+  selected={true},
+  note={FEATURED},
+  submissions={ICML'24 -- NeurIPS'24 -- ICLR'25 -- ICCV'25 -- WACV'26 -- TMLR'26}
 }
 
 @inproceedings{cao2026sparsellmwatermark,
-  title={Less is More: Sparse Watermarking in LLMs with Enhanced Text Quality},
+  title={SpARK: An Embarrassingly Simple Sparse Watermarking in LLMs with Enhanced Text Quality},
   author={Hoang, Cao-Duy and Le, Hung T. Q. and Chu, Rui and Li, Ping and Zhao, Weijie and Lao, Yingjie and Doan, Khoa D},
   year={2026},
   abstract={With the widespread adoption of Large Language Models (LLMs), concerns about potential misuse have emerged. To this end, watermarking has been adapted to LLM, enabling a simple and effective way to detect and monitor generated text. However, while the existing methods can differentiate between watermarked and unwatermarked text with high accuracy, they often face a trade-off between the quality of the generated text and the effectiveness of the watermarking process. In this work, we present a novel type of LLM watermark, Sparse WatermARK (or SpARK), which aims to mitigate this trade-off by applying watermarks to a small subset of generated tokens distributed across the text. To demonstrate this type of watermark, we introduce two novel variants, SpARK-P and SpARK-R, which achieve sparsity by anchoring watermarked tokens to words that have specific Part-of-Speech (POS) tags and specific hash values w.r.t a pseudorandom hash function, respectively. Our experimental results demonstrate that the proposed watermarking schemes, albeit embarrassingly simple, are incredibly effective, achieving high detectability while generating text that outperforms previous LLM watermarking methods in quality across various tasks. SpARK further advances the watermarking capability for LLMs while maintaining their generated text quality.},
@@ -29,7 +31,8 @@
   abbr={EACL},
   booktitle={Findings of the European Chapter of the Association for Computational Linguistics},
   code={https://github.com/mail-research/sparse-llm-watermarking},
-  selected={true}
+  selected={true},
+  submissions={NeurIPS'24 -- ICLR'25 -- COLM'25 -- ARR'05-25 -- ARR'10-25 (EACL)}
 }
 
 @inproceedings{nguyen2025merging3d,
@@ -42,6 +45,7 @@
   bibtex_show={true},
   abbr={NeurIPS},
   selected={true},  
+  submissions={NeurIPS'25}
 }
 
 @inproceedings{nguyen2025ais,
@@ -56,6 +60,7 @@
   pdf={https://arxiv.org/abs/2506.08681},
   selected={true},
   code={https://github.com/mail-research/AIS-Sampling4DAAs},  
+  submissions={ICLR'25 -- COLM'25 (withdraw-missing title) -- NeurIPS'25}
 }
 
 @inproceedings{nguyen2025cad,
@@ -70,6 +75,8 @@
   pdf={https://arxiv.org/abs/2412.02542},
   selected={true},
   code={https://github.com/mail-research/CAD-attribution4diffusion},  
+
+  submissions={ICLR'25 -- CVPR'25 -- ICCV'25 -- NeurIPS'25}
 }
 
 @inproceedings{shojaee2025llmsrbench,

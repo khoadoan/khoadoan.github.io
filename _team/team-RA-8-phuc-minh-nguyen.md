@@ -13,5 +13,7 @@ research_assistant: true
 urop_assistant: false
 phd_student: false
 weight: 8
-current: true
+current: false
+nextp: PhD Student at University of Notre Dame
+show: true
 ---

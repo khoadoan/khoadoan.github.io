@@ -13,5 +13,7 @@ research_assistant: true
 urop_assistant: false
 phd_student: false
 weight: 4
-current: true
+current: false
+nextp: Research/AI Scientist at YTL
+show: true
 ---
