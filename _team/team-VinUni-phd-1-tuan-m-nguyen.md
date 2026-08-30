@@ -2,7 +2,7 @@
 title: "Tuan M Nguyen"
 date: 2022-11-01T10:47:58+10:00
 image: "assets/img/team/team-VinUni-phd-1-tuan-m-nguyen-circ-2.jpg"
-jobtitle: "PhD Student (VinUni)"
+jobtitle: "PhD Student (VinUni, Co-advised with Kok-seng Wong)"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 website: "https://mtuann.github.io/"

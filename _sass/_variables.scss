@@ -31,9 +31,34 @@ $grey-color-dark:     darken($grey-color, 25%);
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Surface / accent colors borrowed from the light theme.
+$off-white-color:     #fff6f8 !default;  // tinted card surface
+$slate-color:         #2f2f41 !default;  // secondary "meta" text
+
 
 // Theme colors
 
 $code-bg-color-light:     rgba($purple-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
+
+
+// Dark theme palette
+//
+// Derived from the light theme rather than a generic grey ramp: the page
+// background is a desaturated version of the light theme's own $slate-color
+// (#2f2f41), and the accent is $blue-color (#0076df) lifted until it clears
+// 4.5:1 on that background. Contrast ratios against $dark-bg-color noted below.
+
+$dark-bg-color:           #1c1c24 !default;  // page background
+$dark-surface-color:      #2a2a36 !default;  // raised surfaces: cards, announcements
+$dark-border-color:       #33333f !default;  // hairlines, dividers
+$dark-divider-color:      #3f3f4d !default;  // faint section rules ("2024", category headings)
+$dark-text-color:         #e4e6eb !default;  // 13.5:1 — body text
+$dark-text-muted-color:   #a0a3ad !default;  //  6.7:1 — timestamps, captions
+$dark-meta-color:         #c3c7d1 !default;  //  9.6:1 — uppercase job titles / labels
+$dark-theme-color:        #4da3ff !default;  //  6.4:1 — links and accents
+$dark-footer-bg-color:    #12121a !default;
+$dark-code-bg-color:      #23232e !default;
+$dark-on-theme-color:     #10131a !default;  // text drawn on top of $dark-theme-color
+$dark-alert-color:        #ff8a8a !default;  //  6.2:1 — the light theme's red, lifted
 

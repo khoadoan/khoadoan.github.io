@@ -13,6 +13,6 @@ research_assistant: false
 urop_assistant: true
 phd_student: false
 weight: 503
-current: false
+current: true
 show: false
 ---

@@ -8,7 +8,7 @@ logo:
   desktop: "assets/img/logo/logo-mail-v2.png"
   desktop_height: "30px"
 
-site_icon: "assets/img/icon-v2.png"
+site_icon: "assets/img/logo-mail-v2.png" # the favicon (also used for the app icon)
 
 title: blank # the website title (if blank, full name will be used instead)
 full_name: Khoa D Doan
@@ -21,7 +21,7 @@ middle_name: D
 last_name: Doan
 email: khoadoan106@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  MAIL (Make AI Lazy again!) Research Lab - We like solving real-world problems with AI and ML. We are a group of researchers, engineers, and students who are passionate about AI and ML. 
 footer_text: >
 
 favorite_quote: >
@@ -117,6 +117,13 @@ collections:
   team:
     output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: team
+    values:
+      layout: team
+
 news_limit: 15
 
 # -----------------------------------------------------------------------------
@@ -144,6 +151,12 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - backup
+  - bk
+  - README.md
+  - LICENSE
+  - CONTRIBUTING.md
+  - "*.bk"
 keep_files:
   - CNAME
   - .nojekyll
@@ -203,7 +216,7 @@ enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            false   # enables switching between light/dark modes
+enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into

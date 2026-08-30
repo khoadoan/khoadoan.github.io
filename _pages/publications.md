@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2017, 2016, 2015, 2014, 2013]
+years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2017, 2016, 2015, 2014, 2013]
 nav: true
 weight: 20
 ---
@@ -12,11 +12,11 @@ weight: 20
 </div>
 
 <div>
-<a class="btn btn-sm" role="button" style="color: black; border: 1px solid black; font-style: normal; padding: 0.0rem 0.0rem 0.0rem 0.0rem;">Submission History</a> shows the venues where the work has been submitted (🙃 including <strong>rejections</strong> 🙃). I hope some of my poor rejection/failure histories (record now is 10 rejections 😅) give you some encouragement to try again when things don't work out (don't give up -- good work doesn't need to be rushed)!
+<a class="btn btn-sm" role="button" style="color: var(--global-text-color); border: 1px solid var(--global-text-color); font-style: normal; padding: 0.0rem 0.0rem 0.0rem 0.0rem;">Submission History</a> shows the venues where the work has been submitted (🙃 including <strong>rejections</strong> 🙃). I hope some of my poor rejection/failure histories (record now is 10 rejections 😅) give you some encouragement to try again when things don't work out (don't give up -- good work doesn't need to be rushed)!
 </div>
 
-<div style="padding-top:1rem; color: red">
-publications by categories in reversed chronological order. An up-to-date list is available on <em><a href="https://scholar.google.com/citations?user=Zz2hMgcAAAAJ&hl=en" style="color:blue; font-size:15px">Google Scholar</a></em>.
+<div class="text-alert" style="padding-top:1rem">
+publications by categories in reversed chronological order. An up-to-date list is available on <em><a href="https://scholar.google.com/citations?user=Zz2hMgcAAAAJ&hl=en" style="color: var(--global-theme-color); font-size:15px">Google Scholar</a></em>.
 </div>
 
 <hr />

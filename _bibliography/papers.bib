@@ -6,6 +6,73 @@
 @string{CVPR = {Conference on Computer Vision and Pattern Recognition,}}
 @string{ACCV = {Asian Conference on Computer Vision,}}
 
+@article{loc2026prism ,
+  title={PRISM: A Multi-Dimensional Benchmark for Evaluating LLM Peer Reviewers},
+  author={Loc, Ngoc PP and Huynh, Toan LV and Khanh, Thanh Tran and Nguyen, Duy A and Pham, Tuan Anh Nguyen and Nguyen, Thanh and Chawla, Nitesh and Buntine, Wray and Wong, Kok-Seng and Doan, Khoa D and Nguyen, Binh T},
+  year={2026},
+  abstract={The rapid growth in submissions to machine learning venues has strained the scientific peer-review system and intensified interest in LLM-based automated peer reviewers. However, how good these systems are actually, especially compared to human reviewers at catching scientific gaps, remains poorly understood. In this work, we introduce PRISM (Peer Review Intelligence via Structured Multi-dimensional assessment), a benchmarking framework that evaluates review quality across four dimensions: Depth of Analysis, Novelty Assessment,Flaw Identification & Major Issues Prioritization, and Multi-dimensional Constructiveness. Unlike most existing evaluations based on surface-level metrics like ROUGE and BLEU, or unconstrained LLM-as-a-judge prompting that conflates fluency with rigor, PRISM grounds each dimension in argument mining, retrieval-augmented verification, and consensus-based scoring. We apply PRISM to benchmark five leading automated reviewer systems and human reviewers on a stratified corpus of reviews from ICLR, ICML, and NeurIPS. The results reveal that LLMs can match or beat human reviewers on individual dimensions: comparable depth of analysis, stronger novelty verification, and highly accurate critique prioritization. However, no single system consistently matches the balanced performance of the human baseline across all dimensions at once. Each exhibits a distinct specialization profile with characteristic blind spots -- failure modes that aggregate metrics miss entirely. The implication is that LLM reviewers are best understood as targeted supplements to human review, effective within specific dimensions, but unreliable as standalone replacements. Our demo and key results can be found at https://khanhthanhdev.github.io/prism-page/.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2605.26730},
+  selected={true},
+}
+
+@inproceedings{le2026vipvl ,
+  title={ViP-VL: Vietnamese Self-supervised Speech Pretraining Model with Vector-Quantization Learning},
+  author={Le, Duy K and Hoang, Kiet Anh and Nguyen, Bao and Vo, Duy and Vo, Dung and Tran, Thai and Pham, Linh and Doan, Khoa D},
+  booktitle={Interspeech},
+  year={2026},
+  abstract={We present ViP-VL, an efficient Vietnamese Self-supervised speech Pretraining model leveraging Vector-quantization Learning. To bridge the gap between high-resolution audio and efficient processing, ViP-VL incorporates Acoustic Stacking and Receptive Field Alignment to enable a synchronized 8x subsampling rate within the ChunkFormer architecture, while further enhancing representation robustness through a specialized Mask Selection Strategy during pretraining on the BEST-RQ framework. Pretrained on 17,000 hours of unlabeled Vietnamese speech, our model establishes new state-of-the-art results across four major downstream tasks: Automatic Speech Recognition, Speech Emotion Recognition, Dialect Classification, and Speaker Verification. To facilitate future research and the development of high-performance Vietnamese speech technologies, we publicly release our pretrained weights and implementation at github.com/khanld/chunkformer.},
+
+  bibtex_show={true},
+  abbr={Interspeech},
+  pdf={https://arxiv.org/abs/2606.10360},
+  selected={true},
+  submissions={Interspeech'26}
+}
+
+@article{chew2026popup ,
+  title={Pop-Up Distractions Reveal Bag-of-Events Behavior in Video Large Language Models},
+  author={Chew, Oscar and Honcharenko, Serhii and Chen, Qian-Hui and Lu, Patricia and Zaveri, Dishant and Doan, Khoa D and Huang, Kuan-Hao},
+  year={2026},
+  abstract={A key capability for video understanding is reliably linking subjects to events across time, yet whether Video Large Language Models (VideoLLMs) actually achieve this remains unclear. In this work, we introduce DistractionBench to evaluate whether VideoLLMs can robustly link subjects and events in the presence of unrelated video segments. Through controlled interventions, such as inserting short advertisement clips into longer videos, we show that VideoLLMs frequently hallucinate interactions between entities from different segments, incorrectly attributing actions from injected advertisements to subjects in the main video. We characterize this systematic hallucination as bag-of-events (BoE) behavior, where models process videos as collections of events rather than temporally structured sequences. Evaluating 11 popular VideoLLMs, we find that all models exhibit substantial BoE behavior. Our findings suggest that VideoLLMs lack reliable mechanisms for temporal grounding and motivate the development of models with more robust subject-event association.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2605.27101},
+  selected={false},
+}
+
+@article{tran2026sparsesam ,
+  title={SparseSAM: Structured Sparsification of Activations in Segment Anything Models},
+  author={Tran, Chau H and Nguyen, Chi H and Nguyen, Duy MH and Niepert, Mathias and Lai, Fan and Doan, Khoa D},
+  year={2026},
+  abstract={The Segment Anything Model (SAM) achieves strong open-vocabulary segmentation, but its ViT-based image encoders dominate inference latency and memory. Existing activation compression methods, such as token merging, reduce the token length to process, yet introduce non-trivial runtime overhead and encounter catastrophic quality drop under high compression. Other methods applying Sparse Attention focus on attention alone, leaving the MLP fully dense and capping achievable speedup. We propose SparseSAM, a (i) training-free structured sparsification framework that jointly accelerates attention and MLP layers while preserving token identity. SparseSAM introduces (ii) Stripe-Sort Attention, which uses a deterministic Z-order permutation to transform dense attention into static hardware-friendly sparse patterns, eliminating dynamic masking overhead. SparseSAM further introduces a (iii) Residual-Consistency MLP that routes only informative tokens through the MLP while propagating remaining tokens through the residual pathway. Across four segmentation benchmarks, SparseSAM loses only 0.004 mIoU at a 0.4 density and 0.021 mIoU at 0.3, a 2.10x reduction in accuracy loss versus token merging advances, while achieving 2x faster inference and 2.8x memory reduction.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2605.17633},
+  selected={true},
+}
+
+
+@article{phan2026critique ,
+  title={Decoding the Critique Mechanism in Large Reasoning Models},
+  author={Hoang, Phan and Nguyen, Quang H and Le, Hung T. Q. and Chen, Xiusi and Ji, Heng and Doan, Khoa D},
+  year={2026},
+  abstract={Large Reasoning Models (LRMs) exhibit backtracking and self-verification mechanisms that enable them to revise intermediate steps and reach correct solutions, yielding strong performance on complex logical benchmarks. We hypothesize that such behaviors are beneficial only when the model has sufficiently strong ``critique'' ability to detect its own mistakes. This work systematically investigates how current LRMs recover from errors by inserting arithmetic mistakes in their intermediate reasoning steps. Notably, we discover a peculiar yet important phenomenon: despite the error propagating throughout the entire chain-of-thought (CoT) without any verbalized correction, the model still reaches the correct final answer after the thinking process finishes. This recovery implies the existence of an internal mechanism helping the model to detect errors and trigger self-correction, which we refer to as the \textit{hidden critique ability}. Building on feature space analysis, we identify a highly interpretable \textit{critique vector} representing this behavior. Extensive experiments across multiple model scales and families demonstrate that steering latent representations with this vector improves the model's error detection capability and enhances the performance of test-time scaling at no extra training cost. Our findings provide a valuable understanding of LRMs' critique behavior, suggesting a promising direction to control and improve their self-verification mechanism. Our code is available at: https://github.com/mail-research/lrm-critique-vectors.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2603.16331},
+  selected={false},
+}
+
 @article{nguyen2026forks ,
   title={The Reasoning Boundary Paradox: How Reinforcement Learning Constrains Language Models},
   author={Nguyen, Phuc M and La, Chinh D and Nguyen, Duy MH and Chawla, Nitesh and Nguyen, Binh T and Doan, Khoa D},
@@ -18,22 +85,6 @@
   pdf={https://arxiv.org/abs/2510.02230},
   code={https://github.com/mail-research/SELF-llm-interference},
   selected={true},
-}
-
-
-@article{nguyen2026forks ,
-  title={Why Do Reasoning Models Lose Coverage? The Role of Data and Forks in the Road},
-  author={Nguyen, Ngoc-Hieu and Shojaee, Parshin and Nguyen, Phuc M and Zhang, Nan and Reddy, Chandan K and Doan, Khoa D and Zhang, Rui},
-  year={2026},
-  abstract={Recent progress in large language models has led to the emergence of reasoning models, which have shown strong performance on complex tasks through specialized fine-tuning procedures. While these methods reliably improve pass@1 accuracy, prior works have observed that they show a coverage shrinkage behavior, where pass@k degrades relative to the base model. In this paper, we investigate the reasoning shrinkage arise under SFT-based post-training. We hypothesize that this behavior is driven by properties of the fine-tuning data, specifically related to decision points or "forks in the road" scenarios where model faces indecipherable patterns with multiple valid reasoning paths. To test this hypothesis, we design controlled case studies that simulate such decision-point settings, spanning indecipherable nodes in graph branching, and reasoning modes. By tracking post-training dynamics in these settings, we find that the shrinkage phenomenon is tightly correlated with the prevalence of decision-point scenarios in the training data. We also demonstrate that this shrinkage behavior can be partially mitigated through targeted data synthesis design of decision-points, and a more systematic diversity-encouraging decoding mechanism. Our findings identify data-centric factors as a key driver of shrinkage in reasoning models and highlight diversity-aware designs as an effective lever for controlling it.},
-
-  bibtex_show={true},
-  abbr={COLM},
-  journal={Conference on Language Modeling},
-  pdf={https://arxiv.org/pdf/2605.17026},
-  code={https://github.com/psunlpgroup/reasoning_forks},
-  selected={true},
-  submissions={COLM'26}
 }
 
 @inproceedings{nguyen2026forks ,
@@ -86,11 +137,106 @@
   year={2026},
   abstract={Deep Neural Networks (DNNs) are shown to be vulnerable to backdoor poisoning attacks, with most research focusing on digital triggers -- artificial patterns added to test-time inputs to induce targeted misclassification. Physical triggers, which are natural objects embedded in real-world scenes, offer a promising alternative for attackers, as they can activate backdoors in real-time without digital manipulation. However, existing physical backdoor attacks are dirty-label, meaning that attackers must change the labels of poisoned inputs to the target label. The inconsistency between image content and label exposes the attack to human inspection, reducing its stealthiness in real-world settings. To address this limitation, we introduce Clean-Label Physical Backdoor Attack (CLPBA), a new paradigm of physical backdoor attack that does not require label manipulation and trigger injection at the training stage. Instead, the attacker injects imperceptible perturbations into a small number of target class samples to backdoor a model. By framing the attack as a Dataset Distillation problem, we develop three CLPBA variants -- Parameter Matching, Gradient Matching, and Feature Matching -- that craft effective poisons under both linear probing and full-finetuning training settings. In hard scenarios that require backdoor generalizability in the physical world, CLPBA is shown to even surpass Dirty-label attack baselines. We demonstrate the effectiveness of CLPBA via extensive experiments on two collected physical backdoor datasets for facial recognition and animal classification. The code is available in https://github.com/thinh-dao/Clean-Label-Physical-Backdoor-Attacks.},
   bibtex_show={true},
-  abbr={EACL},
+  abbr={AAAI},
   booktitle={AAAI Conference on Artificial Intelligence},
   code={https://github.com/thinh-dao/Clean-Label-Physical-Backdoor-Attacks},
   selected={false},
   submissions={NeurIPS'24 -- ICCV'25 -- AAAI'26}
+}
+
+
+@article{nguyen2026molbackdoor ,
+  title={Rethinking Molecular Graph Backdoors under Chemistry-aware Admission},
+  author={Nguyen, Thinh T. H. and Yang, Sze Jue and Doan, Khoa D and Chan, Chee Seng and Wong, Kok-Seng},
+  year={2026},
+  abstract={Backdoor attacks on molecular graph neural networks (GNNs) are typically evaluated as abstract graph edits, but real molecular learning pipelines do not train on arbitrary graphs. Molecular records must first survive parsing, sanitization, canonicalization, and graph-string consistency checks. We formalize this overlooked admission stage as ChemGuard, an operational protocol for testing whether a submitted molecular record can enter a realistic learning pipeline, while complementing existing defenses. ChemGuard admits a record only when its molecular string is sanitizable and the graph reconstructed from that string matches the submitted molecular graph. Under this operational view, many existing graph-based backdoors lose much of their apparent efficacy because their poisons are chemically invalid or representation-inconsistent. We then show that admission checks alone are insufficient to rule out molecular backdoors. We propose ChemBack, an admission-aware molecular backdoor attack that constructs chemically feasible motif-anchor attachments and ranks admitted candidates by fingerprint-based Tanimoto similarity to clean target-class molecules. ChemBack is model-free during trigger selection, using molecular structures, target labels, fingerprints, and public validity checks, but no victim model, surrogate GNN, learned embedding, gradient, logit, or training-code access. Across molecular benchmarks, validators, architectures, and defenses, \textbf{ChemBack} achieves high attack success with fully admitted poisons while preserving clean accuracy. Our results reveal a two-sided lesson, chemistry-aware admission suppresses many graph-only backdoors, yet chemically valid and target-aligned molecular backdoors remain a practical threat.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2606.23361},
+  selected={false},
+}
+
+@article{tran2026zoom ,
+  title={Look Before You Zoom: Adaptive Routing for the Resolution-Context Trade-off in Visual RAG},
+  author={Tran, Oanh and Le, Hung T. Q. and Chew, Oscar and Huang, Kuan-Hao and Doan, Khoa D},
+  year={2026},
+  abstract={Vision-Language Models (VLMs) struggle as query-relevant objects become smaller. To address this, recent training-free approaches dynamically retrieve and zoom into local image regions. However, we show that indiscriminately applying retrieval ignores a critical vulnerability: the resolution-context trade-off. Patch-based zooming recovers details for small targets, but can split large objects and destroy global spatial context; attention-based retrieval better preserves large objects, but remains less reliable on tiny details; and global perception is often fastest when retrieval is unnecessary. Motivated by these failure modes, we introduce ViRGo (Visual Retrieval or Global Perception), a lightweight framework that formulates visual retrieval as an adaptive routing problem. ViRGo estimates object scale from the VLM's intrinsic localization heads during the initial forward pass and combines it with semantic token confidence to select between global perception, patch-based retrieval, and attention-based retrieval with minimal additional computation. Experiments across multiple VQA benchmarks and object-size groups show that ViRGo improves the accuracy-efficiency trade-off: it matches patch retrieval on small details, leverages attention-based retrieval for larger objects, and reduces inference time by routing to the global baseline when zooming is unnecessary.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2606.21968},
+  selected={false},
+}
+
+@inproceedings{nguyen2026foca ,
+  title={FOCA: Future-Oriented Conditioning for Data-Efficient Vision-Language-Action Adaptation},
+  author={Nguyen, Duc Minh and Diep, Nghiem Tuong and Nguyen, Binh Gia and Ho, Trong-Bao and Le, Doanh and Nguyen, Tan Q. and Ha, Thien-Loc and Tran, Nhiem and Thach, Bao and Tran, Nhat X. and Tran, Tuan A. and Habuda, Artur and Møller, Philip Lund and Le, Tran Nguyen and Sonntag, Daniel and Niepert, Matthias and Doan, Khoa D and Duong, Vu and Ngo, Hung and Vu, Minh N. and Nguyen, Duy MH and Le, An Thai and Vien, Ngo Anh},
+  booktitle={International Conference on Machine Learning},
+  year={2026},
+  abstract={Vision-Language-Action (VLA) models enable general-purpose robotic control via large-scale multimodal pretraining, yet their effectiveness under few-shot imitation learning remains limited. We conduct a systematic stress test of state-of-the-art VLA models and show that performance degrades sharply as demonstrations are reduced, revealing a key weakness of existing adaptation strategies. To address this, we introduce FOCA, a future-oriented conditioning framework for data-efficient VLA adaptation. FOCA combines explicit prediction of task-grounded future interaction embeddings with implicit alignment to future goal observations, enabling long-horizon reasoning in latent space without pixel-level prediction. This formulation naturally supports action-free co-training with synthetic videos from video world models and can be interpreted as learning a future-conditioned value-like representation. Extensive experiments demonstrate FOCA achieves 95.7% success with 20 demonstrations on LIBERO, improves 7-12% on RoboCasa, and delivers up to 26% absolute gains on real robots, establishing a new state of the art in few-shot VLA adaptation.},
+
+  bibtex_show={true},
+  abbr={ICML},
+  pdf={https://arxiv.org/abs/2606.20867},
+  selected={false},
+  submissions={ICML'26}
+}
+
+@article{nguyen2026generator ,
+  title={When Generator Replay Degrades: Projected Rehearsal Orchestration for Heterogeneous Federated Class-Incremental Learning},
+  author={Nguyen, Thinh T. H. and Doan, Khoa D and Nguyen, Binh T and Le-Phuoc, Danh and Wong, Kok-Seng},
+  year={2026},
+  abstract={Federated class-incremental learning (FCIL) becomes substantially harder when clients observe different label subsets, progress through tasks at different stages, and provide uneven supervision for the same semantic concepts. Existing FCIL methods often preserve old knowledge through input-space synthesis, but they can be fragile under heterogeneous task streams and difficult to transfer across modalities. To alleviate such issues, we propose PRO, a framework that replaces synthetic input replay with projected rehearsal orchestration. To remove external pretraining, we evaluate all methods under the same warmup. After this, PRO maintains compact class-level projected memories on the server and allows clients perform balanced pseudo multi-task training over current examples and old projected memories. To handle stronger representation drift, we further introduce PRO-MAX, which augments PRO with neighborhood-weighted memory alignment while preserving the same server-light principle that the server only aggregates model updates and memory statistics. Across image, text, and graph benchmarks, PRO and PRO-MAX improve retention and final utility under heterogeneous streams while remaining competitive in homogeneous FCIL. Even when baselines are given expanded replay budgets, they degrade under supervision imbalance and stage misalignment, indicating that replay quantity alone does not resolve replay-quality failures. Additional weak-task diagnostics further show that larger replay mismatch is associated with larger downstream degradation, while our method keeps projected memories better aligned with the evolving representation.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2606.15695},
+  selected={false},
+}
+
+@article{nguyen2026vlanoise ,
+  title={Self-Improving VLA Policies: Selected Diffusion Noise for Spurious-Robust Action Smoothing},
+  author={Nguyen, Duc Minh and Dao, Bao-Ngoc and Luu, Tung M. and Nguyen, Binh Gia and Tong, Vinh and Liu, Anji and Duong, Vu N. and Le, Dung D. and Sonntag, Daniel and Le, Trung and Le, Ngan and Peter, Jan and Le, An Thai and Vu, Minh Nhat and Niepert, Mathias and Doan, Khoa D and Nguyen, Duy MH and Ngo, Vien Anh},
+  year={2026},
+  abstract={Diffusion-based Vision-Language-Action (VLA) policies enable strong generalization in robotic manipulation, but remain sensitive to spurious visual correlations and noisy action generation, leading to brittle behavior under perturbations. We introduce Selected Diffusion Noise (SDN), a simple, training-free test-time method that improves both robustness and success rate by leveraging the diffusion noise space as a controllable degree of freedom. SDN dynamically samples noise vectors that are maximally separated from a reference set to mitigate reliance on spurious cues, while selecting candidates that yield more coherent action trajectories. This dual objective encourages stable behavior even under object-masked observations and reduces action jitter without modifying model parameters. We evaluate SDN on two simulation benchmarks (Google Robot, Widow-X) and two real-world robotic datasets across multiple VLA policies, including pi_0, Groot-N1.5, and Groot-N1.6. SDN consistently improves success rates by +8% in simulation and +10% in real-world settings, while producing smoother and more stable actions. Our results highlight that diffusion noise selection can serve as an effective and general mechanism for enhancing VLA policies at test time.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2606.14084},
+  selected={false},
+}
+
+
+@article{chu2026debiasrag ,
+  title={DebiasRAG: A Tuning-Free Path to Fair Generation in Large Language Models through Retrieval-Augmented Generation},
+  author={Chu, Rui and Zhao, Bingyin and Le, Hung T. Q. and Hoang, Cao-Duy and Lin, Huawei and Li, Ping and Zhao, Weijie and Doan, Khoa D and Lao, Yingjie},
+  year={2026},
+  abstract={Large language models (LLMs) have achieved unprecedented success due to their exceptional generative capabilities. However, because they depend on knowledge encapsulated from training corpora, they may produce hallucinations, stereotypes, and socially biased content. In particular, LLMs are prone to prejudiced responses involving race, gender, and age, which are collectively referred to as social biases. Prior studies have used fine-tuning and prompt engineering to mitigate such biases in LLMs, but these methods require additional training resources or domain knowledge to design the framework. Moreover, they may degrade the original capabilities of LLMs and often overlook the need for dynamic debiasing contexts for fairer inference. In this paper, we propose DebiasRAG, a novel tuning-free and dynamic query-specific debiasing framework based on retrieval-augmented generation (RAG). DebiasRAG improves fairness while preserving the intrinsic properties of LLMs, such as representation ability. DebiasRAG consists of three stages: (1) query-specific debiasing candidate generation; (2) context candidate pool construction; and (3) gradient-updated debiasing-guided context piece reranking. First, DebiasRAG leverages self-diagnosed bias contexts relevant to the query through regular retrieval, where the bias contexts are prepared offline by the DebiasRAG provider. Given the query-specific bias contexts, DebiasRAG reversely produces debiasing contexts, which are provided as additional fairness constraints for LLM outputs. Second, a regular RAG retrieval process produces query-related contexts from the regular RAG document database, such as a chunked Wikipedia dataset.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2605.16113},
+  selected={false},
+}
+
+@inproceedings{chew2026clipbias ,
+  title={Is CLIP Cross-Eyed? Revealing and Mitigating Center Bias in the CLIP Family},
+  author={Chew, Oscar and Huang, Hsiao-Ying and Jain, Kunal and Chen, Tai-I and Doan, Khoa D and Huang, Kuan-Hao},
+  booktitle={Conference on Language Modeling},
+  year={2026},
+  abstract={Recent research has shown that contrastive vision-language models such as CLIP often lack fine-grained understanding of visual content. While a growing body of work has sought to address this limitation, we identify a distinct failure mode in the CLIP family, which we term center bias, that persists even in recent model variants. Specifically, CLIP tends to disproportionately focus on the central region of an image, overlooking important objects located near the boundaries. This limitation is fundamental as failure to recognize relevant objects makes it difficult to perform any sophisticated tasks that depend on those objects. To understand the underlying causes of the limitation, we conduct analyses from both representation and attention perspectives. Using interpretability methods, i.e., embedding decomposition and attention map analysis, we find that relevant concepts especially those associated with off-center objects vanish from the model's embedding in the final representation due to information loss during the aggregation of visual embeddings, particularly the reliance on pooling mechanisms. Finally, we show that this bias can be alleviated with training-free strategies such as visual prompting and attention redistribution by redirecting models' attention to off-center regions.},
+
+  bibtex_show={true},
+  abbr={COLM},
+  pdf={https://arxiv.org/abs/2604.05971},
+  selected={false},
+  submissions={COLM'26}
 }
 
 
@@ -171,6 +317,19 @@
   selected={true},
   code={https://github.com/mail-research/wicked-oddities-backdoor},
   submissions={NeurIPS-W'23 -- ICML'24 -- NeurIPS'24 -- ICLR'25},
+}
+
+@article{dao2025backfed ,
+  title={BackFed: An Efficient & Standardized Benchmark Suite for Backdoor Attacks in Federated Learning},
+  author={Dao, Thinh and Nguyen, Dung Thuy and Doan, Khoa D and Wong, Kok-Seng},
+  year={2025},
+  abstract={Research on backdoor attacks in Federated Learning (FL) has accelerated in recent years, with new attacks and defenses continually proposed in an escalating arms race. However, the evaluation of these methods remains neither standardized nor reliable. First, there are severe inconsistencies in the evaluation settings across studies, and many rely on unrealistic threat models. Second, our code review uncovers semantic bugs in the official codebases of several attacks that artificially inflate their reported performance. These issues raise fundamental questions about whether current methods are truly effective or simply overfitted to narrow experimental setups. We introduce \textbf{BackFed}, a benchmark designed to standardize and stress-test FL backdoor evaluation by unifying attacks and defenses under a common evaluation framework that mirrors realistic FL deployments. Our benchmark on three representative datasets with three distinct architectures reveals critical limitations of existing methods. Malicious clients often require excessive training time and computation, making them vulnerable to server-enforced time constraints. Meanwhile, several defenses incur severe accuracy degradation or aggregation overhead. Popular defenses and attacks achieve limited performance in our benchmark, which challenges their previous efficacy claims. We establish BackFed as a rigorous and fair evaluation framework that enables more reliable progress in FL backdoor research.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2507.04903},
+  selected={false},
 }
 
 @inproceedings{khvatskii2024carol,
@@ -258,6 +417,32 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   selected={true}
 }
 
+@article{nguyen2024twingen ,
+  title={Overcoming Catastrophic Forgetting in Federated Class-Incremental Learning via Federated Global Twin Generator},
+  author={Nguyen, Thinh and Doan, Khoa D and Nguyen, Binh T and Le-Phuoc, Danh and Wong, Kok-Seng},
+  year={2024},
+  abstract={Federated Class-Incremental Learning (FCIL) increasingly becomes important in the decentralized setting, where it enables multiple participants to collaboratively train a global model to perform well on a sequence of tasks without sharing their private data. In FCIL, conventional Federated Learning algorithms such as FedAVG often suffer from catastrophic forgetting, resulting in significant performance declines on earlier tasks. Recent works, based on generative models, produce synthetic images to help mitigate this issue across all classes, but these approaches' testing accuracy on previous classes is still much lower than recent classes, i.e., having better plasticity than stability. To overcome these issues, this paper presents Federated Global Twin Generator (FedGTG), an FCIL framework that exploits privacy-preserving generative-model training on the global side without accessing client data. Specifically, the server trains a data generator and a feature generator to create two types of information from all seen classes, and then it sends the synthetic data to the client side. The clients then use feature-direction-controlling losses to make the local models retain knowledge and learn new tasks well. We extensively analyze the robustness of FedGTG on natural images, as well as its ability to converge to flat local minima and achieve better-predicting confidence (calibration). Experimental results on CIFAR-10, CIFAR-100, and tiny-ImageNet demonstrate the improvements in accuracy and forgetting measures of FedGTG compared to previous frameworks.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2407.11078},
+  selected={false},
+}
+
+@article{nguyen2024venomancer ,
+  title={Venomancer: Towards Imperceptible and Target-on-Demand Backdoor Attacks in Federated Learning},
+  author={Nguyen, Son and Nguyen, Thinh and Doan, Khoa D and Wong, Kok-Seng},
+  year={2024},
+  abstract={Federated Learning (FL) is a distributed machine learning approach that maintains data privacy by training on decentralized data sources. Similar to centralized machine learning, FL is also susceptible to backdoor attacks, where an attacker can compromise some clients by injecting a backdoor trigger into local models of those clients, leading to the global model's behavior being manipulated as desired by the attacker. Most backdoor attacks in FL assume a predefined target class and require control over a large number of clients or knowledge of benign clients' information. Furthermore, they are not imperceptible and are easily detected by human inspection due to clear artifacts left on the poison data. To overcome these challenges, we propose Venomancer, an effective backdoor attack that is imperceptible and allows target-on-demand. Specifically, imperceptibility is achieved by using a visual loss function to make the poison data visually indistinguishable from the original data. Target-on-demand property allows the attacker to choose arbitrary target classes via conditional adversarial training. Additionally, experiments showed that the method is robust against state-of-the-art defenses such as Norm Clipping, Weak DP, Krum, Multi-Krum, RLR, FedRAD, Deepsight, and RFLBAT. The source code is available at https://github.com/nguyenhongson1902/Venomancer.},
+
+  bibtex_show={true},
+  abbr={PREPRINT},
+  journal={arxiv preprint},
+  pdf={https://arxiv.org/abs/2407.03144},
+  selected={false},
+}
+
 @inproceedings{nguyen2024cold,
   title={Cold-start Recommendation by Personalized Embedding Region Elicitation},
   author={Nguyen, Hieu Trung and Nguyen, Duy and Doan, Khoa D and Nguyen, Viet Anh},
@@ -269,7 +454,7 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   abbr={UAI},
   pdf={https://arxiv.org/pdf/2406.00973},
   submissions={RecSys'23 -- CIKM'23 -- AAAI'24 -- UAI'24},
-  selected={true}
+  selected={false}
 }
 
 @article{yang2023synthesizing,
@@ -279,7 +464,7 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   abstract={Backdoor attacks, representing an emerging threat to the integrity of deep neural networks, have garnered significant attention due to their ability to compromise deep learning systems clandestinely. While numerous backdoor attacks occur within the digital realm, their practical implementation in real-world prediction systems remains limited and vulnerable to disturbances in the physical world. Consequently, this limitation has given rise to the development of physical backdoor attacks, where trigger objects manifest as physical entities within the real world. However, creating the requisite dataset to train or evaluate a physical backdoor model is a daunting task, limiting the backdoor researchers and practitioners from studying such physical attack scenarios. This paper unleashes a recipe that empowers backdoor researchers to effortlessly create a malicious, physical backdoor dataset based on advances in generative modeling. Particularly, this recipe involves 3 automatic modules: suggesting the suitable physical triggers, generating the poisoned candidate samples (either by synthesizing new samples or editing existing clean samples), and finally refining for the most plausible ones. As such, it effectively mitigates the perceived complexity associated with creating a physical backdoor dataset, transforming it from a daunting task into an attainable objective. Extensive experiment results show that datasets created by our “recipe” enable adversaries to achieve an impressive attack success rate on real physical world data and exhibit similar properties compared to previous physical backdoor attack studies. This paper offers researchers a valuable toolkit for studies of physical backdoors, all within the confines of},
   
   bibtex_show={true},
-  selected={true},
+  selected={false},
   abbr={PREPRINT},
   code={https://github.com/mail-research/synthetic-physical-backdoor-datasets},
   pdf={https://arxiv.org/abs/2312.03419}

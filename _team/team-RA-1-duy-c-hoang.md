@@ -13,6 +13,8 @@ research_assistant: true
 urop_assistant: false
 phd_student: false
 weight: 1
-current: true
+current: false
+show: true
+nextp: Master Student (TBA)
 ---
 

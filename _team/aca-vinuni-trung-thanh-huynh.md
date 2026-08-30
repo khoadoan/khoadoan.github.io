@@ -1,18 +1,12 @@
 ---
-title: "Dat Quoc Nguyen"
-date: 2022-11-01T10:47:58+10:00
-image: "assets/img/team/guy-1-circ.png"
-jobtitle: "Head of NLP"
-jobplace: "VinAI Research, Vietnam"
-collaboration: External Researcher
-linkedinurl: "https://www.linkedin.com/"
-siteurl: "https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en"
-areas: Trustworthy ML
-promoted: true
-faculty: false
-research_assistant: false
-urop_assistant: false
-phd_student: true
+title: Huynh Thanh Trung
+date: 2026-08-30T10:47:58+07:00
+image: "assets/img/team/huynh-thanh-trung-circ.png"
+jobtitle: "Assistant Professor of Computer Science"
+jobplace: "College of Engineering and Computer Science, VinUniversity"
+collaboration: VinUni Researcher
+linkedinurl: "https://www.linkedin.com/in/trung-huynh-b3a04312a/"
+siteurl: "https://thanhtrunghuynh93.github.io/"
 weight: 10
 ---
 

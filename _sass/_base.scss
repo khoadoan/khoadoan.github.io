@@ -48,6 +48,14 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// Emphasis used in page copy (open positions, deadlines). Themed so it stays
+// readable on the dark background instead of burning at full-saturation red.
+.text-alert,
+.text-alert a,
+.text-alert strong {
+  color: var(--global-alert-color);
+}
+
 // Profile
 
 .profile {
@@ -91,7 +99,7 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid var(--global-border-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -138,6 +146,11 @@ blockquote {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.7rem;
+    .logo img {
+      background-color: var(--global-logo-bg-color);
+      padding: var(--global-logo-padding);
+      border-radius: 4px;
+    }
     a {
       i::before {
         color: var(--global-text-color);
@@ -184,6 +197,87 @@ blockquote {
   }
   .bottom-bar {
     transform: rotate(0);
+  }
+}
+
+
+// Light/dark switch
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0.75rem;
+
+  // In the markup the switch precedes .navbar-collapse (so the expanding menu,
+  // which takes a full flex row, doesn't push it onto a third line on mobile).
+  // On wide screens it belongs after the nav links instead.
+  @media (min-width: 576px) {
+    order: 1;
+  }
+}
+
+.theme-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+
+  &:focus-visible .theme-toggle-track {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+
+  .theme-toggle-track {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 48px;
+    height: 26px;
+    padding: 0 5px;
+    border: 1px solid var(--global-border-color);
+    border-radius: 13px;
+    background-color: var(--global-surface-color);
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+
+  .theme-toggle-icon {
+    position: relative;
+    z-index: 1;
+    font-size: 0.7rem;
+    color: var(--global-text-color-light);
+    transition: color 0.2s ease;
+  }
+
+  .theme-toggle-thumb {
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    margin-top: -9px;
+    border-radius: 50%;
+    background-color: var(--global-theme-color);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+
+  // Light mode: the thumb sits over the sun.
+  .icon-sun {
+    color: var(--global-on-theme-color);
+  }
+}
+
+html[data-theme='dark'] .theme-toggle {
+  .theme-toggle-thumb {
+    transform: translateX(22px);
+  }
+  .icon-sun {
+    color: var(--global-text-color-light);
+  }
+  .icon-moon {
+    color: var(--global-on-theme-color);
   }
 }
 
@@ -263,7 +357,7 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid var(--global-border-color);
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
@@ -273,7 +367,7 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid var(--global-border-color);
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 5rem;
@@ -288,7 +382,7 @@ footer.sticky-bottom {
   margin-bottom: 40px;
   padding: 0;
   li {
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px solid var(--global-border-color);
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -312,11 +406,11 @@ footer.sticky-bottom {
     .page-link {
       color: var(--global-text-color);
       &:hover {
-        color: $black-color;
+        color: var(--global-hover-color);
       }
     }
     &.active .page-link {
-      color: $white-color;
+      color: var(--global-on-theme-color);
       background-color: var(--global-theme-color);
       &:hover {
         background-color: var(--global-theme-color);
@@ -350,11 +444,13 @@ footer.sticky-bottom {
   }
 
   .card {
+    background-color: var(--global-surface-color);
+    border-color: var(--global-border-color);
     img {
       width: 100%;
     }
     .card-title {
-      color: $black-color;
+      color: var(--global-text-color);
     }
   }
 
@@ -374,8 +470,8 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: $grey-color-light;
-    border-bottom: 1px solid $grey-color-light;
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -402,8 +498,8 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-light;
-    border-top: 1px solid $grey-color-light;
+    color: var(--global-divider-color);
+    border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
@@ -418,8 +514,8 @@ footer.sticky-bottom {
   //   text-align: right;
   // }
   h2.pyear {
-    color: $white-color;
-    background-color: $blue-color;
+    color: var(--global-on-theme-color);
+    background-color: var(--global-theme-color);
     padding-top: 0rem;
     padding-bottom: 0rem;
     margin-bottom: 0rem;
@@ -441,7 +537,7 @@ footer.sticky-bottom {
           padding-left: 1rem;
           padding-right: 1rem;
           a {
-            color: white;
+            color: var(--global-on-theme-color);
             &:hover {
               text-decoration: none;
             }
@@ -602,7 +698,7 @@ $steel: #5c5a5a;
           font-weight: normal;          
         }
         p {
-          color: $black;
+          color: var(--global-meta-color);
           text-transform: uppercase;
           margin: 0;
           font-size: 12px;
@@ -624,7 +720,7 @@ $steel: #5c5a5a;
     }
   
     .team-summary-large {
-      background-color: $white-offset;
+      background-color: var(--global-surface-color);
       padding: 30px;
       border-radius: 3px;
       
@@ -648,7 +744,7 @@ $steel: #5c5a5a;
           font-weight: normal;          
         }        
         .team-title {
-          color: $black;
+          color: var(--global-meta-color);
           text-transform: uppercase;
           margin: 0;
           font-size: 12px;
@@ -682,7 +778,7 @@ $steel: #5c5a5a;
         font-weight: normal;          
       }
       .team-title {
-        color: $black;
+        color: var(--global-meta-color);
         margin: 0;
         font-size: 16px;
         font-weight: 500;
@@ -710,7 +806,7 @@ $steel: #5c5a5a;
       font-weight: normal;  
     }
     p {
-      color: $black;
+      color: var(--global-meta-color);
       text-transform: uppercase;
       margin: 0;
       font-size: 12px;
@@ -719,7 +815,7 @@ $steel: #5c5a5a;
   }
 
   .annoucement {
-    background-color: $white-offset;
+    background-color: var(--global-surface-color);
     padding: 10px;
     border-radius: 3px;    
     
@@ -731,7 +827,7 @@ $steel: #5c5a5a;
         font-weight: normal;          
       }        
       .team-title {
-        color: $black;
+        color: var(--global-meta-color);
         text-transform: uppercase;
         margin: 0;
         font-size: 12px;
