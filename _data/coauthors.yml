@@ -127,3 +127,23 @@
 "Thanh-Tung":
   - firstname: ["Hoang"]
     url: https://scholar.google.com/citations?user=xZU08d0AAAAJ&hl=en
+
+"Buntine":
+  - firstname: ["Wray"]
+    url: https://research.monash.edu/en/persons/wray-buntine/
+
+"Lai":
+  - firstname: ["Fan"]
+    url: https://www.fanlai.me/
+
+"Nguyen":
+  - firstname: ["Duy MH"]
+    url: https://duyhominhnguyen.github.io/
+
+"Zhang":
+  - firstname: ["Rui"]
+    url: https://ryanzhumich.github.io/
+
+"Tran":
+  - firstname: ["Anh"]
+    url: https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en
