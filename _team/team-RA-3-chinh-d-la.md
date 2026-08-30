@@ -14,5 +14,6 @@ urop_assistant: false
 phd_student: false
 weight: 3
 current: false
+show: true
 nextp: ML Engineer
 ---

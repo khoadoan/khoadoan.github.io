@@ -1,10 +1,11 @@
 ---
-title: "Duy A. Nguyen"
+title: "Duy A Nguyen"
 date: 2022-11-01T10:47:58+10:00
 image: "assets/img/team/team-UIUC-phd-2-duy-a-nguyen-circ.png"
 jobtitle: "PhD Student (UIUC, Co-advised with Minh N. Do)"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
+website: "https://anhduy0911.github.io/"
 url: "https://www.khoadoan.me/team"
 areas: "Uncertainty, Multimodal"
 promoted: true

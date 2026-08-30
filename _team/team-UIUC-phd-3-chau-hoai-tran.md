@@ -1,10 +1,11 @@
 ---
-title: "Chau Hoai Tran"
+title: "Chau H Tran"
 date: 2022-11-01T10:47:58+10:00
 image: "assets/img/team/team-RA-13-chau-hoai-tran-circ.png"
 jobtitle: "PhD Student (UIUC, Co-advised with Fan Lai)"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
+website: "https://hchautran.github.io/"
 url: "https://www.khoadoan.me/team"
 areas: "Efficient Inference"
 promoted: true

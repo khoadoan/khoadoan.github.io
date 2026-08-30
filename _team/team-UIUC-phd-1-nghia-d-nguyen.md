@@ -5,6 +5,7 @@ image: "assets/img/team/team-VinUni-2-nghia-d-nguyen-circ.png"
 jobtitle: "PhD Student (UIUC)"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
+website: "https://github.com/nghiandxv"
 url: "https://www.khoadoan.me/team"
 areas: Causal ML
 promoted: true

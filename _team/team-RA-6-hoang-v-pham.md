@@ -6,7 +6,7 @@ jobtitle: "RA"
 fulljobtitle: "Research Assistant"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
-website: "https://www.linkedin.com/in/pvh1602/"
+website: "https://pvh1602.github.io/"
 areas: Trustworthy ML
 promoted: true
 faculty: false

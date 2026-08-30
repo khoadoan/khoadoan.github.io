@@ -1,5 +1,5 @@
 ---
-title: "Viet D. Trong"
+title: "Viet D Trong"
 date: 2022-11-01T10:47:58+10:00
 image: "assets/img/team/guy-1-circ.png"
 jobtitle: "MS Student (VinUni)"

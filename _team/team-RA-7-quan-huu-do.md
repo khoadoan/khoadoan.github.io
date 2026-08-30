@@ -5,7 +5,7 @@ image: "assets/img/team/team-RA-7-quan-huu-do-circ.png"
 jobtitle: "RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
-url: "https://www.khoadoan.me/team"
+website: "https://scholar.google.com/citations?user=8WGIxWIAAAAJ"
 areas: Uncertainty Estimation
 promoted: true
 faculty: false

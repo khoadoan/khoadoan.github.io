@@ -5,7 +5,7 @@ image: "assets/img/team/gal-1-circ.png"
 jobtitle: "PhD Student (VinUni)"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
-url: "https://www.khoadoan.me/team"
+website: "https://scholar.google.com/citations?user=fvfSFboAAAAJ&hl=vi"
 areas: "Medical AI"
 promoted: true
 faculty: false

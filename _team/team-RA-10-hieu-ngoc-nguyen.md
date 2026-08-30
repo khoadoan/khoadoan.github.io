@@ -1,10 +1,11 @@
 ---
-title: "Hieu Ngoc Nguyen"
+title: "Hieu N Nguyen"
 date: 2022-11-01T10:47:58+10:00
 image: "assets/img/team/team-RA-10-hieu-ngoc-nguyen-circ.png"
 jobtitle: "RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
+website: "https://nnhieu.github.io/"
 url: "https://www.khoadoan.me/team"
 areas: NLP/LLM
 promoted: true

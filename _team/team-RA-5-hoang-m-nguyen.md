@@ -6,7 +6,7 @@ jobtitle: "RA"
 fulljobtitle: "Research Assistant"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
-website: "https://www.linkedin.com/in/hoang-nguyen-377b54231/"
+website: "https://hoangnguyen210.github.io/"
 areas: Medical AI
 promoted: true
 faculty: false
@@ -16,5 +16,5 @@ phd_student: false
 weight: 5
 current: false
 nextp: PhD Student at Saarland University
-show: true
+show: false
 ---

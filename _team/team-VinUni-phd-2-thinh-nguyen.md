@@ -5,7 +5,7 @@ image: "assets/img/team/team-VinUni-phd-2-thinh-nguyen-circ.png"
 jobtitle: "PhD Student (VinUni, Co-advised with Kok-seng Wong)"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
-website: "https://mtuann.github.io/"
+website: "https://scholar.google.com/citations?hl=en&user=sb6Qr-kAAAAJ"
 areas: Continual Learning in FL
 promoted: true
 faculty: false

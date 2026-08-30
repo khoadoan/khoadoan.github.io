@@ -5,6 +5,7 @@ image: "assets/img/team/team-RA-8-phuc-minh-nguyen-circ.png"
 jobtitle: "RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
+website: "https://scholar.google.com/citations?user=Nk2qfSYAAAAJ&hl=en"
 url: "https://www.khoadoan.me/team"
 areas: RL/LLM
 promoted: true

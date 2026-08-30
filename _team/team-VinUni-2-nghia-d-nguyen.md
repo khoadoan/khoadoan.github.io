@@ -6,6 +6,7 @@ jobtitle: "VinUni RA"
 fulljobtitle: "VinUni Undergrad Research Assistant"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
+website: "https://github.com/nghiandxv"
 url: "https://www.khoadoan.me/team"
 areas: "Continual Learning" 
 promoted: true

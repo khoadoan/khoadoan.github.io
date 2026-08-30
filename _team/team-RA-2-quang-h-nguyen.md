@@ -14,5 +14,6 @@ urop_assistant: false
 phd_student: false
 weight: 10
 current: false
+show: true
 nextp: PhD Student at University of North Carolina at Chapel Hill
 ---
