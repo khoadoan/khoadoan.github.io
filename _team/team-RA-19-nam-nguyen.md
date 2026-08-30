@@ -6,7 +6,7 @@ jobtitle: "RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 url: "https://www.khoadoan.me/team"
-areas: Trustworthy ML
+areas: AI Security
 promoted: true
 faculty: false
 research_assistant: true

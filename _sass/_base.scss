@@ -677,25 +677,35 @@ $steel: #5c5a5a;
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
+      // One person per row, so centre the portrait against the two text lines
+      // instead of letting it tower over them.
+      align-items: center;
       .team-image {
-        height: 90px;
-        width: 90px;
-        margin-right: 10px;
+        height: 60px;
+        width: 60px;
+        flex: 0 0 60px;
+        margin-right: 15px;
         border-radius: 50%;
         overflow: hidden;
         img {
-          width: 90px;
+          width: 60px;
         }
-      }
-      .team-title {
-        font-weight: strong;
       }
       .team-meta {
         flex: 1;
         h2 {
           margin: 0;
           font-size: 16px;
-          font-weight: normal;          
+          font-weight: normal;
+        }
+        // Position, shown inline after the name. Deliberately not uppercased:
+        // the front matter is already cased correctly ("VinUni RA", "PhD
+        // Student (UIUC, Co-advised with Fan Lai)").
+        .team-title {
+          color: var(--global-text-color-light);
+          text-transform: none;
+          font-size: 14px;
+          font-weight: normal;
         }
         p {
           color: var(--global-meta-color);

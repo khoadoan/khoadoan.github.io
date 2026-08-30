@@ -34,7 +34,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ site.fontawesome.version }}/css/all.min.css"  integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/{{ site.academicons.version }}/css/academicons.min.css" integrity="{{ site.academicons.integrity }}" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
-<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{{ '/assets/font-awesome-4.7.0/css/font-awesome.min.css' | relative_url }}">
 
 <!-- Code Syntax Highlighting -->
 <!-- Very long loading using this file, so we swap -->
@@ -47,7 +47,7 @@
 {% else %}
   <link rel="icon" href="assets/img/icon.png">
 {% endif %} -->
-<link rel="icon" href="assets/img/icon.png">
+<link rel="icon" href="{{ '/assets/img/icon.png' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 

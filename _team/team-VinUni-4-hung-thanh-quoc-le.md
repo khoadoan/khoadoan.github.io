@@ -6,7 +6,7 @@ jobtitle: "VinUni RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 url: "https://www.khoadoan.me/team"
-areas: Medical AI/Spatial Reasoning
+areas: Medical AI, Watermarking, VLMs
 promoted: true
 faculty: false
 research_assistant: false

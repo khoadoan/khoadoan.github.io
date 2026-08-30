@@ -6,7 +6,7 @@ jobtitle: "PhD Student (VinUni)"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 url: "https://www.khoadoan.me/team"
-areas: "Medical AI"
+areas: "Medical AI, Weak Supervision"
 promoted: true
 faculty: false
 research_assistant: false

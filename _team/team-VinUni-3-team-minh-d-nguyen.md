@@ -6,7 +6,7 @@ jobtitle: "VinUni RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 url: "https://www.khoadoan.me/team"
-areas: NLP/Chem
+areas: AI for Science
 promoted: true
 faculty: false
 research_assistant: false

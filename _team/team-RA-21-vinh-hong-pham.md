@@ -6,7 +6,7 @@ jobtitle: "RA"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 url: "https://www.khoadoan.me/team"
-areas: Molecule Diffusion Models
+areas: Diffusion Model Efficiency
 promoted: true
 faculty: false
 research_assistant: true

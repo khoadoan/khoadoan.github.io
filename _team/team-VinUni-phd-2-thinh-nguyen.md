@@ -6,7 +6,7 @@ jobtitle: "PhD Student (VinUni, Co-advised with Kok-seng Wong)"
 collaboration: student
 linkedinurl: "https://www.linkedin.com/"
 website: "https://mtuann.github.io/"
-areas: CL/FL
+areas: Continual Learning in FL
 promoted: true
 faculty: false
 research_assistant: false
