@@ -8,3 +8,10 @@ _site
 .tweet-cache
 Gemfile.lock
 vendor
+
+# Google API credentials (never commit)
+gcp-oauth.keys.json
+.gdrive-server-credentials.json
+credentials.json
+client_secret*.json
+*service-account*.json
