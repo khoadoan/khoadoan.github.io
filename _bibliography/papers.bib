@@ -6,6 +6,51 @@
 @string{CVPR = {Conference on Computer Vision and Pattern Recognition,}}
 @string{ACCV = {Asian Conference on Computer Vision,}}
 
+@inproceedings{nguyen2026primacy ,
+  title={On the Primacy Bias in RLVR Training},
+  author={Nguyen, Phuc M and Nguyen, Ngoc-Hieu and Shojaee, Parshin and La, Chinh D and Nguyen, Duy MH and Zhang, Rui and Doan, Khoa D and Hua, Ting and Chawla, Nitesh V},
+  booktitle={Advances in Neural Information Processing Systems},
+  abstract={Verifiable Reward (RLVR) has emerged as a promising approach for enhancing the reasoning capabilities of large language models. However, it still remains unclear whether RLVR can extend reasoning capabilities beyond what is already encoded in the base model. In this paper, we study this question through the lens of *primacy bias* — the tendency of models to over-rely on already-learned representations, disproportionately improving performance on problems they already handle well while underexploring harder ones that require departing from those representations. Through our controlled experiments and large-scale analysis, we show that RLVR training on mixed data tends to further sharpen performance on easier problems while yielding only marginal gains on harder ones. We find that although hard problems lead to modest gains overall, they are actually the ones that help most in expanding the model’s reasoning capabilities and pushing the representations. However, prolonged training on these hard problems may also hurt and lead to forgetting on easy problems. These findings help to better understand some of the prior conflicting observations about RLVR, specifically, why on (OOD) domains where the base model performs poorly, improvements on hard problems can expand reasoning; while on well-trained domains, forgetting can reduce performance and mask genuine gains obtained from hard problems.},
+  year={2026},
+
+  bibtex_show={true},
+  abbr={NeurIPS},
+  selected={true},
+  submissions={NeurIPS'26},
+  main={true}
+}
+
+@inproceedings{nguyen2026paradox ,
+  title={The Reasoning Boundary Paradox: How Reinforcement Learning Constrains Language Models},
+  author={Nguyen, Phuc M and La, Chinh D and Nguyen, Duy MH and Chawla, Nitesh V and Nguyen, Binh T and Doan, Khoa D},
+  year={2026},
+  abstract={Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a key method for improving Large Language Models' reasoning capabilities, yet recent evidence suggests it may paradoxically shrink the reasoning boundary rather than expand it. This paper investigates the shrinkage issue of RLVR by analyzing its learning dynamics and reveals two critical phenomena that explain this failure. First, we expose negative interference in RLVR, where learning to solve certain training problems actively reduces the likelihood of correct solutions for others, leading to the decline of Pass@ performance, or the probability of generating a correct solution within  attempts. Second, we uncover the winner-take-all phenomenon: RLVR disproportionately reinforces problems with high likelihood, correct solutions, under the base model, while suppressing other initially low-likelihood ones. Through extensive theoretical and empirical analysis on multiple mathematical reasoning benchmarks, we show that this effect arises from the inherent on-policy sampling in standard RL objectives, causing the model to converge toward narrow solution strategies. Based on these insights, we propose a simple yet effective data curation algorithm that focuses RLVR learning on low-likelihood problems, achieving notable improvement in Pass@ performance. Our code is available at https://github.com/mail-research/SELF-llm-interference.},
+
+  bibtex_show={true},
+  abbr={NeurIPS},
+  booktitle={Advances in Neural Information Processing Systems},
+  pdf={https://arxiv.org/abs/2510.02230},
+  code={https://github.com/mail-research/SELF-llm-interference},
+  selected={true},
+  submissions={ICLR'25 -- ICML'26 -- NeurIPS'26},
+  main={true}
+}
+
+@inproceedings{phan2026critique ,
+  title={Decoding the Critique Mechanism in Large Reasoning Models},
+  author={Hoang, Phan and Nguyen, Quang H and Le, Hung T. Q. and Chen, Xiusi and Ji, Heng and Doan, Khoa D},
+  year={2026},
+  abstract={Large Reasoning Models (LRMs) exhibit backtracking and self-verification mechanisms that enable them to revise intermediate steps and reach correct solutions, yielding strong performance on complex logical benchmarks. We hypothesize that such behaviors are beneficial only when the model has sufficiently strong ``critique'' ability to detect its own mistakes. This work systematically investigates how current LRMs recover from errors by inserting arithmetic mistakes in their intermediate reasoning steps. Notably, we discover a peculiar yet important phenomenon: despite the error propagating throughout the entire chain-of-thought (CoT) without any verbalized correction, the model still reaches the correct final answer after the thinking process finishes. This recovery implies the existence of an internal mechanism helping the model to detect errors and trigger self-correction, which we refer to as the \textit{hidden critique ability}. Building on feature space analysis, we identify a highly interpretable \textit{critique vector} representing this behavior. Extensive experiments across multiple model scales and families demonstrate that steering latent representations with this vector improves the model's error detection capability and enhances the performance of test-time scaling at no extra training cost. Our findings provide a valuable understanding of LRMs' critique behavior, suggesting a promising direction to control and improve their self-verification mechanism. Our code is available at: https://github.com/mail-research/lrm-critique-vectors.},
+
+  bibtex_show={true},
+  abbr={NeurIPS},
+  booktitle={Advances in Neural Information Processing Systems},
+  pdf={https://arxiv.org/abs/2603.16331},
+  selected={true},
+  submissions={ICML'26 -- NeurIPS'26},
+  main={true}
+}
+
 @article{loc2026prism ,
   title={PRISM: A Multi-Dimensional Benchmark for Evaluating LLM Peer Reviewers},
   author={Loc, Ngoc PP and Huynh, Toan LV and Khanh, Thanh Tran and Nguyen, Duy A and Pham, Tuan Anh Nguyen and Nguyen, Thanh and Chawla, Nitesh V and Buntine, Wray and Wong, Kok-Seng and Doan, Khoa D and Nguyen, Binh T},
@@ -17,6 +62,7 @@
   journal={arxiv preprint},
   pdf={https://arxiv.org/abs/2605.26730},
   selected={true},
+  main={true}
 }
 
 @inproceedings{le2026vipvl ,
@@ -30,7 +76,52 @@
   abbr={Interspeech},
   pdf={https://arxiv.org/abs/2606.10360},
   selected={true},
-  submissions={Interspeech'26}
+  submissions={Interspeech'26},
+  main={true}
+}
+
+@inproceedings{yang2026triggercraft,
+  title={TriggerCraft: A Reproducible Framework for Physical Backdoor Dataset Synthesis},
+  author={Yang, Sze Jue and La, Chinh D and Nguyen, Quang H and Bagdasaryan, Eugene and Wong, Kok-Seng and Chan, Chee Seng and Doan, Khoa D},
+  booktitle={Asian Conference on Computer Vision},
+  year={2026},
+  abstract={Physical backdoor attacks use real-world objects as triggers, but studying such attacks typically requires manually collecting study-specific poisoned datasets. These datasets are costly to construct and are often difficult to share or reproduce because of logistical, privacy, and ethical constraints, limiting controlled comparison across physical backdoor attacks and defenses. We introduce TriggerCraft, a modular framework that transforms physical backdoor dataset synthesis into a reproducible generative pipeline. TriggerCraft comprises three automated stages: a trigger suggestion module that identifies context-compatible physical objects, a trigger generation module that constructs poisoned candidates through either text-guided image editing or text-to-image synthesis, and a poison selection module that ranks implausible candidates using image-level preference scoring. This design supports both settings where an existing clean dataset is available and settings where poisoned samples must be generated from textual class descriptions. 
+We evaluate TriggerCraft using two physical trigger categories and both generation strategies. Our results show that models trained on the resulting synthetic poisoned data respond to real photographs containing physical instances of the corresponding triggers, demonstrating synthetic-to-physical backdoor transfer. The two synthesis methods exhibit different empirical trade-offs in our evaluated settings: image editing retains real-domain clean accuracy closer to its clean baseline, while text-to-image generation achieves substantial physical attack success despite a larger synthetic-to-real distribution gap. Evaluations with established backdoor defenses additionally show that the generated datasets can support downstream attack and defense analysis. By providing a reproducible construction protocol, TriggerCraft reduces dependence on repeated manual physical data collection and facilitates more systematic physical backdoor research. Code will be released upon acceptance.},
+  
+  bibtex_show={true},
+  selected={false},
+  abbr={ACCV},
+  code={https://github.com/mail-research/synthetic-physical-backdoor-datasets},
+  pdf={https://arxiv.org/abs/2312.03419},
+  main={true},
+  submissions={ACCV'26}
+}
+
+@inproceedings{nguyen2026sure ,
+  title={SURE: Scalable Uncertainty Estimation for Pretrained Multimodal Models with Missing Modalities},
+  author={Nguyen, Duy A and Do, Quan H and Doan, Khoa D and Do, Minh N},
+  booktitle={Asian Conference on Computer Vision},
+  abstract={Pretrained multimodal models are brittle under deployment: missing or corrupted modalities cause fusion mechanisms to fail, while model biases produce overconfident predictions even on complete inputs. This is pronounced in vision-centric systems, where sensor dropout and occlusion are commonplace. Reconstruction-based methods fill in missing modalities but do not propagate reconstruction uncertainty, leaving the model unaware of how unreliable its inputs actually are. We propose **SURE** (Scalable Uncertainty and Reconstruction Estimation), a lightweight module that adds missing-modality reconstruction and calibrated uncertainty estimation to pretrained multimodal pipelines without modifying the backbone. Prediction uncertainty is decomposed into *input-induced uncertainty*, propagated from reconstruction error via first-order approximation, and *model mismatch uncertainty*, estimated by a small output head. A distribution-free Pearson correlation loss trains both to rank predictions by expected error. On a linear-Gaussian toy problem with closed-form oracle variance, and on three real-world benchmarks spanning video action recognition, vision-language classification, and audio-text sentiment analysis, SURE consistently improves predictive accuracy and uncertainty calibration.},
+  year={2026},
+
+  bibtex_show={true},
+  abbr={ACCV},
+  selected={false},
+  submissions={ACCV'26}
+}
+
+@inproceedings{nguyen2026reva ,
+  title={REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving},
+  author={Nguyen, Tuan and Hu, Qiran and Liu, Banruo and Doan, Khoa D and Wong, Kok-Seng and Lai, Fan},
+  booktitle={IEEE International Conference on Data Mining},
+  year={2026},
+  abstract={Retrieval-augmented generation (RAG) improves knowledge-intensive large language model (LLM) applications by conditioning generation on retrieved documents, but longer contexts increase latency, key-value (KV) cache memory, and token cost. Post-retrieval compression can reduce this cost, yet existing compressors often operate independently for each query, rely on auxiliary models or rewriting, and introduce online overhead that can offset the benefit of shorter prompts. We revisit RAG compression from a data-mining perspective by aggregating historical query--document--model interactions into reusable evidence views. We first show that modern compressors have unstable gains over simple truncation and can add substantial inference-time latency. We then propose Reusable Evidence View Aggregation (REVA), a framework that mines the target generator's historical attention traces into a document-keyed, budget-agnostic score store. REVA maps token-level attention to readable word units, aggregates importance across repeated document accesses, and renders budget-specific plain-text views that preserve document order and the standard RAG interface. Across four representative benchmarks and modern LLMs, REVA improves generation quality by 1.0--5.8 points over existing advances, while reducing compression overhead by a factor of 5.3 to 15.6, adding less than 40 ms of latency.},
+
+  bibtex_show={true},
+  abbr={ICDM},
+  pdf={https://arxiv.org/abs/2609.11209},
+  selected={false},
+  submissions={ICDM'26}
 }
 
 @article{chew2026popup ,
@@ -57,34 +148,7 @@
   journal={arxiv preprint},
   pdf={https://arxiv.org/abs/2605.17633},
   selected={true},
-}
-
-
-@article{phan2026critique ,
-  title={Decoding the Critique Mechanism in Large Reasoning Models},
-  author={Hoang, Phan and Nguyen, Quang H and Le, Hung T. Q. and Chen, Xiusi and Ji, Heng and Doan, Khoa D},
-  year={2026},
-  abstract={Large Reasoning Models (LRMs) exhibit backtracking and self-verification mechanisms that enable them to revise intermediate steps and reach correct solutions, yielding strong performance on complex logical benchmarks. We hypothesize that such behaviors are beneficial only when the model has sufficiently strong ``critique'' ability to detect its own mistakes. This work systematically investigates how current LRMs recover from errors by inserting arithmetic mistakes in their intermediate reasoning steps. Notably, we discover a peculiar yet important phenomenon: despite the error propagating throughout the entire chain-of-thought (CoT) without any verbalized correction, the model still reaches the correct final answer after the thinking process finishes. This recovery implies the existence of an internal mechanism helping the model to detect errors and trigger self-correction, which we refer to as the \textit{hidden critique ability}. Building on feature space analysis, we identify a highly interpretable \textit{critique vector} representing this behavior. Extensive experiments across multiple model scales and families demonstrate that steering latent representations with this vector improves the model's error detection capability and enhances the performance of test-time scaling at no extra training cost. Our findings provide a valuable understanding of LRMs' critique behavior, suggesting a promising direction to control and improve their self-verification mechanism. Our code is available at: https://github.com/mail-research/lrm-critique-vectors.},
-
-  bibtex_show={true},
-  abbr={PREPRINT},
-  journal={arxiv preprint},
-  pdf={https://arxiv.org/abs/2603.16331},
-  selected={false},
-}
-
-@article{nguyen2026forks ,
-  title={The Reasoning Boundary Paradox: How Reinforcement Learning Constrains Language Models},
-  author={Nguyen, Phuc M and La, Chinh D and Nguyen, Duy MH and Chawla, Nitesh V and Nguyen, Binh T and Doan, Khoa D},
-  year={2026},
-  abstract={Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a key method for improving Large Language Models' reasoning capabilities, yet recent evidence suggests it may paradoxically shrink the reasoning boundary rather than expand it. This paper investigates the shrinkage issue of RLVR by analyzing its learning dynamics and reveals two critical phenomena that explain this failure. First, we expose negative interference in RLVR, where learning to solve certain training problems actively reduces the likelihood of correct solutions for others, leading to the decline of Pass@ performance, or the probability of generating a correct solution within  attempts. Second, we uncover the winner-take-all phenomenon: RLVR disproportionately reinforces problems with high likelihood, correct solutions, under the base model, while suppressing other initially low-likelihood ones. Through extensive theoretical and empirical analysis on multiple mathematical reasoning benchmarks, we show that this effect arises from the inherent on-policy sampling in standard RL objectives, causing the model to converge toward narrow solution strategies. Based on these insights, we propose a simple yet effective data curation algorithm that focuses RLVR learning on low-likelihood problems, achieving notable improvement in Pass@ performance. Our code is available at https://github.com/mail-research/SELF-llm-interference.},
-
-  bibtex_show={true},
-  abbr={PREPRINT},
-  journal={arxiv preprint},
-  pdf={https://arxiv.org/abs/2510.02230},
-  code={https://github.com/mail-research/SELF-llm-interference},
-  selected={true},
+  main={true}
 }
 
 @inproceedings{nguyen2026forks ,
@@ -99,7 +163,8 @@
   pdf={https://arxiv.org/pdf/2605.17026},
   code={https://github.com/psunlpgroup/reasoning_forks},
   selected={true},
-  submissions={COLM'26}
+  submissions={COLM'26},
+  main={true}
 }
 
 @article{nguyen2026irl ,
@@ -115,6 +180,7 @@
   code={https://github.com/mail-research/retrospective-feature-estimation},
   selected={true},
   note={FEATURED},
+  main={true},
   submissions={ICML'24 -- NeurIPS'24 -- ICLR'25 -- ICCV'25 -- WACV'26 -- TMLR'26}
 }
 
@@ -128,6 +194,7 @@
   booktitle={Findings of the European Chapter of the Association for Computational Linguistics},
   code={https://github.com/mail-research/sparse-llm-watermarking},
   selected={true},
+  main={true},
   submissions={NeurIPS'24 -- ICLR'25 -- COLM'25 -- ARR'05-25 -- ARR'10-25 (EACL)}
 }
 
@@ -145,17 +212,18 @@
 }
 
 
-@article{nguyen2026molbackdoor ,
+@inproceedings{nguyen2026molbackdoor ,
   title={Rethinking Molecular Graph Backdoors under Chemistry-aware Admission},
   author={Nguyen, Thinh T. H. and Yang, Sze Jue and Doan, Khoa D and Chan, Chee Seng and Wong, Kok-Seng},
   year={2026},
   abstract={Backdoor attacks on molecular graph neural networks (GNNs) are typically evaluated as abstract graph edits, but real molecular learning pipelines do not train on arbitrary graphs. Molecular records must first survive parsing, sanitization, canonicalization, and graph-string consistency checks. We formalize this overlooked admission stage as ChemGuard, an operational protocol for testing whether a submitted molecular record can enter a realistic learning pipeline, while complementing existing defenses. ChemGuard admits a record only when its molecular string is sanitizable and the graph reconstructed from that string matches the submitted molecular graph. Under this operational view, many existing graph-based backdoors lose much of their apparent efficacy because their poisons are chemically invalid or representation-inconsistent. We then show that admission checks alone are insufficient to rule out molecular backdoors. We propose ChemBack, an admission-aware molecular backdoor attack that constructs chemically feasible motif-anchor attachments and ranks admitted candidates by fingerprint-based Tanimoto similarity to clean target-class molecules. ChemBack is model-free during trigger selection, using molecular structures, target labels, fingerprints, and public validity checks, but no victim model, surrogate GNN, learned embedding, gradient, logit, or training-code access. Across molecular benchmarks, validators, architectures, and defenses, \textbf{ChemBack} achieves high attack success with fully admitted poisons while preserving clean accuracy. Our results reveal a two-sided lesson, chemistry-aware admission suppresses many graph-only backdoors, yet chemically valid and target-aligned molecular backdoors remain a practical threat.},
 
   bibtex_show={true},
-  abbr={PREPRINT},
-  journal={arxiv preprint},
+  abbr={NeurIPS},
+  booktitle={Advances in Neural Information Processing Systems},
   pdf={https://arxiv.org/abs/2606.23361},
   selected={false},
+  submissions={NeurIPS'26}
 }
 
 @article{tran2026zoom ,
@@ -169,6 +237,7 @@
   journal={arxiv preprint},
   pdf={https://arxiv.org/abs/2606.21968},
   selected={false},
+  main={true}
 }
 
 @inproceedings{nguyen2026foca ,
@@ -250,7 +319,8 @@
   bibtex_show={true},
   abbr={NeurIPS},
   selected={true},  
-  submissions={NeurIPS'25}
+  submissions={NeurIPS'25},
+  main={true}
 }
 
 @inproceedings{nguyen2025ais,
@@ -265,6 +335,7 @@
   pdf={https://arxiv.org/abs/2506.08681},
   selected={true},
   code={https://github.com/mail-research/AIS-Sampling4DAAs},  
+  main={true},
   submissions={ICLR'25 -- COLM'25 (withdraw-missing title) -- NeurIPS'25}
 }
 
@@ -280,7 +351,7 @@
   pdf={https://arxiv.org/abs/2412.02542},
   selected={true},
   code={https://github.com/mail-research/CAD-attribution4diffusion},  
-
+  main={true},
   submissions={ICLR'25 -- CVPR'25 -- ICCV'25 -- NeurIPS'25}
 }
 
@@ -300,6 +371,7 @@
   code={https://github.com/deep-symbolic-mathematics/llm-srbench},
   data={https://huggingface.co/datasets/nnheui/llm-srbench},
   submissions={ICML'25},
+  main={true}
 }
 
 
@@ -317,6 +389,7 @@
   selected={true},
   code={https://github.com/mail-research/wicked-oddities-backdoor},
   submissions={NeurIPS-W'23 -- ICML'24 -- NeurIPS'24 -- ICLR'25},
+  main={true}
 }
 
 @article{dao2025backfed ,
@@ -360,7 +433,8 @@
   pdf={https://www.arxiv.org/abs/2407.14738},
   slides={https://docs.google.com/presentation/d/1YEyQDSBardXdHCv-qBmxZnBwnXMAtRKZfWsawknowFs/edit?usp=sharing},
   submissions={CVPR'24 -- ECCV'24},
-  selected={true}
+  selected={true},
+  main={true}
 }
 
 @inproceedings{huynh2024quantizedbd,
@@ -414,7 +488,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   abbr={PREPRINT},
   pdf={https://arxiv.org/abs/2407.10834},
   code={https://github.com/mail-research/MetaLLM-wrapper/}, 
-  selected={true}
+  selected={true},
+  main={true}
 }
 
 @article{nguyen2024twingen ,
@@ -457,20 +532,6 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   selected={false}
 }
 
-@article{yang2023synthesizing,
-  title={Synthesizing Physical Backdoor Datasets: An Automated Framework Leveraging Deep Generative Models},
-  author={Yang, Sze Jue and La, Chinh D and Nguyen, Quang H and Bagdasaryan, Eugene and Wong, Kok-Seng and Tran, Anh T and Chan, Chee Seng and Doan, Khoa D},
-  year={2024},
-  abstract={Backdoor attacks, representing an emerging threat to the integrity of deep neural networks, have garnered significant attention due to their ability to compromise deep learning systems clandestinely. While numerous backdoor attacks occur within the digital realm, their practical implementation in real-world prediction systems remains limited and vulnerable to disturbances in the physical world. Consequently, this limitation has given rise to the development of physical backdoor attacks, where trigger objects manifest as physical entities within the real world. However, creating the requisite dataset to train or evaluate a physical backdoor model is a daunting task, limiting the backdoor researchers and practitioners from studying such physical attack scenarios. This paper unleashes a recipe that empowers backdoor researchers to effortlessly create a malicious, physical backdoor dataset based on advances in generative modeling. Particularly, this recipe involves 3 automatic modules: suggesting the suitable physical triggers, generating the poisoned candidate samples (either by synthesizing new samples or editing existing clean samples), and finally refining for the most plausible ones. As such, it effectively mitigates the perceived complexity associated with creating a physical backdoor dataset, transforming it from a daunting task into an attainable objective. Extensive experiment results show that datasets created by our “recipe” enable adversaries to achieve an impressive attack success rate on real physical world data and exhibit similar properties compared to previous physical backdoor attack studies. This paper offers researchers a valuable toolkit for studies of physical backdoors, all within the confines of},
-  
-  bibtex_show={true},
-  selected={false},
-  abbr={PREPRINT},
-  code={https://github.com/mail-research/synthetic-physical-backdoor-datasets},
-  pdf={https://arxiv.org/abs/2312.03419}
-}
-
-
 @inproceedings{hung2023clean,
   title={Clean-label Backdoor Attacks by Selectively Poisoning with Limited Information from Target Class},
   author={Nguyen, Quang H and Nguyen, Ngoc-Hieu and Ta, The-Anh and Nguyen, Thanh T and Hoang, Thanh-Tung and Doan, Khoa D},
@@ -480,7 +541,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   bibtex_show={true},
   abbr={NeurIPS-W},
   pdf={https://openreview.net/forum?id=JvUuutHa2s&noteId=dtKPNhZu9V},
-  selected={false}
+  selected={false},
+  main={true}
 }
 
 @article{huynh2023fmn,
@@ -506,7 +568,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   pdf={https://arxiv.org/abs/2310.01452},
   code={https://github.com/mail-research/AdvFooler-text-defender},
   submissions={EMNLP'24 -- ICLR'24 -- ACL'24},
-  selected={true}
+  selected={true},
+  main={true}
 }  
   
 
@@ -520,7 +583,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   bibtex_show={true},
   abbr={PREPRINT},
   pdf={https://arxiv.org/abs/2308.16684},
-  selected={false}
+  selected={false},
+  main={true}
 }
 
 
@@ -533,7 +597,9 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   bibtex_show={true},
   selected={false},
   abbr={PREPRINT},
-  pdf={https://arxiv.org/abs/2210.04288}
+  pdf={https://arxiv.org/abs/2210.04288},
+  main={true}
+
 }
 
 @inproceedings{nguyen2023randomized,
@@ -549,6 +615,7 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   code={https://github.com/mail-research/randomized_defenses},
   submissions={NeurIPS'23 -- ICLR'24},
   abstract={Recent works have shown that deep neural networks are vulnerable to adversarial examples that find samples close to the original image but can make the model misclassify. Even with access only to the model's output, an attacker can employ black-box attacks to generate such adversarial examples. In this work, we propose a simple and lightweight defense against black-box attacks by adding random noise to hidden features at intermediate layers of the model at inference time. Our theoretical analysis confirms that this method effectively enhances the model's resilience against both score-based and decision-based black-box attacks. Importantly, our defense does not necessitate adversarial training and has minimal impact on accuracy, rendering it applicable to any pre-trained model. Our analysis also reveals the significance of selectively adding noise to different parts of the model based on the gradient of the adversarial objective function, which can be varied during the attack. We demonstrate the robustness of our defense against multiple black-box attacks through extensive empirical experiments involving diverse models with various architectures.},
+  main={true}
 }
 
 @article{nguyen2024iba,
@@ -564,7 +631,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   abbr={NeurIPS},
   pdf={https://proceedings.neurips.cc/paper_files/paper/2023/hash/d0c6bc641a56bebee9d985b937307367-Abstract-Conference.html},
   code={https://github.com/sail-research/iba},
-  selected={true}
+  selected={true},
+  main={true}
 }
 
 @article{nguyen2024backdoor,
@@ -581,7 +649,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   bibtex_show={true},
   abbr={EAAI},
   pdf={https://www.sciencedirect.com/science/article/pii/S0952197623013507},
-  selected={true}
+  selected={true},
+  main={true}
 }
 
 @inproceedings{nguyen2023empirical,
@@ -613,6 +682,7 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   submissions={SIGIR'21 -- RecSys'21 -- WSDM'22 -- WWW'22 -- SIGIR'22 -- VLDB'23 -- CIKM'22 -- WWW'23 -- SIGIR'23},
   pdf={https://dl.acm.org/doi/abs/10.1145/3539618.3591640},
   selected={true},
+  main={true},
 }
 
 @inproceedings{doan2023bdvits,
@@ -641,6 +711,7 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   selected={true},
   teaser={doan2023bdvits.png},
   pdf={https://ojs.aaai.org/index.php/AAAI/article/view/25125},
+  main={true},
 }
 
 @inproceedings{doan2022genhash,
@@ -654,6 +725,7 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   abbr={ACCV},
   submissions={TPAMI'21 -- ACCV'22},
   selected={false},
+  main={true},
 }
 
 @inproceedings{doan2022marksman,
@@ -671,6 +743,7 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   code={https://github.com/khoadoan106/backdoor_attacks},
   slides={https://nips.cc/media/neurips-2022/Slides/52924.pdf},
   selected={true},
+  main={true},
 }
 
 @inproceedings{doan2022hswd,
@@ -688,6 +761,7 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   pdf={https://openreview.net/pdf?id=uaqweIZ-9_k},
   teaser={doan2022hswd.png},
   selected={true},
+  main={true},
 }
 
 @inproceedings{doan2021wb,
@@ -706,6 +780,7 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   slides={doan2021wb-slides.pdf},
   teaser={doan2021wb.png},
   selected={true},
+  main={true},
 }
 
 @inproceedings{doan2021lira,
@@ -731,8 +806,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   teaser={doan2021lira.png},
 
   selected={true},
+  main={true}
 }
-
 
 @inproceedings{doan2021interpretable,
   bibtex_show={true},
@@ -784,7 +859,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   numpages = {10},
   keywords = {similarity search, model interpretability, graph similarity, GCN},
   location = {Virtual Event, Canada},
-  series = {SIGIR '21}
+  series = {SIGIR '21},
+  main={true},
 }
 
 @inproceedings{doan2020efficient,
@@ -829,7 +905,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   numpages = {11},
   keywords = {autoencoder, Hashing, adversarial training, deep learning.},
   location = {Taipei, Taiwan},
-  series = {WWW '20}
+  series = {WWW '20},
+  main={true}
 }
 
 @article{doan2020imagegen,
@@ -838,7 +915,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   title={Image Generation Via Minimizing Fréchet Distance in Discriminator Feature Space},
   author={Doan, Khoa D and Manchanda, Saurav and Wang, Fengjiao and Selvaraj, Sathiya K and Bhowmik, Avradeep and Reddy, Chandan K},
   journal={arXiv preprint arXiv:2003.11774},
-  year={2020}
+  year={2020},
+  main={true}
 }
 
 @article{doan2020imagehash,
@@ -847,7 +925,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   title={Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance},
   author={Doan, Khoa D and Manchanda, Saurav and Badirli, Sarkhan and Reddy, Chandan K},
   journal={arXiv preprint arXiv:2003.00134},
-  year={2020}
+  year={2020},
+  main={true}
 }
 
 @article{manchanda2020regression,
@@ -856,7 +935,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   title={Regression via implicit models and optimal transport cost minimization},
   author={Manchanda, Saurav and Doan, Khoa D and Yadav, Pranjul and Selvaraj, Sathiya K},
   journal={arXiv preprint arXiv:2003.01296},
-  year={2020}
+  year={2020},
+  main={true}
 }
 
 @article{badirli2020gradient,
@@ -873,6 +953,7 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   author={Badirli, Sarkhan and Liu, Xuanqing and Xing, Zhengming and Bhowmik, Avradeep and Doan, Khoa D and Selvaraj, Sathiya K},
   journal={arXiv preprint arXiv:2002.07971},
   year={2020},
+  main={true}
 }
 
 @inproceedings{manchanda2019targeted,
@@ -883,7 +964,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   booktitle={Proceedings of the 2019 IEEE International Conference on Big Data},
   pages={1868--1877},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+  main={true},
 }
 
 @inproceedings{doan2019adversarial,
@@ -924,7 +1006,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   numpages = {10},
   keywords = {deep learning, autoencoder, hashing, factorization, adversarial training, look-alike modeling},
   location = {Beijing, China},
-  series = {CIKM '19}
+  series = {CIKM '19},
+  main={true},
 }
 
 @inproceedings{doan2019attentive,
@@ -933,7 +1016,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   author={Doan, Khoa D and Yang, Guolei and Reddy, Chandan K},
   booktitle={Proceedings of the 2019 Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)},
   pages={346--358},
-  year={2019}
+  year={2019},
+  main={true},
 }
 
 @inproceedings{kuo2017quest,
@@ -943,7 +1027,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   author={Kuo, Kwo-Sen and Oloso, Amidu O and Rilee, Mike L and Doan, Khoa D and Clune, Thomas L and Yu, Hongfeng},
   booktitle={EGU General Assembly Conference Abstracts},
   pages={8413},
-  year={2017}
+  year={2017},
+  main={true}
 }
 
 
@@ -955,7 +1040,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   booktitle={Proceedings of the 2016 IEEE International Conference on Big Data},
   pages={341--346},
   year={2016},
-  organization={IEEE}
+  organization={IEEE},
+  main={true}
 }
 
 @inproceedings{kuo2016implications,
@@ -966,7 +1052,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   booktitle={2016 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)},
   pages={7605--7607},
   year={2016},
-  organization={IEEE}
+  organization={IEEE},
+  main={true}
 }
 
 @inproceedings{clune2015scidb,
@@ -976,7 +1063,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   author={Clune, Thomas and Kuo, Kwo-Sen and Doan, Khoa D and Oloso, Amidu},
   booktitle={AGU Fall Meeting Abstracts},
   volume={2015},
-  year={2015}
+  year={2015},
+  main={true}
 }
 
 @inproceedings{doan2014performance,
@@ -986,7 +1074,8 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   author={Doan, Khoa D and Oloso, Amidu and Kuo, Kwo-Sen and Clune, Thomas L and Bayesics, LLC},
   booktitle={Proceedings of the 2014 ASE BigData/SocialInformatics/PASSAT/BioMedCom Conference},
   year={2014},
-  organization={Citeseer}
+  organization={Citeseer},
+  main={true}
 }
 
 @inproceedings{kuo2013demonstration,
@@ -996,5 +1085,6 @@ only examples of individual concepts. By repurposing the trigger-based model bac
   author={Kuo, K and Clune, T and Ramachandran, R and Rushing, J and Fekete, G and Lin, A and Doan, KD and Oloso, AO and Duffy, D},
   booktitle={AGU Fall Meeting Abstracts},
   volume={2013},
-  year={2013}
+  year={2013},
+  main={true}
 }

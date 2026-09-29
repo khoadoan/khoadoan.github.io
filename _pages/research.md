@@ -2,7 +2,7 @@
 layout: research
 title: research
 tagline: <span class="font-weight-bold">Machine Learning Algorithms</span> that Make Sense
-tagline_desc: in <em>constrained</em> and <em>large-scale</em>, <em>societal</em> applications in <strong>Advertising</strong>, <strong>Healthcare</strong>, <strong>Sustainability</strong> (Remote Sensing, Computing, Agricultural)...
+tagline_desc: in <em>constrained</em> and <em>large-scale</em>, <em>societal</em> applications in <strong>Advertising</strong>, <strong>Healthcare</strong>, <strong>Sustainability</strong> (Culture Preservation, Agricultural, Computing)...
 permalink: /research
 # definition: "<span style='font-size:1.2em'><strong>MAIL</strong></span> stands for <span style='font-size:1.2em'>practical <strong>M</strong>achine <strong>L</strong>earning and <strong>AI</strong> Lab</span>, led by <strong>Dr. Khoa D Doan</strong>."
 definition: "<span style='font-size:1.2em'><strong>MAIL</strong></span> stands for <span style='font-size:1.2em'><strong>M</strong>ake <strong>AI</strong> <strong>L</strong>azy</span>, led by <strong>Dr. Khoa D Doan</strong>."
